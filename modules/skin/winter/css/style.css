@@ -1,0 +1,61 @@
+/* Main */
+body.hostcms6 {
+	background: url('/modules/skin/winter/images/bg.png') top left repeat #DFE9F2;
+}
+.hostcms6 #top #logout {
+	background: url('/modules/skin/winter/images/bg_logout.png') top left repeat-x #DFE9F2; border: 1px solid #F0F7F7;
+}
+.hostcms6 #top #taskBar .shortcut, .hostcms6 #desktop .shortcut {
+	box-shadow: 0 0 3px #B7C9DD;
+	-moz-box-shadow: 0 0 3px #B7C9DD;
+	-webkit-box-shadow: 0 0 3px #B7C9DD;
+	border: 1px solid #B7C9DD;
+}
+.hostcms6 #footer {
+	background: url('/modules/skin/winter/images/footer.png') bottom left repeat-x;
+	left: 0; right: 0; height: 92px;
+	padding: 250px 41px 0 41px;
+}
+.hostcms6 #footer, .hostcms6 #footer a {
+	color: #C6CCCE; text-shadow: 1px 1px 0 #FFF
+}
+.hostcms6 #footer p {
+	margin: 0 0 3px 0;
+}
+.hostcms6 #footer #copyright, .hostcms6 #footer #links {
+	position: absolute; width: 300px; top: 300px
+}
+.hostcms6 #footer #copyright {
+	float:left;
+}
+.hostcms6 #footer #links {
+	right: 41px; text-align: right;
+}
+.hostcms6 #authorization {
+	border: 1px solid #B7C9DD;
+	background: #DBE7F1;
+}
+.hostcms6 #authorization .globe {
+	padding-top: 138px !important;
+	background: url('/modules/skin/winter/images/globe.png') no-repeat;
+	background-position: 0 10px;
+}
+.hostcms6 #desktop #shortcuts .sortable li:hover {
+	margin: 0;
+	border: 1px solid #B7C9DD;
+	box-shadow: 0 0 3px #B7C9DD;
+	-moz-box-shadow: 0 0 3px #B7C9DD;
+	-webkit-box-shadow: 0 0 3px #B7C9DD;
+	behavior: url('/admin/js/pie/pie.htc');
+}
+/* Context menu */
+.menuContainer {
+font-family: Candara, Corbel, Arial, Helvetica, Tahoma, sans-serif;
+background: #E5EDF5;
+border-top: 3px solid #B7C9DD;
+box-shadow: 0 0 3px #B7C9DD;
+-moz-box-shadow: 0 0 3px #B7C9DD;
+-webkit-box-shadow: 0 0 3px #B7C9DD;
+}
+.menuContainer * {font-size: 10pt}
+.ui-dialog {}

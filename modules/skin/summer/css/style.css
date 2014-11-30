@@ -1,0 +1,64 @@
+/* Main */
+body.hostcms6 {
+	background: url('/modules/skin/summer/images/bg.jpg') top center repeat-x #CBE7E2;
+}
+.hostcms6 #top #logout {
+	background: url('/modules/skin/summer/images/bg_logout.png') top left repeat-x #E1F1EE; border: 1px solid #F9F9F9;
+}
+.hostcms6 #top #taskBar .shortcut, .hostcms6 #desktop .shortcut {
+	box-shadow: 0 0 3px #B8D4CF;
+	-moz-box-shadow: 0 0 3px #B8D4CF;
+	-webkit-box-shadow: 0 0 3px #B8D4CF;
+	border: 1px solid #B8D4CF;
+}
+.hostcms6 #footer {
+	background: url('/modules/skin/summer/images/footer.png') bottom left repeat-x;
+	left: 0; right: 0; height: 258px;
+	padding: 50px 41px 0 41px;
+}
+.hostcms6 #footer, .hostcms6 #footer a {
+	color: #513D32; text-shadow: 0 -1px 0 #83BB48
+}
+.hostcms6 #footer p {
+	margin: 0 0 3px 0;
+}
+.hostcms6 #footer #copyright {
+	position: absolute; float:left; width: 300px; top: 260px
+}
+.hostcms6 #footer #links {
+	position: absolute; right: 41px; width: 300px; text-align: right; top: 260px
+}
+.hostcms6 #authorization {
+	border: 1px solid #B8D4CF;
+}
+.hostcms6 #authorization .globe {
+	padding-top: 138px !important;
+	background: url('/modules/skin/summer/images/globe.png') no-repeat;
+	background-position: 0 10px;
+}
+.hostcms6 #desktop #shortcuts .sortable li:hover {
+	margin: 0;
+	border: 1px solid #B8D4CF;
+	box-shadow: 0 0 3px #B8D4CF;
+	-moz-box-shadow: 0 0 3px #B8D4CF;
+	-webkit-box-shadow: 0 0 3px #B8D4CF;
+	behavior: url('/admin/js/pie/pie.htc');
+}
+/* Context menu */
+.menuContainer {
+font-family: Candara, Corbel, Arial, Helvetica, Tahoma, sans-serif;
+background: #E1F4F0;
+/*background: transparent url('/modules/skin/default/images/transparent_bg.png');*/
+border-top: 3px solid #B8D4CF;
+box-shadow: 0 0 3px #B8D4CF;
+-moz-box-shadow: 0 0 3px #B8D4CF;
+-webkit-box-shadow: 0 0 3px #B8D4CF;
+}
+.menuContainer * {font-size: 10pt}
+
+.ui-dialog {
+/*box-shadow: 0 2px 2px rgba(184, 212, 207, 0.7);
+-moz-box-shadow: 0 2px 2px rgba(184, 212, 207, 0.7);
+-webkit-box-shadow: 0 2px 2px rgba(184, 212, 207, 0.7);
+border: 1px solid #B8D4CF;*/
+}

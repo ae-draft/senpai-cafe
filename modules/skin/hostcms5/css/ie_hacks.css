@@ -1,0 +1,11 @@
+#MainMenu div
+{
+	width: auto;
+	overflow: hidden;
+}
+
+div.sub_menu
+{
+	width: auto;
+	overflow: hidden;
+}

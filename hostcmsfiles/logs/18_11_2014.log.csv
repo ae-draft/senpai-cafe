@@ -1,0 +1,743 @@
+"2014-11-18 00:18:21",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 21:52:15",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 21:54:01",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,127.0.0.1
+"2014-11-18 21:54:51",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 21:54:59",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 21:56:30",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:01:07",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:01:36",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:03:14",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:06:17",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:06:24",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:06:46",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:06:52",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:08:42",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:08:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:14:04",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:18:46",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:19:09",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:19:47",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:20:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:26:25",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:26:41",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:28:37",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:28:41",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:29:17",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:30:15",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:30:25",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:30:28",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:32:37",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:34:56",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:47:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 20:47:40",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 22:47:45",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:47:45",admin,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 28 and xsl:when in Entity, line: 29 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:47:45",admin,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 31 and xsl:otherwise in Entity, line: 32 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:47:45",admin,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: otherwise line 30 and div in Entity, line: 46 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:47:45",admin,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: when line 27 and template in Entity, line: 47 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:47:45",admin,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: template line 26 and stylesheet in Entity, line: 48 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:47:45",admin,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Premature end of data in tag stylesheet line 3 in Entity, line: 48 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:49:13",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 20:49:13",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 22:49:16",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:16",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/cenpai/ line 27 element when в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:16",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): element when is not allowed within that context в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:16",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/cenpai/ line 44 element otherwise в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:16",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): element otherwise is not allowed within that context в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:16",admin,"<strong>Предупреждение:</strong> XSLTProcessor::transformToDoc(): No stylesheet associated to this object в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 53)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 53,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:49:19",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:19",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/cenpai/ line 27 element when в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:19",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): element when is not allowed within that context в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:19",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/cenpai/ line 44 element otherwise в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:19",admin,"<strong>Предупреждение:</strong> XSLTProcessor::importStylesheet(): element otherwise is not allowed within that context в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 49)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 49,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 20:49:19",admin,"<strong>Предупреждение:</strong> XSLTProcessor::transformToDoc(): No stylesheet associated to this object в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 53)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 53,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: templates/template13/template.htm, строка 181,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,"Демонстрационный сайт",http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:53:31",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 20:53:31",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 22:53:34",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:54:09",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 20:54:09",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 22:54:11",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:54:47",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 20:54:47",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 22:54:49",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:55:25",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 20:55:25",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 22:55:28",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:56:12",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:57:56",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:58:33",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-18 22:59:27",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:03:27",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:07:26",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 21:07:26",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-18 23:07:33",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:08:31",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:10:14",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:10:30",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:13:18",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:18:27",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-18 23:19:55",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1

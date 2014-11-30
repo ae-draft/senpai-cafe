@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+	<group id="88">
+		<group_name>Основной</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2782">
+				<template_name>Корпорация</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;представительства компании;&lt;/li&gt;
+					&lt;li&gt;интернет-магазина.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Интернет-магазин&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Обратная связь&lt;/li&gt;
+					&lt;li&gt;Фотогалерея&lt;/li&gt;
+					&lt;li&gt;Доска объявлений&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Форум&lt;/li&gt;
+					&lt;li&gt;Гостевая книга&lt;/li&gt;
+					&lt;li&gt;Опросы&lt;/li&gt;
+					&lt;li&gt;Вакансии&lt;/li&gt;
+					&lt;li&gt;Архив файлов&lt;/li&gt;
+					&lt;li&gt;Вопросы-ответы&lt;/li&gt;
+					&lt;li&gt;Полезные ресурсы&lt;/li&gt;
+					&lt;li&gt;Глоссарий&lt;/li&gt;
+					&lt;li&gt;Почтовые рассылки&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="139" height="200">/upload/information_system_9/2/7/8/item_2782/small_site0.jpg</template_preview>
+				<template_full_preview width="489" height="700">/upload/information_system_9/2/7/8/item_2782/site0.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/8/item_2782/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/8/item_2782/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="92">
+		<group_name>Интернет-магазин</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2826">
+				<template_name>Бытовая техника</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;интернет-магазина.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Каталог товаров&lt;/li&gt;
+					&lt;li&gt;Горячие предложения&lt;/li&gt;
+					&lt;li&gt;AJAX-корзина&lt;/li&gt;
+					&lt;li&gt;О магазине&lt;/li&gt;
+					&lt;li&gt;Личный кабинет пользователя&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="181" height="200">/upload/information_system_9/2/8/2/item_2826/site15_small.jpg</template_preview>
+				<template_full_preview width="400" height="442">/upload/information_system_9/2/8/2/item_2826/site15.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/2/item_2826/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/2/item_2826/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3046">
+				<template_name>Магазин одежды</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;интернет-магазина одежды и&amp;nbsp;аксессуаров.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Каталог товаров&lt;/li&gt;
+					&lt;li&gt;Горячие предложения&lt;/li&gt;
+					&lt;li&gt;AJAX-корзина&lt;/li&gt;
+					&lt;li&gt;О магазине&lt;/li&gt;
+					&lt;li&gt;Личный кабинет пользователя&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="187" height="200">/upload/information_system_9/3/0/4/item_3046/site24_small.jpg</template_preview>
+				<template_full_preview width="434" height="464">/upload/information_system_9/3/0/4/item_3046/site24.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/4/item_3046/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/4/item_3046/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3418">
+				<template_name>Ювелирный магазин</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;интернет-магазина ювелирных изделий.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Каталог товаров&lt;/li&gt;
+					&lt;li&gt;Новинки&lt;/li&gt;
+					&lt;li&gt;AJAX-корзина&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Личный кабинет пользователя&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="150" height="200">/upload/information_system_9/3/4/1/item_3418/demo34_small.jpg</template_preview>
+				<template_full_preview width="526" height="700">/upload/information_system_9/3/4/1/item_3418/demo34.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/1/item_3418/</template_file>
+				<template_file6>/upload/information_system_9/3/4/1/item_3418/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="82">
+		<group_name>Бизнес</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2765">
+				<template_name>Consulting Group</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;оценочной компании;&lt;/li&gt;
+					&lt;li&gt;аудитора;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="170" height="200">/upload/information_system_9/2/7/6/item_2765/site1_small.jpg</template_preview>
+				<template_full_preview width="554" height="539">/upload/information_system_9/2/7/6/item_2765/site1.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/6/item_2765/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/6/item_2765/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2784">
+				<template_name>Business Ideas</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;юридических услуг;&lt;/li&gt;
+					&lt;li&gt;аудитора;&lt;/li&gt;
+					&lt;li&gt;бухгалтерских услуг;&lt;/li&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;оценочной компании.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="156" height="200">/upload/information_system_9/2/7/8/item_2784/site7_small.jpg</template_preview>
+				<template_full_preview width="632" height="811">/upload/information_system_9/2/7/8/item_2784/site7.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/8/item_2784/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/8/item_2784/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2797">
+				<template_name>Corporation</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;оценочной компании;&lt;/li&gt;
+					&lt;li&gt;аудитора;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Продукты&lt;/li&gt;
+					&lt;li&gt;Технологии&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="151" height="200">/upload/information_system_9/2/7/9/item_2797/site8_small.jpg</template_preview>
+				<template_full_preview width="608" height="804">/upload/information_system_9/2/7/9/item_2797/site8.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/9/item_2797/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/9/item_2797/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2800">
+				<template_name>BigBusiness LLC</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;IT-компании;&lt;/li&gt;
+					&lt;li&gt;телекоммуникационной компании;&lt;/li&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;оценочной компании;&lt;/li&gt;
+					&lt;li&gt;аудитора;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Партнеры&lt;/li&gt;
+					&lt;li&gt;Консалтинг&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="152" height="200">/upload/information_system_9/2/8/0/item_2800/site9_small.jpg</template_preview>
+				<template_full_preview width="533" height="700">/upload/information_system_9/2/8/0/item_2800/site9.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/0/item_2800/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/0/item_2800/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2806">
+				<template_name>ConsulteX</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;IT-компании;&lt;/li&gt;
+					&lt;li&gt;консалтинговой компании;&lt;/li&gt;
+					&lt;li&gt;финансовой компании;&lt;/li&gt;
+					&lt;li&gt;аудитора;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Продукты&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="160" height="200">/upload/information_system_9/2/8/0/item_2806/site11_small.jpg</template_preview>
+				<template_full_preview width="632" height="788">/upload/information_system_9/2/8/0/item_2806/site11.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/0/item_2806/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/0/item_2806/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2862">
+				<template_name>SiR.BiZ</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;маркетинговой компании;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="177" height="200">/upload/information_system_9/2/8/6/item_2862/site16_small.jpg</template_preview>
+				<template_full_preview width="566" height="638">/upload/information_system_9/2/8/6/item_2862/site16.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/6/item_2862/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/6/item_2862/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2911">
+				<template_name>ConsulteXX</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;маркетинговой компании;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="173" height="200">/upload/information_system_9/2/9/1/item_2911/site17_small.jpg</template_preview>
+				<template_full_preview width="545" height="628">/upload/information_system_9/2/9/1/item_2911/site17.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/9/1/item_2911/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/9/1/item_2911/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2952">
+				<template_name>Юридическое бюро</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;юридических услуг;&lt;/li&gt;
+					&lt;li&gt;консалтинговой компании;&lt;/li&gt;
+					&lt;li&gt;финансовой компании.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Процессы&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="164" height="200">/upload/information_system_9/2/9/5/item_2952/site18_small.jpg</template_preview>
+				<template_full_preview width="530" height="647">/upload/information_system_9/2/9/5/item_2952/site18.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/9/5/item_2952/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/9/5/item_2952/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2993">
+				<template_name>Advance</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;маркетинговой компании;&lt;/li&gt;
+					&lt;li&gt;юридических услуг;&lt;/li&gt;
+					&lt;li&gt;бизнес-сайта.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="163" height="200">/upload/information_system_9/2/9/9/item_2993/site19_small.jpg</template_preview>
+				<template_full_preview width="532" height="652">/upload/information_system_9/2/9/9/item_2993/site19.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/9/9/item_2993/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/9/9/item_2993/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3038">
+				<template_name>AR</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;маркетинговой компании;&lt;/li&gt;
+					&lt;li&gt;юридических услуг;&lt;/li&gt;
+					&lt;li&gt;бизнес-сайта.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="169" height="200">/upload/information_system_9/3/0/3/item_3038/site22_small.jpg</template_preview>
+				<template_full_preview width="490" height="579">/upload/information_system_9/3/0/3/item_3038/site22.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/3/item_3038/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/3/item_3038/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3040">
+				<template_name>Sidex</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;маркетинговой компании;&lt;/li&gt;
+					&lt;li&gt;юридических услуг;&lt;/li&gt;
+					&lt;li&gt;рекламной компании;&lt;/li&gt;
+					&lt;li&gt;бизнес-сайта.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="158" height="200">/upload/information_system_9/3/0/4/item_3040/site23_small.jpg</template_preview>
+				<template_full_preview width="501" height="633">/upload/information_system_9/3/0/4/item_3040/site23.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/4/item_3040/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/4/item_3040/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3047">
+				<template_name>GlobalCo</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;маркетинговой компании;&lt;/li&gt;
+					&lt;li&gt;юридических услуг;&lt;/li&gt;
+					&lt;li&gt;бизнес-сайта.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="165" height="200">/upload/information_system_9/3/0/4/item_3047/site25_small.jpg</template_preview>
+				<template_full_preview width="563" height="682">/upload/information_system_9/3/0/4/item_3047/site25.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/4/item_3047/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/4/item_3047/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3050">
+				<template_name>ABCcompany</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;маркетинговой компании;&lt;/li&gt;
+					&lt;li&gt;юридических услуг;&lt;/li&gt;
+					&lt;li&gt;бизнес-сайта.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="180" height="200">/upload/information_system_9/3/0/5/item_3050/site27_small.jpg</template_preview>
+				<template_full_preview width="548" height="610">/upload/information_system_9/3/0/5/item_3050/site27.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/5/item_3050/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/5/item_3050/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3052">
+				<template_name>Business Co.</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="158" height="200">/upload/information_system_9/3/0/5/item_3052/site28_small.jpg</template_preview>
+				<template_full_preview width="508" height="645">/upload/information_system_9/3/0/5/item_3052/site28.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/5/item_3052/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/5/item_3052/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3062">
+				<template_name>Businex</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Карьера&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="173" height="200">/upload/information_system_9/3/0/6/item_3062/site29_small.jpg</template_preview>
+				<template_full_preview width="522" height="602">/upload/information_system_9/3/0/6/item_3062/site29.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/6/item_3062/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/6/item_3062/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3416">
+				<template_name>Business Company</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;консалтинговой фирмы;&lt;/li&gt;
+					&lt;li&gt;юридических услуг.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="168" height="200">/upload/information_system_9/3/4/1/item_3416/demo32_small.png</template_preview>
+				<template_full_preview width="589" height="700">/upload/information_system_9/3/4/1/item_3416/demo32.png</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/1/item_3416/</template_file>
+				<template_file6>/upload/information_system_9/3/4/1/item_3416/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3419">
+				<template_name>Strive</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="145" height="200">/upload/information_system_9/3/4/1/item_3419/demo35_small.jpg</template_preview>
+				<template_full_preview width="508" height="700">/upload/information_system_9/3/4/1/item_3419/demo35.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/1/item_3419/</template_file>
+				<template_file6>/upload/information_system_9/3/4/1/item_3419/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3421">
+				<template_name>Radix</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="135" height="199">/upload/information_system_9/3/4/2/item_3421/demo36_small.jpg</template_preview>
+				<template_full_preview width="474" height="700">/upload/information_system_9/3/4/2/item_3421/demo36.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3421/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3421/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3422">
+				<template_name>Asterisk</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="123" height="200">/upload/information_system_9/3/4/2/item_3422/demo37_small.jpg</template_preview>
+				<template_full_preview width="430" height="699">/upload/information_system_9/3/4/2/item_3422/demo37.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3422/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3422/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3423">
+				<template_name>Bestfolio</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="189" height="200">/upload/information_system_9/3/4/2/item_3423/demo38_small.jpg</template_preview>
+				<template_full_preview width="661" height="700">/upload/information_system_9/3/4/2/item_3423/demo38.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3423/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3423/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3424">
+				<template_name>Codapress</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;Web-дизайн&lt;/li&gt;
+					&lt;li&gt;Видео&lt;/li&gt;
+					&lt;li&gt;Интернет&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="194" height="200">/upload/information_system_9/3/4/2/item_3424/demo39_small.jpg</template_preview>
+				<template_full_preview width="680" height="700">/upload/information_system_9/3/4/2/item_3424/demo39.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3424/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3424/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3425">
+				<template_name>Picky</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="168" height="200">/upload/information_system_9/3/4/2/item_3425/demo40_small.jpg</template_preview>
+				<template_full_preview width="589" height="700">/upload/information_system_9/3/4/2/item_3425/demo40.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3425/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3425/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3426">
+				<template_name>YOURlogo</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Преимущества&lt;/li&gt;
+					&lt;li&gt;Демо-версия&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="190" height="200">/upload/information_system_9/3/4/2/item_3426/demo41_small.jpg</template_preview>
+				<template_full_preview width="700" height="675">/upload/information_system_9/3/4/2/item_3426/demo41.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3426/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3426/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3427">
+				<template_name>XMotors</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта авто-мото;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Галерея&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="138" height="200">/upload/information_system_9/3/4/2/item_3427/demo42_small.jpg</template_preview>
+				<template_full_preview width="485" height="700">/upload/information_system_9/3/4/2/item_3427/demo42.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3427/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3427/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3428">
+				<template_name>Revelation</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="143" height="200">/upload/information_system_9/3/4/2/item_3428/demo43_small.jpg</template_preview>
+				<template_full_preview width="501" height="700">/upload/information_system_9/3/4/2/item_3428/demo43.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3428/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3428/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3430">
+				<template_name>EcoBusiness</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;бизнес-сайта;&lt;/li&gt;
+					&lt;li&gt;сайта-визитки.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="187" height="200">/upload/information_system_9/3/4/3/item_3430/demo45_small.jpg</template_preview>
+				<template_full_preview width="655" height="700">/upload/information_system_9/3/4/3/item_3430/demo45.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/3/item_3430/</template_file>
+				<template_file6>/upload/information_system_9/3/4/3/item_3430/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="83">
+		<group_name>Промышленность</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2766">
+				<template_name>Cement Co.</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;производственного предприятия;&lt;/li&gt;
+					&lt;li&gt;промышленного предприятия.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Продукция&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Карьера&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Обратная связь&lt;/li&gt;
+					&lt;li&gt;Вопросы и&amp;nbsp;ответы&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="192" height="200">/upload/information_system_9/2/7/6/item_2766/site2_small.jpg</template_preview>
+				<template_full_preview width="543" height="566">/upload/information_system_9/2/7/6/item_2766/site2.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/6/item_2766/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/6/item_2766/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="84">
+		<group_name>Интернет-технологии</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2774">
+				<template_name>IT World</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;IT-компании;&lt;/li&gt;
+					&lt;li&gt;телекоммуникационной компании;&lt;/li&gt;
+					&lt;li&gt;интернет-провайдера.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+					&lt;li&gt;Поиск по&amp;nbsp;сайту&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="188" height="200">/upload/information_system_9/2/7/7/item_2774/site3_small.jpg</template_preview>
+				<template_full_preview width="528" height="562">/upload/information_system_9/2/7/7/item_2774/site3.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/7/item_2774/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/7/item_2774/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2812">
+				<template_name>Communications</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;IT-компании;&lt;/li&gt;
+					&lt;li&gt;телекоммуникационной компании;&lt;/li&gt;
+					&lt;li&gt;интернет-провайдера.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+					&lt;/ul&gt;
+				Шаблон доступен для&amp;nbsp;версии HostCMS 5.9.23 и&amp;nbsp;старше.</template_descripton>
+				<template_preview width="197" height="200">/upload/information_system_9/2/8/1/item_2812/site13_small.jpg</template_preview>
+				<template_full_preview width="500" height="507">/upload/information_system_9/2/8/1/item_2812/site13.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/1/item_2812/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/1/item_2812/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3064">
+				<template_name>IT Technologies</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;IT-компании;&lt;/li&gt;
+					&lt;li&gt;телекоммуникационной компании;&lt;/li&gt;
+					&lt;li&gt;интернет-провайдера.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="159" height="200">/upload/information_system_9/3/0/6/item_3064/site30_small.jpg</template_preview>
+				<template_full_preview width="557" height="700">/upload/information_system_9/3/0/6/item_3064/site30.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/6/item_3064/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/6/item_3064/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="93">
+		<group_name>Программное обеспечение</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="3027">
+				<template_name>Software</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;софтверной компании;&lt;/li&gt;
+					&lt;li&gt;каталога программ;&lt;/li&gt;
+					&lt;li&gt;бизнес-сайта.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Поддержка&lt;/li&gt;
+					&lt;li&gt;Каталог&lt;/li&gt;
+					&lt;li&gt;Скачать&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Форма обратной связи&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="160" height="200">/upload/information_system_9/3/0/2/item_3027/site20_small.jpg</template_preview>
+				<template_full_preview width="546" height="682">/upload/information_system_9/3/0/2/item_3027/site20.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/2/item_3027/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/2/item_3027/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="85">
+		<group_name>Недвижимость</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2775">
+				<template_name>Real estate</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;агентства недвижимости&amp;nbsp;или риелтора;&lt;/li&gt;
+					&lt;li&gt;доски объявлений по&amp;nbsp;покупке и&amp;nbsp;продаже недвижимости.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Каталог недвижимости&lt;br /&gt;
+					&lt;ul&gt;
+					&lt;li&gt;Продаю&lt;/li&gt;
+					&lt;li&gt;Куплю&lt;/li&gt;
+					&lt;li&gt;Сдаю&lt;/li&gt;
+					&lt;li&gt;Сниму&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="130" height="200">/upload/information_system_9/2/7/7/item_2775/site4_small.jpg</template_preview>
+				<template_full_preview width="554" height="851">/upload/information_system_9/2/7/7/item_2775/site4.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/7/item_2775/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/7/item_2775/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="2816">
+				<template_name>Архитектурное бюро</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;архитектурного бюро;&lt;/li&gt;
+					&lt;li&gt;архитектурной мастерской;&lt;/li&gt;
+					&lt;li&gt;строительной компании.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Проекты&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Обратная связь&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="160" height="200">/upload/information_system_9/2/8/1/item_2816/site14_small.jpg</template_preview>
+				<template_full_preview width="408" height="510">/upload/information_system_9/2/8/1/item_2816/site14.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/1/item_2816/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/1/item_2816/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3048">
+				<template_name>Architecture</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;архитектурного бюро;&lt;/li&gt;
+					&lt;li&gt;архитектурной мастерской;&lt;/li&gt;
+					&lt;li&gt;строительной компании.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Обратная связь&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="178" height="200">/upload/information_system_9/3/0/4/item_3048/site26_small.jpg</template_preview>
+				<template_full_preview width="518" height="582">/upload/information_system_9/3/0/4/item_3048/site26.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/4/item_3048/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/4/item_3048/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="86">
+		<group_name>Дизайн</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2777">
+				<template_name>Creative</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;дизайн-студии;&lt;/li&gt;
+					&lt;li&gt;интернет-агентства;&lt;/li&gt;
+					&lt;li&gt;портфолио фрилансера.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Личный кабинет&lt;/li&gt;
+					&lt;li&gt;Опросы&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="156" height="200">/upload/information_system_9/2/7/7/item_2777/site5_small.jpg</template_preview>
+				<template_full_preview width="554" height="711">/upload/information_system_9/2/7/7/item_2777/site5.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/7/item_2777/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/7/item_2777/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3035">
+				<template_name>Tutorials Universe</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;дизайн-студии;&lt;/li&gt;
+					&lt;li&gt;интернет-агентства;&lt;/li&gt;
+					&lt;li&gt;портфолио фрилансера.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Решения&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Поддержка&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="173" height="200">/upload/information_system_9/3/0/3/item_3035/site21_small.jpg</template_preview>
+				<template_full_preview width="632" height="662">/upload/information_system_9/3/0/3/item_3035/site21.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/0/3/item_3035/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/3/0/3/item_3035/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3417">
+				<template_name>Paradiso</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;дизайн-студии;&lt;/li&gt;
+					&lt;li&gt;интернет-агентства;&lt;/li&gt;
+					&lt;li&gt;портфолио фрилансера.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Клиенты&lt;/li&gt;
+					&lt;li&gt;Поиск&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="139" height="200">/upload/information_system_9/3/4/1/item_3417/demo33_small.png</template_preview>
+				<template_full_preview width="397" height="569">/upload/information_system_9/3/4/1/item_3417/demo33.png</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/1/item_3417/</template_file>
+				<template_file6>/upload/information_system_9/3/4/1/item_3417/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3429">
+				<template_name>Andia</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;дизайн-студии;&lt;/li&gt;
+					&lt;li&gt;интернет-агентства;&lt;/li&gt;
+					&lt;li&gt;портфолио фрилансера.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;Главная&lt;/li&gt;
+					&lt;li&gt;Портфолио&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="134" height="200">/upload/information_system_9/3/4/2/item_3429/demo44_small.jpg</template_preview>
+				<template_full_preview width="374" height="700">/upload/information_system_9/3/4/2/item_3429/demo44.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/2/item_3429/</template_file>
+				<template_file6>/upload/information_system_9/3/4/2/item_3429/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="87">
+		<group_name>Мода</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2778">
+				<template_name>Fashion</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;моды;&lt;/li&gt;
+					&lt;li&gt;кастинговое агентство.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Обратная связь&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="177" height="200">/upload/information_system_9/2/7/7/item_2778/site6_small.jpg</template_preview>
+				<template_full_preview width="554" height="626">/upload/information_system_9/2/7/7/item_2778/site6.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/7/7/item_2778/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/7/7/item_2778/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="91">
+		<group_name>Туризм</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2809">
+				<template_name>Турагентство</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;туристической компании;&lt;/li&gt;
+					&lt;li&gt;турагентства.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Новости&lt;/li&gt;
+					&lt;li&gt;Услуги&lt;/li&gt;
+					&lt;li&gt;Партнеры&lt;/li&gt;
+					&lt;li&gt;Консалтинг&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+					&lt;li&gt;Наша команда&lt;/li&gt;
+					&lt;li&gt;Партнеры&lt;/li&gt;
+					&lt;li&gt;Случайная цитата&lt;/li&gt;
+					&lt;/ul&gt;
+				Шаблон доступен для&amp;nbsp;версии HostCMS 5.9.23 и&amp;nbsp;старше.</template_descripton>
+				<template_preview width="184" height="200">/upload/information_system_9/2/8/0/item_2809/site12_small.jpg</template_preview>
+				<template_full_preview width="590" height="640">/upload/information_system_9/2/8/0/item_2809/site12.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/0/item_2809/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/0/item_2809/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+			<template id="3415">
+				<template_name>TravelCo</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;туристической компании;&lt;/li&gt;
+					&lt;li&gt;турагентства.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О компании&lt;/li&gt;
+					&lt;li&gt;Страны&lt;/li&gt;
+					&lt;li&gt;Наши клиенты&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="160" height="200">/upload/information_system_9/3/4/1/item_3415/demo31_small.png</template_preview>
+				<template_full_preview width="458" height="700">/upload/information_system_9/3/4/1/item_3415/demo31.png</template_full_preview>
+				<template_file>/upload/information_system_9/3/4/1/item_3415/</template_file>
+				<template_file6>/upload/information_system_9/3/4/1/item_3415/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+	<group id="90">
+		<group_name>Домашние животные</group_name>
+		<group_description>
+		</group_description>
+		<templates>
+			<template id="2803">
+				<template_name>Whirlpool</template_name>
+				<template_descripton>&lt;p&gt;&lt;strong&gt;Шаблон подходит для&amp;nbsp;сайта:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;аквариумистики;&lt;/li&gt;
+					&lt;li&gt;зоомагазина;&lt;/li&gt;
+					&lt;li&gt;домашних животных.&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;&lt;strong&gt;Структура сайта представлена разделами:&lt;/strong&gt;&lt;/p&gt;
+					&lt;ul class="mdash_list"&gt;
+					&lt;li&gt;О нас&lt;/li&gt;
+					&lt;li&gt;Статьи&lt;/li&gt;
+					&lt;li&gt;Контакты&lt;/li&gt;
+					&lt;li&gt;Карта сайта&lt;/li&gt;
+				&lt;/ul&gt;</template_descripton>
+				<template_preview width="214" height="200">/upload/information_system_9/2/8/0/item_2803/site10_small.jpg</template_preview>
+				<template_full_preview width="589" height="550">/upload/information_system_9/2/8/0/item_2803/site10.jpg</template_full_preview>
+				<template_file>/upload/information_system_9/2/8/0/item_2803/template.tar.gz</template_file>
+				<template_file6>/upload/information_system_9/2/8/0/item_2803/template6.tar.gz</template_file6>
+				<template_types/>
+			</template>
+		</templates>
+	</group>
+</groups>

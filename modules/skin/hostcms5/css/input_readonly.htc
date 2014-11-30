@@ -1,0 +1,28 @@
+<public:component>
+<script>
+	if (this.readOnly)
+	{
+		if(!this.className)
+		{
+			this.className='read_only_input';
+		}
+	}
+
+	if (this.type == "checkbox" || this.type == "radio")
+	{
+		if(!this.className)
+		{
+			this.style.border='0px';
+			//this.style.backgroundColor='#ffffff';
+		}
+	}
+	
+	if(this.disabled)
+	{
+		if(!this.className)
+		{
+			this.className='read_only_input';
+		}
+	}
+</script>
+</public:component>

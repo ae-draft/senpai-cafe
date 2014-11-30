@@ -1,0 +1,490 @@
+"2014-11-04 00:04:23",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 20:08:31",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 20:14:24",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 20:16:04",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 20:16:06",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:18:32",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:24:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:25:29",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:27:15",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:30:29",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:30:33",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:36:35",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 21:41:05",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:04:07",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:08:44",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:09:50",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:09:53",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:12:49",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:13:27",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:13:30",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:14:03",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:29:34",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:32:25",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:37:09",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:37:12",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:38:49",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-04 22:42:36",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 22:54:35",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:03:30",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:05:54",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:06:54",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:08:28",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:09:11",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:20:44",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:26:49",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:29:38",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:32:53",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:33:59",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:39:16",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:39:43",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:40:59",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:42:33",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:44:41",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:48:22",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:48:29",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:48:47",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:49:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:54:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1
+"2014-11-04 23:55:43",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?,::1

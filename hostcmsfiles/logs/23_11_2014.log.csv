@@ -1,0 +1,564 @@
+"2014-11-23 00:28:08",undefined,"<strong>Замечание:</strong> Undefined index: shop_item_path в файле /Applications/MAMP/htdocs/cenpai/templates/template20/template.htm (строка 170)
+Стек вызовов:
+Файл: templates/template20/template.htm, строка 170,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",2,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 00:28:27",undefined,"<strong>Замечание:</strong> Undefined index: shop_item_path в файле /Applications/MAMP/htdocs/cenpai/templates/template20/template.htm (строка 170)
+Стек вызовов:
+Файл: templates/template20/template.htm, строка 170,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",2,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 00:28:28",undefined,"<strong>Замечание:</strong> Undefined index: shop_item_path в файле /Applications/MAMP/htdocs/cenpai/templates/template20/template.htm (строка 170)
+Стек вызовов:
+Файл: templates/template20/template.htm, строка 170,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",2,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 00:28:41",undefined,"<strong>Замечание:</strong> Array to string conversion в файле /Applications/MAMP/htdocs/cenpai/templates/template20/template.htm (строка 170)
+Стек вызовов:
+Файл: templates/template20/template.htm, строка 170,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",2,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 00:28:42",undefined,"<strong>Замечание:</strong> Array to string conversion в файле /Applications/MAMP/htdocs/cenpai/templates/template20/template.htm (строка 170)
+Стек вызовов:
+Файл: templates/template20/template.htm, строка 170,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",2,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 02:27:04",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/payment/system/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:27:09",admin,"Доступ к модулю ""lib"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/lib/index.php?lib_dir_id=9,::1
+"2014-11-23 02:27:13",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=0&shop_dir_id=,::1
+"2014-11-23 02:27:32",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:27:39",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:30:36",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0&hostcms[checked][1][0]=1,::1
+"2014-11-23 02:30:40",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:30:53",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:31:02",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/modification/index.php?shop_item_id=164,::1
+"2014-11-23 02:31:08",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:31:16",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:32:11",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:32:18",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:32:26",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:32:46",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:32:53",admin,"Доступ к модулю ""shop"" разрешен, форма ""IP-адреса"", действие ""Запретить доступ""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?hostcms[checked][1][60]=1&shop_id=4&shop_group_id=0&property_id=60&property_dir_id=0,::1
+"2014-11-23 02:33:03",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:33:06",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:33:08",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:33:32",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:33:36",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:33:40",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:33:48",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:33:57",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:34:06",admin,"Доступ к модулю ""shop"" разрешен, форма ""Свойства товаров, доступные для текущей группы товаров"", действие ""Включить доступ всем подчиненным""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:34:12",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:34:15",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:34:22",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:34:59",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0&hostcms[checked][1][60]=1,::1
+"2014-11-23 02:35:02",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:35:05",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:35:08",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:35:25",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:35:33",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:36:30",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:36:38",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:36:45",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:37:28",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0&hostcms[checked][1][0]=1,::1
+"2014-11-23 02:37:37",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:37:50",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:37:55",admin,"Доступ к модулю ""shop"" разрешен, форма ""Свойства товаров, доступные для текущей группы товаров"", действие ""Включить доступ всем подчиненным""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:38:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:38:03",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:38:05",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:08",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:18",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:22",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:24",admin,"Доступ к модулю ""shop"" разрешен, форма ""Свойства товаров, доступные для текущей группы товаров"", действие ""Включить доступ всем подчиненным""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:30",admin,"Доступ к модулю ""shop"" разрешен, форма ""IP-адреса"", действие ""Запретить доступ""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?hostcms[checked][1][60]=1&shop_id=4&shop_group_id=602&property_id=60&property_dir_id=0,::1
+"2014-11-23 02:39:33",admin,"Доступ к модулю ""shop"" разрешен, форма ""Свойства товаров, доступные для текущей группы товаров"", действие ""Включить доступ всем подчиненным""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=602&property_id=60&property_dir_id=0,::1
+"2014-11-23 02:39:36",admin,"Доступ к модулю ""shop"" разрешен, форма ""Свойства товаров, доступные для текущей группы товаров"", действие ""Включить доступ всем подчиненным""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=602&property_id=60&property_dir_id=0,::1
+"2014-11-23 02:39:38",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:41",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:39:53",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:39:56",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:40:01",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:40:11",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:40:15",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:40:25",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:40:34",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:40:37",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:40:41",admin,"Доступ к модулю ""shop"" разрешен, форма ""Статистика"", действие ""Удалить""",1,Сенпай-кафе,http://cenpai.local/admin/shop/group/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:40:48",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:41:28",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:41:33",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:45:30",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0&hostcms[checked][1][0]=1,::1
+"2014-11-23 02:45:36",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 02:47:43",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0&hostcms[checked][1][0]=1,::1
+"2014-11-23 02:47:49",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2014-11-23 02:47:54",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:48:02",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:48:07",admin,"Доступ к модулю ""shop"" разрешен, форма ""IP-адреса"", действие ""Запретить доступ""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?hostcms[checked][1][62]=1&shop_id=4&shop_group_id=602&property_id=62&property_dir_id=0,::1
+"2014-11-23 02:48:08",admin,"Доступ к модулю ""shop"" разрешен, форма ""IP-адреса"", действие ""Запретить доступ""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?hostcms[checked][1][63]=1&shop_id=4&shop_group_id=602&property_id=63&property_dir_id=0,::1
+"2014-11-23 02:48:13",admin,"Доступ к модулю ""shop"" разрешен, форма ""Свойства товаров, доступные для текущей группы товаров"", действие ""Включить доступ всем подчиненным""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/for/group/index.php?shop_id=4&shop_group_id=602&property_id=63&property_dir_id=0,::1
+"2014-11-23 02:48:16",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:48:20",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 02:50:21",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602&hostcms[checked][1][164]=1,::1
+"2014-11-23 02:50:42",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602&hostcms[checked][1][164]=1,::1
+"2014-11-23 02:52:05",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602&hostcms[checked][1][164]=1,::1
+"2014-11-23 02:52:44",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][234]=1,::1
+"2014-11-23 02:53:14",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][235]=1,::1
+"2014-11-23 03:12:30",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-23 03:12:39",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2014-11-23 03:12:45",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_dir_id=0,::1
+"2014-11-23 03:12:49",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 04:02:23",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 04:04:34",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602&hostcms[checked][1][0]=1,::1
+"2014-11-23 04:05:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 04:06:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Статистика"", действие ""Удалить""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 04:06:38",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 04:06:39",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 04:06:45",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/property/index.php?shop_id=4&shop_group_id=0,::1
+"2014-11-23 04:06:48",admin,"Доступ к модулю ""shop"" разрешен, форма ""Статистика"", действие ""Удалить""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 12:57:38",admin,"Доступ к модулю ""shop"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 20:23:19",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 266 and xsl:if in Entity, line: 267 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:23:20",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: if line 356 and div in Entity, line: 357 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:39:00",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 266 and xsl:if in Entity, line: 267 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:39:00",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: if line 265 and template in Entity, line: 357 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:39:00",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: template line 264 and stylesheet in Entity, line: 696 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:39:00",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Premature end of data in tag stylesheet line 3 in Entity, line: 696 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:44:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 266 and xsl:text in Entity, line: 266 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:44:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: text line 266 and if in Entity, line: 267 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:44:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: if line 265 and template in Entity, line: 357 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:44:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: template line 264 and stylesheet in Entity, line: 696 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 20:44:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Premature end of data in tag stylesheet line 3 in Entity, line: 696 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:27",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 267 and xsl:when in Entity, line: 268 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:27",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: when line 266 and choose in Entity, line: 269 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:27",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: choose line 265 and template in Entity, line: 362 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:27",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: template line 264 and stylesheet in Entity, line: 701 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:27",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Premature end of data in tag stylesheet line 3 in Entity, line: 701 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 267 and xsl:when in Entity, line: 268 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: when line 266 and choose in Entity, line: 269 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: choose line 265 and template in Entity, line: 362 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: template line 264 and stylesheet in Entity, line: 701 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:38",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Premature end of data in tag stylesheet line 3 in Entity, line: 701 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:41",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: div line 267 and xsl:when in Entity, line: 268 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:41",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: when line 266 and choose in Entity, line: 269 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:41",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: choose line 265 and template in Entity, line: 362 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:41",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Opening and ending tag mismatch: template line 264 and stylesheet in Entity, line: 701 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 21:10:41",undefined,"<strong>Предупреждение:</strong> DOMDocument::loadXML(): Premature end of data in tag stylesheet line 3 in Entity, line: 701 в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 39)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 39,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/shop/controller/show.php, строка 843,
+Файл: hostcmsfiles/lib/lib_6/lib_6.php, строка 428,
+Файл: modules/lib/model.php, строка 271,
+Файл: modules/core/page.php, строка 138,
+Файл: templates/template20/template.htm, строка 185,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2014-11-23 22:03:01",admin,"Доступ к модулю ""shop"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 22:07:29",admin,"Доступ к модулю ""shop"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 22:07:42",admin,"Доступ к модулю ""shop"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 22:07:59",admin,"Доступ к модулю ""shop"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 22:40:23",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602,::1
+"2014-11-23 22:41:38",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][1][164]=1,::1
+"2014-11-23 22:41:42",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][1][164]=1,::1
+"2014-11-23 22:41:47",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602&hostcms[checked][1][164]=1,::1
+"2014-11-23 22:42:05",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=602&hostcms[checked][1][164]=1,::1
+"2014-11-23 23:34:48",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:35:00",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/menu/index.php,::1
+"2014-11-23 23:35:03",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/menu/index.php,::1
+"2014-11-23 23:35:20",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/menu/index.php?hostcms[checked][0][0]=1,::1
+"2014-11-23 23:35:23",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:36:18",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:36:18",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?lib_id=6,::1
+"2014-11-23 23:36:19",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=43,::1
+"2014-11-23 23:36:19",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=493,::1
+"2014-11-23 23:36:19",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=2&lib_property_id=581,::1
+"2014-11-23 23:36:19",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=42,::1
+"2014-11-23 23:36:19",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=50,::1
+"2014-11-23 23:36:19",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=49,::1
+"2014-11-23 23:36:42",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?hostcms[checked][0][89]=1,::1
+"2014-11-23 23:36:48",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:36:49",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?lib_id=0,::1
+"2014-11-23 23:39:38",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?hostcms[checked][0][0]=1,::1
+"2014-11-23 23:40:04",admin,"Доступ к модулю ""structure"" разрешен, форма ""Интернет-магазин, товары и группы"", действие ""Применить""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:40:13",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:40:35",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:40:35",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?lib_id=0,::1
+"2014-11-23 23:40:43",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?hostcms[checked][0][90]=1,::1
+"2014-11-23 23:40:48",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:40:49",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?lib_id=0,::1
+"2014-11-23 23:41:25",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?hostcms[checked][0][0]=1,::1
+"2014-11-23 23:41:42",admin,"Доступ к модулю ""structure"" разрешен, форма ""Интернет-магазин, товары и группы"", действие ""Применить""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:42:04",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/property/index.php?structure_id=0,::1
+"2014-11-23 23:42:10",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:42:17",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:42:17",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?lib_id=0,::1
+"2014-11-23 23:43:08",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?hostcms[checked][0][0]=1,::1
+"2014-11-23 23:43:16",admin,"Доступ к модулю ""structure"" разрешен, форма ""Интернет-магазин, товары и группы"", действие ""Применить""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:43:18",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:43:18",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?lib_id=0,::1
+"2014-11-23 23:43:49",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?hostcms[checked][0][0]=1,::1
+"2014-11-23 23:44:12",admin,"Доступ к модулю ""structure"" разрешен, форма ""Интернет-магазин, товары и группы"", действие ""Применить""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:44:42",admin,"Доступ к модулю ""structure"" разрешен, форма ""Интернет-магазин, товары и группы"", действие ""Применить""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:53:57",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/menu/index.php,::1
+"2014-11-23 23:55:01",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=1&hostcms[checked][1][2]=1,::1
+"2014-11-23 23:55:11",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1,::1
+"2014-11-23 23:55:36",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php,::1
+"2014-11-23 23:55:40",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1,::1
+"2014-11-23 23:55:47",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1,::1
+"2014-11-23 23:55:50",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1,::1
+"2014-11-23 23:57:05",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1&hostcms[checked][1][237]=1,::1
+"2014-11-23 23:58:16",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1&hostcms[checked][1][237]=1,::1
+"2014-11-23 23:59:00",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?lib_id=6,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=42,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=2&lib_property_id=581,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=43,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=493,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=49,::1
+"2014-11-23 23:59:09",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?xsl_dir_id=24&lib_property_id=50,::1
+"2014-11-23 23:59:21",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/structure/index.php?hostcms[checked][0][89]=1,::1

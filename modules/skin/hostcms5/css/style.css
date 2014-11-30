@@ -1,0 +1,1007 @@
+html { height: 100%; margin: 0px; padding: 0px;}
+
+/*.hostcmsWindow * {
+	font-family: serif;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal !important;
+	color:#000000;
+	text-transform:none;
+	text-decoration:none !important;
+	letter-spacing:normal;
+	word-spacing:0;
+	line-height:20px;
+	text-align:start;
+	vertical-align:baseline;
+	direction:ltr;
+	background-color:transparent;
+	background-image:none;
+	background-repeat:repeat;
+	background-position:0 0;
+	background-attachment:scroll;
+	opacity:1;
+	width:auto;
+	height:auto;
+	top:auto;
+	right:auto;
+	bottom:auto;
+	left:auto;
+	margin-top:0;
+	margin-right:0;
+	margin-bottom:0;
+	margin-left:0;
+	padding-top:0;
+	padding-right:0;
+	padding-bottom:0;
+	padding-left:0;
+	border-top-width:0;
+	border-right-width:0;
+	border-bottom-width:0;
+	border-left-width:0;
+	border-top-color:'#000000';
+	border-right-color:'#000000';
+	border-bottom-color:'#000000';
+	border-left-color:'#000000';
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+	position:static;
+	display:block;
+	visibility:visible;
+	z-index:auto;
+	overflow-x:visible;
+	overflow-y:visible;
+	white-space:normal;
+	clip:auto;
+	float:none;
+	clear:none;
+	cursor:auto;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:disc;
+	marker-offset:auto;
+}*/
+
+.hostcmsWindow *{font-family:Arial, Verdana, 'MS Sans Serif', sans-serif;font-style:normal;font-size:auto}
+
+body.hostcmsWindow {
+background-color: #FFFFFF;
+font-size: 75%;
+height: auto !important;
+/* для Firefox и Opera — чтобы не сработало следующее объявление */
+/*height: 100%;
+/* для IE (работает некорректно, что обеспечивает нужный результат) */
+min-height: 100%;
+/* для Firefox и Opera (в IE 7 делает то же, что предыдущее объявление) */
+margin: 0px;
+padding: 0px;
+color: #333333;
+position: relative;
+/* чтобы потомки элемента body позиционировались по отношению к body */
+}
+
+.hostcmsWindow img {border: 0px}
+.hostcmsWindow .img_line {margin-bottom: -3px}
+.hostcmsWindow #header .logo { position: relative; float: left; width: 200px;}
+.hostcmsWindow #header .logo a { font-size: 17pt; font-family: Verdana; text-decoration: none; letter-spacing: 2px;}
+.hostcmsWindow #header .logo img { color: #db1905; }
+
+.hostcmsWindow a:visited, .hostcmsWindow a:link, .hostcmsWindow a:hover { color: #0070BD; }
+.hostcmsWindow ol li, .hostcmsWindow ul li { margin-bottom: 3pt; margin-top: 3pt; }
+.hostcmsWindow .clear { clear: both; }
+.hostcmsWindow .table_style { margin-top: 10px}
+.hostcmsWindow .footer_logo { margin-left: 10px; margin-right: 10px}
+.hostcmsWindow .main_td { padding-right: 20px}
+.hostcmsWindow .left_td { padding-right: 20px}
+.hostcmsWindow .left_td p { padding-left:10px}
+.hostcmsWindow .pointer {cursor: pointer}
+.hostcmsWindow .left5px {margin-left: 5px}
+.hostcmsWindow acronym { border-bottom: 1px dashed #C0C0C0; cursor: help}
+.hostcmsWindow #footer_line1 { background: #FF5500; height: 2px; overflow: hidden; position: relative; margin-top: 30px }
+.hostcmsWindow #footer_line2 { background: #0072B2; height: 2px; overflow: hidden; position: relative; margin-top: 15px }
+.hostcmsWindow #title { color: #333333; font: menu; margin:0px; padding:0px; position:absolute; visibility:hidden }
+.hostcmsWindow form { margin-bottom:0; margin-top:0 }
+.hostcmsWindow .bg_1 { background-color: #F1F1F1; padding-left:10px }
+.hostcmsWindow .bg_2 { background-color: #FF5500}
+.hostcmsWindow .menu_over { background-color: #DDDDDD }
+.hostcmsWindow .menu_out { background-color: #F1F1F1 }
+.hostcmsWindow table { empty-cells: show }
+.hostcmsWindow .admin_table { border: 1px solid #eeeeee }
+.hostcmsWindow .admin_table td { empty-cells: show; border-bottom: 1px; border-bottom-style: solid; border-color: #dddddd; }
+.hostcmsWindow .admin_table_title { color: #000000; font-weight: bold; text-align: left; height: 25px }
+.hostcmsWindow .admin_table_title td{padding-left:5px;padding-right:5px;padding-bottom:2px;background-color:#EAEAEA;border-top:#D9D9D9 solid 1px;border-bottom:#D9D9D9 solid 1px}
+.hostcmsWindow .admin_table_title .hl { background-color: #E0E0E0 }
+.hostcmsWindow .admin_table_sub_title td { font-weight: bold; font-size: 120% }
+.hostcmsWindow .admin_table_filter td { background-color: #F2F0EB; border-bottom: #CEC3A3 solid 1px; padding-right: 4px; padding-left: 4px; white-space: nowrap}
+.hostcmsWindow .admin_table_filter .hl { background-color: #E9E7E2 }
+.hostcmsWindow .top td, .hostcmsWindow .footer td { line-height: 1.1em; font-size: 7.5pt; padding-left: 7px; padding-right:7px; vertical-align: top }
+.hostcmsWindow hr{border-top:1px solid #e2d1ba;border-bottom:1px solid #FFF;border-left:none;border-right:none;height:0!important;margin:25px 0 10px!important;padding:0}
+
+/* Стили для групбоксов на главной */
+.hostcmsWindow .main_div { height: 100%; margin: 0px 0px 10px 0px; }
+.hostcmsWindow .div_title { position: absolute; background-color: #ffffff; padding: 0px 4px 0px 4px; margin: -8px 0px 0px 20px; font-weight: bold; }
+.hostcmsWindow .div_content{border:1px solid #ddd;height:100%;padding:10px 5px}
+/* / Стили для групбоксов на главной */
+
+.hostcmsWindow input, .hostcmsWindow textarea, .hostcmsWindow select,
+input:focus,
+select:focus
+{ font-family: Tahoma, Verdana, 'MS Sans Serif', Arial, sans-serif; font-size: 10pt; outline: none; margin-top: 2px; margin-bottom: 2px }
+.hostcmsWindow input[type="image"] { border: 0}
+.hostcmsWindow input { padding: 3px; vertical-align: middle; behavior: url('/modules/skin/hostcms5/css/input_readonly.htc')}
+.hostcmsWindow textarea { padding: 5px 5px }
+
+.hostcmsWindow input[type=text], .hostcmsWindow input[type=password], .hostcmsWindow textarea, .hostcmsWindow select
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 5px;
+	-moz-box-sizing: padding-box;
+	-webkit-box-sizing: padding-box;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus,
+select:focus
+{
+	box-shadow: 0 0 7px rgba(10,10,10,.5);
+	-moz-box-shadow: 0 0 7px rgba(10,10,10,.5);
+	-webkit-box-shadow: 0 0 7px rgba(10,10,10,.5);
+}
+
+.hostcmsWindow select { padding: 2px; }
+.hostcmsWindow input[readonly], .hostcmsWindow .read_only_input {
+	background-color: #F9F9F9;
+	color: #333333;
+}
+
+.hostcmsWindow input[type="checkbox"]
+{
+	padding: 1px;
+	border: 0px;
+}
+
+input[type="submit"],
+input[type="button"]
+{
+	cursor: pointer;
+	margin-top: 0 !important;
+	padding: 2px;
+}
+
+/* Большое поле ввода центра администрирования */
+input.large, div.large, input.calendar_field_large, select.large {
+	font-size: 14pt;
+}
+.hostcmsWindow button{font-family:Verdana, 'MS Sans Serif', Arial, sans-serif;border:1px solid #777;background-color:#f7f7f7;cursor:pointer;margin-right:8px;color:#000;font-size:9pt;margin-top:10px}
+.hostcmsWindow button img{border:0;margin-right:5px;margin-top:2px;margin-bottom:1px;vertical-align:middle}
+.hostcmsWindow h1{position:relative;font-weight:400;font-size:18pt;color:#000;border-left:6px solid #db1905;padding-bottom:0;padding-left:34px;left:-40px;margin-top:15px}
+.hostcmsWindow h2{color:#000;font-size:15pt;font-weight:400;padding-top:2pt;padding-bottom:1pt}
+.hostcmsWindow .button_image{margin-left:-8px}
+.hostcmsWindow .table_filling{background-color:#555;color:#fff;font-size:8pt;padding-left:7px;padding-right:7px}
+.hostcmsWindow .table_filling td{color:#fff}
+.hostcmsWindow .table_filling a:link,.hostcmsWindow .table_filling a:visited{color:#fff;font-size:8pt;text-decoration:none;margin:0}
+.hostcmsWindow .table_filling a:hover{color:#fff;text-decoration:underline}
+.hostcmsWindow .table_border,.hostcmsWindow .table_border td{border-collapse:collapse;empty-cells:show;border-color:#222;border-style:solid;border-width:1px}
+
+.hostcmsWindow #message, .hostcmsWindow div#error, .hostcmsWindow div#error_message
+{
+	z-index: 1;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 5px 5px 25px;
+	font-size: 8pt;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.hostcmsWindow #message
+{
+	border: 1px solid #3A7E34;
+	color: #3A7E34;
+	background: url('/admin/images/attention.gif') no-repeat 5px 50%;
+}
+
+.hostcmsWindow div#error, .hostcmsWindow div#error_message
+{
+	border: 1px solid #CA1D13;
+	color: #CA1D13;
+	background: url('/admin/images/error.gif') no-repeat 5px 50%;
+}
+
+.hostcmsWindow .table_border_file, .hostcmsWindow td.table_border_file
+{
+	border-collapse: collapse;
+	empty-cells: show;
+	border-width:1px;
+	border-color: #eeeeee;
+	border-style: solid;
+	background-color: #f5f5f5;
+}
+.hostcmsWindow .admin_table td div{clear:both;position:relative;margin:0;padding:0}
+.hostcmsWindow .admin_table td div.dl{overflow:hidden}
+.hostcmsWindow .admin_table td .editable {min-width: 10px; min-height: 10px; cursor: url('/modules/skin/default/images/cursor/edit.png'), text }
+.hostcmsWindow .admin_table .row{background-color:#FFF}
+.hostcmsWindow .admin_table .row .hl{background-color:#F6F6F6}
+.hostcmsWindow .admin_table .row_odd{background-color:#F5F5F5}
+.hostcmsWindow .admin_table .row_odd .hl{background-color:#EEE}
+.hostcmsWindow .admin_table .row:hover,.hostcmsWindow .admin_table .row_odd:hover{background-color:#E5E5E5}
+.hostcmsWindow .row td,.hostcmsWindow .admin_td,.hostcmsWindow .row_odd td{padding-left:4px;padding-right:4px;padding-bottom:2px;border-bottom:1px;border-bottom-style:solid;overflow:hidden;border-color:#ddd}
+.hostcmsWindow .admin_table .highlight_row{background-color:#F2F0EB}
+.hostcmsWindow .admin_table .highlight_row_odd{background-color:#E2E0DB}
+.hostcmsWindow .report_height td{height:25px}
+.hostcmsWindow .success{color:#393}
+.hostcmsWindow .warning{color:#EBB100}
+.hostcmsWindow .error{color:#C00;font-weight:700;text-decoration:blink}
+.hostcmsWindow .short_title{color:#000;font-weight:700;font-size:110%}
+.hostcmsWindow #index_gray_div{position:relative;border:1px solid #E0E0E0;height:100%}
+.hostcmsWindow .index_table_td{color:#000;margin:0}
+.hostcmsWindow .order:link,.hostcmsWindow .order:visited,.hostcmsWindow .order:hover{color:#DB1905;text-decoration:none;font-weight:700;border-bottom:1px dotted #F50}
+.hostcmsWindow table.no_border,.hostcmsWindow table.no_border td{border:0}
+
+.hostcmsWindow .current,.hostcmsWindow .page_link,.hostcmsWindow .arrow_span{border:1px solid #E1E1E1;display:block;margin-right:.3em;background:#FFF;float:left;padding:.2em .5em .3em}
+.hostcmsWindow .current{font-weight:700;color:#000}
+.hostcmsWindow .arrow_span{color:#777;background-color:#FFF}
+.hostcmsWindow .item_div{padding-right:10px;margin-bottom:7px}
+.hostcmsWindow div.item_div .caption{display:block;margin:0 0 3px;padding:0}
+.hostcmsWindow .item_div_as_is{margin-right:10px;margin-top:20px}
+.hostcmsWindow div.item_div .img_control{float:left;margin-left:5px;width:60px}
+.hostcmsWindow div.item_div .img_control img{margin-top:5px;margin-right:3px;cursor:pointer}
+.hostcmsWindow .arrow_path{color:#0070BD}
+.hostcmsWindow .main_ul{list-style-type:none;margin-left:0;position:relative;margin-bottom:11px;padding:0}
+.hostcmsWindow .main_ul *{font-family:Verdana, Arial, sans-serif;color:#303030}
+.hostcmsWindow .main_ul .shadowed {
+	/* Только для IE */
+	// left: 0px;
+	// top: 25px;
+}
+
+.hostcmsWindow .main_ul a,.hostcmsWindow .main_ul a:visited,.hostcmsWindow .main_ul a:hover{text-decoration:none;color:#303030}
+.hostcmsWindow .main_ul ul a:hover{text-decoration:underline;color:#303030}
+.hostcmsWindow .main_ul img{margin:0 4px 0 0}
+.hostcmsWindow .li_lev_1{height:25px;background:url(/admin/images/line1.gif) repeat-x 0 100%;white-space:nowrap;position:relative;margin:0;padding:0 10px 4px 2px}
+.hostcmsWindow .li_lev_1 span{cursor:pointer}
+
+/* Первый UL выпадающего меню */
+.hostcmsWindow .li_lev_1 div ul
+{
+	margin: 3px 0px 0px -2px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+	/* Только для IE */
+	// margin-left: 0px;
+}
+.hostcmsWindow .li_lev_1 ul img{position:absolute;margin:0 0 0 -25px}
+.hostcmsWindow .li_lev_1 ul a{position:relative;left:28px}
+.hostcmsWindow .arrow_img{position:relative;margin:0 0 0 -24px}
+.hostcmsWindow .li_lev_1 ul ul{position:absolute;border:0 solid #CEC3A3;top:0;left:100%;border-bottom:1px solid #CEC3A3;border-top:1px solid #CEC3A3;background-color:#fff;margin:0;padding:0}
+.hostcmsWindow .li_lev_1 ul li{background-color:#fff;margin:0;padding:4px 40px 4px 0}
+.hostcmsWindow .light_table,.hostcmsWindow .light_table td{border-collapse:collapse;empty-cells:show;border:1px solid #E1E1E1;margin:0 2px}
+.hostcmsWindow .from_ie{background:url(/admin/images/fon_li.png) repeat-y 0 0}
+.hostcmsWindow .div_message_error{color:#777}
+/* End стилей для меню центра администрирования */
+
+.hostcmsWindow .shadowed{zoom:1;z-index:99;position:absolute!important;margin-top:10px;background-color:#FFF;font-size:9pt}
+.hostcmsWindow .shadowed .tl
+{
+	position: absolute;
+	font-size: 0;
+	top: -15px;
+	left: -17px;
+	background: url('/admin/images/shadow-lt.png') 0 0 no-repeat !important;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-lt.png');
+	width: 17px;
+	height: 15px;
+}
+
+.hostcmsWindow .shadowed .t
+{
+	position: absolute;
+	font-size: 0;
+	top: -15px;
+	left: 0;
+	background: url('/admin/images/shadow-t.png') 0 0 repeat-x !important;
+	background: url('/admin/images/spacer.gif');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-t.png', sizingmethod='scale');
+	width: 100%;
+	height: 15px;
+	/* border: 1px solid; */
+}
+
+.hostcmsWindow .shadowed .tr
+{
+	position: absolute;
+	font-size: 0;
+	top: -15px;
+	left: 100%;
+	background: url('/admin/images/shadow-rt.png') 0 0 no-repeat !important;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-rt.png');
+	width: 17px;
+	height: 15px;
+}
+
+.hostcmsWindow .shadowed .r
+{
+	position: absolute;
+	font-size: 0;
+	top: 0;
+	left: 100%;
+	background: url('/admin/images/shadow-r.png') 0 0 repeat-y !important;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-r.png', sizingmethod='scale');
+	width: 17px;
+	height: 100%;
+}
+
+.hostcmsWindow .shadowed .br
+{
+	position: absolute;
+	font-size: 0;
+	top: 100%;
+	left: 100%;
+	background: url('/admin/images/shadow-rb.png') 0 0 no-repeat !important;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-rb.png');
+	width: 17px;
+	height: 21px;
+}
+
+.hostcmsWindow .shadowed .b
+{
+	position: absolute;
+	font-size: 0;
+	top: 100%;
+	left: 0;
+	background: url('/admin/images/shadow-b.png') 0 0 repeat-x !important;
+	background: url('/admin/images/spacer.gif');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-b.png', sizingmethod='scale');
+	width: 100%;
+	height: 21px;
+}
+
+.hostcmsWindow .shadowed .bl
+{
+	position: absolute;
+	font-size: 0;
+	top: 100%;
+	left: -17px;
+	background: url('/admin/images/shadow-lb.png') 0 0 no-repeat !important;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-lb.png');
+	width: 17px;
+	height: 21px;
+}
+
+.hostcmsWindow .shadowed .l
+{
+	position: absolute;
+	font-size: 0;
+	top: 0;
+	left: -17px;
+	background: url('/admin/images/shadow-l.png') 0 0 repeat-y !important;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/shadow-l.png', sizingmethod='scale');
+	width: 17px;
+	height: 100%;
+}
+
+.hostcmsWindow .shadow_tail
+{
+	position: absolute;
+	bottom: -30px;
+	// bottom: -27px;
+	right: 20px;
+	z-index: 100;
+}
+
+.hostcmsWindow .shadowed #subdiv{overflow:auto;width:600px;height:400px}
+.hostcmsWindow .helpdesk_link{color:#0070BD;text-decoration:underline; cursor: pointer}
+.hostcmsWindow .helpdesk_span{color:#FFF;font-weight:700;padding:1px 5px}
+.hostcmsWindow .helpdesk_subject{cursor:pointer; color:#777}
+.hostcmsWindow .helpdesk_not_processed{font-weight: bold}
+.hostcmsWindow .helpdesk_critical_level{color:#777;cursor:pointer;white-space:nowrap}
+.hostcmsWindow img.attachment, .hostcmsWindow div.helpdeskAttachment img{margin-bottom:-3px;margin-right:5px}
+.hostcmsWindow div.helpdeskAttachment{margin-top:5px;}
+.hostcmsWindow .helpdeskMessage{border:1px solid #F2F0EB; margin:5px 0; padding:5px;border-radius: 5px}
+.hostcmsWindow .helpdeskPadding{margin-left:10px}
+.hostcmsWindow .helpdeskMessageSubject{font-weight: bold}
+
+.hostcmsWindow #helpdesk_additional_search
+{
+	background-color:#F2F0EB;
+	border:1px solid #CEC3A3;
+	float: left;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+.hostcmsWindow .admin_form_action img{margin:0 2px -3px 5px}
+.hostcmsWindow .admin_form_action_link:link,.hostcmsWindow .admin_form_action_link:hover,.hostcmsWindow .admin_form_action_link:visited{color:#000;margin-right:10px;font-size:9pt}
+.hostcmsWindow .admin_form_action_alert_link:link,.hostcmsWindow .admin_form_action_alert_link:hover,.hostcmsWindow .admin_form_action_alert_link:visited{color:#DB1905;margin-right:10px;font-size:9pt}
+.hostcmsWindow input.calendar_field,.hostcmsWindow input.calendar_field_large{padding-right:17px;background:url(/admin/images/calendar.gif) no-repeat 100% 50% #FFF}
+
+* html #header
+{
+	height: 1%; /* So IE plays nice */
+}
+
+/* Шапка */
+.hostcmsWindow #header
+{
+	overflow: hidden;
+	padding: 45px 245px 0px 40px; /* 245 - Ширина правой колонки */
+	margin: 0px 0px 0px 0px; /* 45 - отступ сверху */
+	min-width: 655px;
+}
+
+.hostcmsWindow #header .left_box
+{
+	width: 100%;
+	border-right: 245px solid #fff; /* The width and color of the rail */
+	margin-right: -245px; /* Hat tip to Ryan Brill */
+	float: left;
+}
+
+.hostcmsWindow #header .right_box
+{
+	width: 245px;
+	float: left;
+	margin-right: -245px;
+}
+/* /шапка */
+
+/* BODY */
+.hostcmsWindow #body
+{
+	overflow: hidden;
+	padding: 15px 245px 60px 40px; /* 245 - Ширина правой колонки */
+	min-width: 655px;
+}
+
+* html #body
+{
+	height: 1%; /* So IE plays nice */
+}
+
+.hostcmsWindow #body .left_box{width:100%;border-right:245px solid #fff;margin-right:-245px;float:left}
+.hostcmsWindow #body .right_box{float:left;margin-right:-245px;padding:0}
+.hostcmsWindow #body .right_box div ul{margin:10px 0 0 40px;padding:0}
+.hostcmsWindow #body .right_box div ul li{list-style-type:none;padding-left:15px;padding-right:15px;background:url(/admin/images/menu_li.gif) no-repeat 0 5px}
+.hostcmsWindow #body .right_box div a:link,.hostcmsWindow #body .right_box div a:hover,.hostcmsWindow #body .right_box div a:visited,.hostcmsWindow #body .right_box div ul li a:link,.hostcmsWindow #body .right_box div ul li a:hover,.hostcmsWindow #body .right_box div ul li a:visited{color:#000}
+
+/* /BODY */
+
+.hostcmsWindow .left_img{margin:0 5px -3px 0;padding:0}
+.hostcmsWindow .right_img{cursor:pointer;margin:0 0 -3px 3px;padding:0 5px 0 0}
+
+.hostcmsWindow .box3:before, .hostcmsWindow .box3before
+{
+	content: url('/admin/images/gray-lt.gif');
+	background: url('/admin/images/gray-rt.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: -5px -15px 0px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box3:after, .hostcmsWindow .box3after
+{
+	content: url('/admin/images/gray-lb.gif');
+	background: url('/admin/images/gray-rb.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: 0px -15px -5px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box3
+{
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	zoom: 1;
+	background-color: #EAEAEA;
+	padding: 5px 15px 5px 15px;
+	behavior: url('/modules/skin/hostcms5/css/box3.htc');
+}
+
+.hostcmsWindow .box0:before, .hostcmsWindow .box0before
+{
+	content: url('/admin/images/brown-lt.gif');
+	background: url('/admin/images/brown-rt.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: -5px -15px 0px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box0:after, .hostcmsWindow .box0after
+{
+	content: url('/admin/images/brown-lb.gif');
+	background: url('/admin/images/brown-rb.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: 0px -15px -5px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box0
+{
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	zoom: 1;
+	background-color: #EAE7DA;
+	padding: 5px 15px 5px 15px;
+	behavior: url('/modules/skin/hostcms5/css/box0.htc');
+}
+
+.hostcmsWindow .box1:before, .hostcmsWindow .box1before
+{
+	content: url('/admin/images/green-lt.gif');
+	background: url('/admin/images/green-rt.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: -5px -15px 0px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box1:after, .hostcmsWindow .box1after
+{
+	content: url('/admin/images/green-lb.gif');
+	background: url('/admin/images/green-rb.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: 0px -15px -5px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box1
+{
+	background-color: #E0F4D3;
+	padding: 5px 15px 5px 15px;
+	display: block;
+	zoom: 1;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	behavior: url('/modules/skin/hostcms5/css/box1.htc');
+}
+
+.hostcmsWindow .box2:before, .hostcmsWindow .box2before
+{
+	content: url('/admin/images/turquoise-lt.gif');
+	background: url('/admin/images/turquoise-rt.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: -5px -15px 0px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box2:after, .hostcmsWindow .box2after
+{
+	content: url('/admin/images/turquoise-lb.gif');
+	background: url('/admin/images/turquoise-rb.gif') no-repeat 100% 0;
+	height: 10px;
+	display: block;
+	margin: 0px -15px -5px -15px;
+	font-size: 0px;
+	line-height: 0.1;
+}
+
+.hostcmsWindow .box2
+{
+	background-color: #DFF3F4;
+	padding: 5px 15px 5px 15px;
+	display: block;
+	zoom: 1;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	behavior: url('/modules/skin/hostcms5/css/box2.htc');
+}
+
+.box0 span, .hostcmsWindow .box1 span, .hostcmsWindow .box2 span, .hostcmsWindow .box3 span { cursor:pointer; text-decoration:underline }
+
+.box0 select, .hostcmsWindow .box1 select, .hostcmsWindow .box2 select, .hostcmsWindow .box3 select
+{
+	margin: 0px 0px -1px 0px;
+}
+
+.hostcmsWindow .buy_hostcms:link,
+.hostcmsWindow .buy_hostcms:hover,
+.hostcmsWindow .buy_hostcms:visited
+{
+	color: #DB1905;
+}
+
+.hostcmsWindow input.authorization
+{
+	margin: 5px 0px 3px 0px;
+	padding: 5px 20px 5px 35px;
+	color: #776E47;
+	background: url('/admin/images/authorization.gif') no-repeat 10px 50% #EAE7DA;
+	border: 1px solid #C1BBA3;
+}
+.hostcmsWindow #footer{position:absolute;bottom:0;left:0;width:100%;text-align:right;height:30px;margin:0 0 5px}
+.hostcmsWindow #footer div{border-right:6px solid #db1905;color:#595959;font-size:10pt;padding:5px 10px 5px 0}
+.hostcmsWindow #footer div span{border-bottom:1px dashed;cursor:pointer}
+.hostcmsWindow .t_authorization td{vertical-align:top}
+.hostcmsWindow .authorization_message{margin:50px 50px 0 0}
+
+.hostcmsWindow input.checkbox_authorization
+{
+	margin: 7px 0px 3px 0px !important;
+	margin: 0px;
+	zoom: 1;
+	border: 0px;
+}
+
+.hostcmsWindow .load_file {
+	margin-bottom: 10px
+}
+.hostcmsWindow .load_file .input_field {
+	float: left;
+	margin-right: 7px
+}
+
+.hostcmsWindow .load_file .input_field input {
+	margin-left: 7px
+}
+
+.hostcmsWindow .load_file .input_button input {
+	position: relative;
+}
+
+.hostcmsWindow label
+{
+	position: relative;
+	top: 3px !important;
+	top: 0px;
+}
+
+.hostcmsWindow #MainMenu
+{
+	zoom: 1;
+	overflow: hidden;
+	visitibility: hidden;
+	width: 215px; /**/
+	/* border: 1px dashed #000; /**/
+}
+
+.hostcmsWindow #MainMenu div
+{
+	/* for boxes */
+	width: 180px;
+	/* use ie_hacks.css */
+}
+
+.hostcmsWindow #MainMenuShowHide
+{
+	position: absolute;
+	left: 100%;
+	/* top: 50%; */
+	top: 400px;
+	width: 10px;
+	margin-left: -20px;
+	/* border: 1px dotted #0ff; */
+}
+
+.hostcmsWindow div.sub_menu
+{
+	width: 215px !important;
+	/* use ie_hacks.css */
+
+	overflow: hidden;
+	/* border: 1px dashed #000; */
+	margin-bottom: 10px;
+
+	/* Только для IE */
+	// padding-right: 1px;
+}
+
+.hostcmsWindow div.sub_menu ul
+{
+	overflow: hidden;
+	width: 100%;
+}
+
+/* fix bug IE button padding */
+.hostcmsWindow #ControlElements input
+{
+	overflow: visible;
+}
+
+.hostcmsWindow .admin_forms_action_td
+{
+	white-space: nowrap;
+}
+
+/* Контейнер для ShowLoadingScreen() */
+.hostcmsWindow .admin_forms_fade
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	//top: expression( body.scrollTop ); /*for IE*/
+}
+
+/* Слой, который становится прозрачным. Вложен в admin_forms_fade */
+.hostcmsWindow .fill_div_layer
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+/* Верхняя полосочка */
+.hostcmsWindow .topbar
+{
+	background-color: #F1F1F1;
+	height: 20px;
+	font-size: 90%;
+	padding: 6px 0px 0px 5px;
+	margin-bottom: 5px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.hostcmsWindow .topbar img
+{
+	cursor: pointer;
+	position: absolute;
+	left: 100%;
+	z-index: 1000;
+	margin-top: 3px;
+	margin-left: -15px;
+}
+
+/* TABs */
+.hostcmsWindow #tab{float:left;width:100%;background:url(/admin/images/tab_top_fon_4_form.gif) repeat-x bottom;line-height:normal;position:relative;border:0;margin:0 2px 20px}
+.hostcmsWindow #tab ul{list-style:none;margin:0;padding:10px 10px 0 7px}
+.hostcmsWindow #tab li{float:left;background:url(/admin/images/tab_l_no_active.gif) no-repeat left top;position:relative;margin:0 0 0 -3px;padding:0 0 0 3px}
+.hostcmsWindow #tab span{display:block;background:url(/admin/images/tab_fon_no_active.gif) no-repeat right top;text-decoration:none;color:#606060;float:none;cursor:pointer;padding:8px 18px 7px 12px}
+.hostcmsWindow #tab .current_li{background-image:url(/admin/images/tab_l_active.gif);z-index:2;border-width:0}
+.hostcmsWindow #tab .current_li span{background-image:url(/admin/images/tab_fon_active.gif);color:#262626;z-index:2}
+/* / TABs */
+
+.hostcmsWindow .arrow_up{color:#6BC500;font-size:120%;padding-bottom:3px}
+.hostcmsWindow .arrow_down{color:#C51200;font-size:120%;padding-bottom:3px}
+.hostcmsWindow .screen{border:#E1E1E1 1px solid;margin:10px 0}
+.hostcmsWindow #gray, .hostcmsWindow .gray{color:#777}
+.hostcmsWindow .shadowed #subdiv_small{overflow:auto;width:100%;height:89%}
+.hostcmsWindow .typograph_result{border-left:3px solid #db1905;background-color:#F7F7F7;font-size:110%;height:150px;overflow:auto;margin:15px 0;padding:0 0 0 15px}
+.hostcmsWindow .typograph_result span,.hostcmsWindow .typograph_result nobr{background-color:#FFD79D}
+.hostcmsWindow .hidden{display:none}
+
+.hostcmsWindow div.inactive {text-decoration: line-through}
+.hostcmsWindow div.wrongTime {color: #777}
+
+/* Templates install */
+.hostcmsWindow .site_template_block
+{
+	width: 210px; float: left;
+}
+
+.hostcmsWindow .bord_img {
+	padding: 6px;
+	position: relative;
+	border: 1px solid #e0e0e0;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	zoom: 1;
+	float: left;
+	box-shadow: 0 0 5px #CCC;
+	border-radius: 9px;
+}
+.hostcmsWindow .bord_img .bottom{position:absolute;width:100%;bottom:5px}
+.hostcmsWindow .bord_img .bottom span{color:#777;font-size:90%;font-style:italic}
+
+/* /end Templates install */
+.hostcmsWindow .count{color:#777; font-size: 7pt}
+
+::-moz-selection { background-color: #D2D2D2; color: #000}
+::selection { background-color: #D2D2D2; color: #000}
+
+.hostcmsWindow div.section_title {
+text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+border: 1px solid #DDDDDD;
+border-radius: 5px 5px 0px 0px;
+height: 15px;
+padding: 6px 10px;
+position: relative;
+font-weight: bold;
+}
+.hostcmsWindow div.section {
+border-color: #FFFFFF #DDDDDD #DDDDDD;
+border-style: solid;
+border-width: 1px;
+margin-bottom: 15px;
+padding: 10px;
+}
+
+.hostcms6 div.modalwindow, .hostcmsWindow div.modalwindow {overflow:auto; margin: 7px; font-size: 9pt; color:#333}
+.hostcms6 div.modalwindow ul, .hostcmsWindow div.modalwindow ul{margin:0}
+.hostcms6 div.modalwindow li, .hostcmsWindow div.modalwindow li {margin-bottom: 0; margin-top: 0}
+
+div.hostcmsAdminButton {float: none; display: inline; padding: 3px; }
+
+.hostcms6 .fileManager {
+	background-color: #FFF;
+	border-radius: 9px;
+	padding: 5px 10px 10px 10px;
+}
+
+div.fm_preview {
+	width: 48px; text-align: center
+}
+
+.hostcms6 #install label {
+	font-family: Candara, Corbel, 'Myriad Pro',Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 13pt; color: #3f3f3f; text-shadow: 1px 1px 0 #FFF;
+}
+
+.hostcms6 #install label input {
+	margin-bottom: 3px;
+}
+
+/* Tags */
+
+.hostcmsWindow label.tags_label{
+	display: block;
+	margin-bottom: 3px;
+	position: inherit;
+}
+
+.admin-tags {
+    /*background-color: #FFFFFF;*/
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #75736E ;
+	border-bottom-color: #F1F0EE;
+	border-right-color: #F1F0EE;
+
+    color: #777777;
+    display: inline-block;
+    padding: 4px 6px;
+    vertical-align: middle;
+    width: 100%;
+	-moz-box-sizing: padding-box;
+}
+
+.hostcmsWindow .admin-tags input[type="text"], .hostcmsWindow .admin-tags input[type="text"]:focus {
+    border: 0 none;
+    box-shadow: none;
+    display: inline;
+    line-height: 14px;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    width: auto;
+}
+
+.admin-tags .admin-tag {
+    /*background-color: #91B8D0;*/
+	background-color: #40A5D8;
+	border-radius: 7px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    padding: 4px 22px 5px 9px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease 0s;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.admin-tags .admin-tag-important {
+    background-color: #D15B47;
+}
+
+.admin-tags button.close {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 0;
+    padding: 0;
+
+}
+
+.admin-tags .admin-tag .close {
+    bottom: 0;
+    color: #FFFFFF;
+    float: none;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-shadow: none;
+    top: 0;
+    width: 18px;
+}
+
+.admin-tags .dropdown-menu {
+    border-radius: 0 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.admin-tags .dropdown-menu {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+
+/*.tags .dropdown-menu li > a, .tags .dropdown-submenu > a {
+}*/
+.admin-tags .dropdown-menu > li > a {
+    font-size: 13px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.admin-tags .dropdown-menu > li > a {
+    clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 3px 20px;
+	text-decoration: none;
+    white-space: nowrap;
+}
+
+.admin-tags .dropdown-menu li a:hover, .admin-tags .dropdown-menu li a:focus, .admin-tags .dropdown-menu li a:active, .admin-tags .dropdown-menu li.active a, .admin-tags .dropdown-menu li.active a:hover, .admin-tags .dropdown-menu .dropdown-submenu:hover > a, .admin-tags.nav-tabs .dropdown-menu li > a:focus {
+    background: none repeat scroll 0 0 #4F99C6;
+    color: #FFFFFF;
+}
+.admin-tags .dropdown-menu > .active > a, .admin-tags .dropdown-menu > .active > a:hover, .admin-tags .dropdown-menu > .active > a:focus {
+    background-color: #428BCA;
+    color: #FFFFFF;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+.hostcmsWindow .CodeMirror {
+	border: 1px solid #ddd;
+}
+
+.hostcmsWindow .CodeMirror * {
+	font-family: monospace;
+	font-size: 10pt;
+}

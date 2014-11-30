@@ -1,0 +1,1482 @@
+"2014-11-17 08:23:52",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 08:54:09",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/index.php, строка 10",0,-,http://cenpai:8888/admin/,::1
+"2014-11-17 08:54:30",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:54:30",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:54:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=1&shop_dir_id=0,::1
+"2014-11-17 06:54:40",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=1&shop_dir_id=0,::1
+"2014-11-17 08:54:48",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:54:48",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:54:55",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:54:55",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:57:29",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:57:29",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:57:41",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:57:41",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:58:13",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:58:13",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:58:16",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:58:17",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:59:31",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:59:31",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 08:59:34",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 06:59:34",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:03:01",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:03:01",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:03:07",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=1&shop_dir_id=0,::1
+"2014-11-17 07:03:07",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=1&shop_dir_id=0,::1
+"2014-11-17 09:03:11",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:03:12",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:03:15",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:03:15",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:03:49",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:03:49",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:03:52",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:03:52",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:04:21",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:06:19",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:07:16",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/index.php, строка 10",0,-,http://cenpai:8888/admin/,::1
+"2014-11-17 09:07:48",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:07:48",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:08:00",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:08:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:09:34",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:09:38",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/index.php, строка 10",0,-,http://cenpai:8888/admin/,::1
+"2014-11-17 09:09:41",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:09:41",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:09:45",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:09:45",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:11:35",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:11:43",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:11:45",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/template/index.php, строка 10",0,-,http://cenpai:8888/admin/template/index.php?template_dir_id=0&template_id=1,::1
+"2014-11-17 07:11:45",undefined,"Попытка доступа к модулю template незарегистрированным пользователем",4,-,http://cenpai:8888/admin/template/index.php?template_dir_id=0&template_id=1,::1
+"2014-11-17 09:11:45",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/template/index.php, строка 10",0,-,http://cenpai:8888/admin/template/index.php?template_dir_id=0&template_id=1,::1
+"2014-11-17 07:11:45",undefined,"Попытка доступа к модулю template незарегистрированным пользователем",4,-,http://cenpai:8888/admin/template/index.php?template_dir_id=0&template_id=1,::1
+"2014-11-17 09:11:45",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/index.php, строка 10",0,-,http://cenpai:8888/admin/,::1
+"2014-11-17 09:12:02",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/index.php, строка 10",0,-,http://cenpai:8888/admin/index.php,::1
+"2014-11-17 07:12:02",admin,"Вход в систему управления",4,-,http://cenpai:8888/admin/index.php,::1
+"2014-11-17 09:12:11",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:12:11",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:12:13",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:12:13",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:16:00",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php?hostcms[checked][1][0]=1,::1
+"2014-11-17 07:16:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php?hostcms[checked][1][0]=1,::1
+"2014-11-17 09:16:37",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 07:16:37",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 09:16:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 07:16:57",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 09:16:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?lib_id=6,::1
+"2014-11-17 07:16:58",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?lib_id=6,::1
+"2014-11-17 09:16:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=49,::1
+"2014-11-17 09:16:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=43,::1
+"2014-11-17 09:16:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=493,::1
+"2014-11-17 09:16:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=2&lib_property_id=581,::1
+"2014-11-17 09:16:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=50,::1
+"2014-11-17 09:16:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=42,::1
+"2014-11-17 07:16:58",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=493,::1
+"2014-11-17 07:16:58",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=50,::1
+"2014-11-17 07:16:58",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=2&lib_property_id=581,::1
+"2014-11-17 07:16:58",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=43,::1
+"2014-11-17 07:16:58",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=42,::1
+"2014-11-17 07:16:58",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=49,::1
+"2014-11-17 09:17:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/index.php, строка 10",0,-,http://cenpai:8888/admin/index.php?userSettings&moduleId=0&type=2&position_x=1013&position_y=357&width=235&height=256&active=1&_=1416194277417,::1
+"2014-11-17 09:18:02",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:18:02",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:18:10",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 07:18:10",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 09:18:20",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:18:20",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:18:22",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:18:22",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:19:19",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php?hostcms[checked][1][0]=1,::1
+"2014-11-17 07:19:20",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php?hostcms[checked][1][0]=1,::1
+"2014-11-17 09:19:30",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 07:19:30",admin,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 07:19:40",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?lib_id=6,::1
+"2014-11-17 07:19:40",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка параметров динамических страниц""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?lib_id=6,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=493,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=49,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=50,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=43,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=2&lib_property_id=581,::1
+"2014-11-17 09:19:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=42,::1
+"2014-11-17 07:19:40",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=493,::1
+"2014-11-17 07:19:40",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=49,::1
+"2014-11-17 07:19:41",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=2&lib_property_id=581,::1
+"2014-11-17 07:19:41",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=50,::1
+"2014-11-17 07:19:41",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=42,::1
+"2014-11-17 07:19:41",admin,"Доступ к модулю ""structure"" разрешен, форма ""Структура сайта"", действие ""Ajax-загрузка XSL-шаблонов""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?xsl_dir_id=24&lib_property_id=43,::1
+"2014-11-17 09:20:08",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/structure/index.php, строка 10",0,-,http://cenpai:8888/admin/structure/index.php?hostcms[checked][0][42]=1,::1
+"2014-11-17 07:20:08",admin,"Доступ к модулю ""structure"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/structure/index.php?hostcms[checked][0][42]=1,::1
+"2014-11-17 09:20:51",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:20:51",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:21:00",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0,::1
+"2014-11-17 07:21:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0,::1
+"2014-11-17 09:21:05",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0,::1
+"2014-11-17 07:21:05",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0,::1
+"2014-11-17 09:23:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:23:58",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:24:04",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:24:04",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:24:07",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:24:07",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:24:34",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:24:34",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:24:44",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:24:44",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:24:48",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:24:48",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:25:16",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:25:16",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:25:18",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:25:18",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:25:21",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:25:21",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:25:52",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:25:52",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:25:55",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:25:55",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:25:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:25:57",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:26:47",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:26:47",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:26:51",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:26:51",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:26:55",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:26:55",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:27:14",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:27:14",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:27:20",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:27:20",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:27:22",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:27:23",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:27:50",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:27:50",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:27:51",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:27:51",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:27:54",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:27:54",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:28:14",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 07:28:14",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&hostcms[checked][0][0]=1,::1
+"2014-11-17 09:33:05",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:33:52",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:34:34",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=SHOW_XML,::1
+"2014-11-17 09:34:50",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][182]=1,::1
+"2014-11-17 07:34:50",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][182]=1,::1
+"2014-11-17 09:35:14",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 07:35:14",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 09:35:20",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 07:35:20",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 09:35:24",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 07:35:24",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Почтовые рассылки"", действие ""Копировать""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 09:35:27",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 07:35:27",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 09:35:35",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 07:35:35",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 09:35:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 07:35:40",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 09:36:04",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 07:36:04",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:36:16",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/index.php, строка 10",0,-,http://cenpai:8888/admin/,::1
+"2014-11-17 09:36:19",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:36:30",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:36:34",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 07:36:34",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:37:15",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 07:37:15",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:37:31",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:42:05",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 07:42:05",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:42:10",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:46:33",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 07:46:34",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:46:40",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:46:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 07:46:57",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:47:05",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 09:50:26",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 07:50:26",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/index.php,::1
+"2014-11-17 09:50:31",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0,::1
+"2014-11-17 07:50:31",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_dir_id=0,::1
+"2014-11-17 09:50:36",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_group_id=601,::1
+"2014-11-17 07:50:36",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3&shop_group_id=601,::1
+"2014-11-17 09:50:37",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:50:37",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:50:39",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/shop/item/index.php, строка 10",0,-,http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 07:50:39",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/shop/item/index.php?shop_id=3,::1
+"2014-11-17 09:57:58",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 07:57:58",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:58:01",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 10:07:07",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 08:07:07",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 10:07:13",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 08:07:13",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24,::1
+"2014-11-17 10:07:17",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/,::1
+"2014-11-17 10:07:22",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:08:49",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 08:08:49",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 10:08:52",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:11:44",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 08:11:45",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 10:11:55",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:13:32",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:15:24",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:17:20",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 08:17:21",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 10:17:32",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:18:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:22:29",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:23:33",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:25:02",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 10:25:57",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 11:25:33",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 11:29:28",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:29:28",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 11:29:32",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: index.php, строка 18",0,-,http://cenpai:8888/?hostcmsAction=HIDE_XML,::1
+"2014-11-17 11:35:11",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:35:11",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 11:35:29",undefined,"<strong>Undefined error:</strong> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead в файле /Applications/MAMP/htdocs/cenpai/modules/core/database/mysql.php (строка 57)
+Стек вызовов:
+Файл: modules/core/database/mysql.php, строка 57,
+Файл: modules/core/database/mysql.php, строка 613,
+Файл: modules/core/querybuilder/statement.php, строка 60,
+Файл: modules/core/orm.php, строка 480,
+Файл: modules/core/entity.php, строка 408,
+Файл: modules/core/core.php, строка 100,
+Файл: bootstrap.php, строка 50,
+Файл: admin/xsl/index.php, строка 10",0,-,http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1
+"2014-11-17 09:35:29",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,"Демонстрационный сайт",http://cenpai:8888/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][233]=1,::1

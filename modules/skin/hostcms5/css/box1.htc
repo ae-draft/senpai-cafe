@@ -1,0 +1,40 @@
+<public:component>
+<script>
+	// header
+	var div_tr = document.createElement("div");
+	div_tr.className = "box1before";
+	div_tr.style.position = 'absolute';
+	div_tr.style.left = '100%';
+	div_tr.style.top = '5px';
+	div_tr.style.width = '16px';
+	this.insertBefore(div_tr, this.childNodes[0]);
+	
+	var div_tl = document.createElement("div");
+	div_tl.className = "box1before";
+	div_tl.style.width = '10px';
+	this.insertBefore(div_tl, this.childNodes[0]);
+	
+	var img_tl = document.createElement("img");
+	img_tl.src = '/admin/images/green-lt.gif';
+	div_tl.appendChild(img_tl);
+
+	// bottom
+	var div_br = document.createElement("div");
+	div_br.className = "box1after";
+	div_br.style.position = 'absolute';
+	div_br.style.width = '16px';
+	div_br.style.height = '14px';
+	div_br.style.left = '100%';
+	div_br.style.bottom = '0px';
+	this.appendChild(div_br);
+	
+	var div_bl = document.createElement("div");
+	div_bl.className = "box1after";
+	div_bl.style.width = '10px';
+	this.appendChild(div_bl);
+	
+	var img_bl = document.createElement("img");
+	img_bl.src = '/admin/images/green-lb.gif';
+	div_bl.appendChild(img_bl);
+</script>
+</public:component>
