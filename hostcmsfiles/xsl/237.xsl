@@ -45,7 +45,16 @@
 			</xsl:variable>
 			
 			<!-- Ссылка на пункт меню -->
-			<a href="{$link}" title="{name}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="structure"><xsl:value-of disable-output-escaping="yes" select="name"/></a>
+			<xsl:choose>
+				<!-- Если внешняя ссылка -->
+				<xsl:when test="name != 'Меню'">
+					<a href="{$link}" title="{name}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="structure"><xsl:value-of disable-output-escaping="yes" select="name"/></a>
+				</xsl:when>
+				<!-- Иначе если внутренняя ссылка -->
+				<xsl:otherwise>
+					<a href="{$link}602" title="{name}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="structure"><xsl:value-of disable-output-escaping="yes" select="name"/></a>
+				</xsl:otherwise>
+			</xsl:choose>
 		</div>
 	</xsl:template>
 </xsl:stylesheet>

@@ -20,35 +20,6 @@
 <!--[if lt IE 9]>
 <script src="/common/utils/html5shiv.js"></script>
 <![endif]-->
-
-    <script>
-        $(document).ready(function() {
-            var offset = 353;
-            var blockWidth = ($(".news-item").length * offset) + 61;
-            var $container = $(".news-items-holder");
-            console.log(blockWidth);
-
-            if(blockWidth < 1100)
-            {
-                blockWidth = 1100;
-            }
-
-            $("#infosystem-items-holder").css('width', blockWidth);
-
-            $(document).on("click", ".shop_control.left", function() {
-                if($($container).scrollLeft() != 0) {
-                    $($container).animate({scrollLeft: ($($container).scrollLeft() - (offset + 61))}, 420);
-                }
-            });
-
-            $(document).on("click", ".shop_control.right", function() {
-                if($($container).scrollLeft() != blockWidth) {
-                    $($container).animate({scrollLeft: ($($container).scrollLeft() + (offset + 61))}, 420);
-                }
-            });
-        });
-    </script>
-
 </head>
 
 <body>
@@ -155,13 +126,6 @@
 
 <div id="secondary-content-container">
     <div id="content-holder">
-        <!-- Controls -->
-        <a class="left shop_control" role="button">
-
-        </a>
-        <a class="right shop_control" role="button">
-
-        </a>
         <?php
 	        Core_Page::instance()->execute();
         ?>
