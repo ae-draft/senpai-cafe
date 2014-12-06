@@ -14,7 +14,7 @@ body {
 }
 
 #tinymce {
-    background: #ffffff;
+    background: #ffffff!important;
 }
 
 .left_scroll_control {

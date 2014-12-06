@@ -18,7 +18,7 @@
 <!-- Bootstrap correction -->
 <link href="/common/css/bootstrap_correction.css" rel="stylesheet">
 
-<script type="text/javascript" src="/hostcmsfiles/jquery/jquery.js"></script>
+<script type="text/javascript" src="/common/jquery/jquery.js"></script>
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -70,7 +70,7 @@
                     <div id="top-block-info1">
                         ул. Московская, 96
                         <div>
-                            264-124, +7(965)881-98-78
+                            264-124, +7(965)882-98-78
                         </div>
                     </div>
                 </div>
@@ -213,7 +213,7 @@
                     <br />
                     <address>
                         ул.Московская, 96<br>
-                        <abbr title="Phone">т.:</abbr> 264-124, +7(965)881-98-78
+                        <abbr title="Phone">т.:</abbr> 264-124, +7(965)882-98-78
                     </address>
                     <span class="delivery-info-footer">
                         ДОСТАВКА СУШИ - <span>он-лайн сервис заказа суши<br />
@@ -280,16 +280,16 @@
         })
     }(window.jQuery)
 
-    $(document).on("click", "#sign-in-holder a, #shop-link-holder a, #delivery-link-holder a, .mainpage-cart-title a, .button2", valera);
+    $(document).on("click", "#sign-in-holder a, #shop-link-holder a, #delivery-link-holder a, .mainpage-cart-title a, .shop-item-name, .image_cell a, .button2", valera);
     function valera() {
         alert('Приносим свои извинения, данная функция временно не работает.');
         return false;
     };
-
-    $(document).ready(function(){
+  
+  $(document).ready(function(){
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
-        })
+        });
     });
 </script>
 <script src="/common/utils/holder.js"></script>

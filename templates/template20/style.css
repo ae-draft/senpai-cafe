@@ -14,7 +14,7 @@ body {
 }
 
 #tinymce {
-    background: #ffffff;
+    background: #ffffff!important;
 }
 
 .left_scroll_control {
@@ -448,9 +448,14 @@ div#scroll_menu_title {
     font-style: italic;
 }
 
+.shop_item .composition {
+	overflow: hidden;
+	height: 20px;
+}
+
 .shop_item .last-row {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .group_list {
@@ -463,7 +468,7 @@ div#scroll_menu_title {
 }
 
 .shop-items-holder {
-    overflow-x: scroll;
+    overflow: hidden;
 }
 
 .shop-items-holder form {
@@ -498,4 +503,13 @@ div#scroll_menu_title {
 .shop_control.right:hover {
     right: -20px;
     background: url("/assets/img/template/pointer2-right.png") no-repeat top right;
+}
+
+.composition-row {
+	cursor: pointer;
+}
+
+.shop-item-name-holder {
+	height: 30px;
+  	overflow:hidden;
 }

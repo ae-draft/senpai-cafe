@@ -1,4 +1,4 @@
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=EkC_iTUbswzH836bz-Y7_7damLvkC91W&width=1100&height=300"></script>
+<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=mSt6kl67Co-RQLHvW2pSArSIGktSudrE&width=1100&height=300"></script>
 
 <script type="text/javascript">
    $(document).on("focus", "#contacts-holder input[name=name], #contacts-holder input[name=email], #contacts-holder input[name=tel], #contacts-holder textarea", function() {
@@ -37,12 +37,12 @@
   </div>
  <div class="row address-phone">
      <div class="col-md-12">
-       тел.: +7 (452) 264-124, +7 (965) 881-98-78
+       тел.: +7 (452) 264-124, +7 (965) 882-98-78
      </div>
   </div>
  <div class="row address-time">
      <div class="col-md-12">
-        часы работы: с 10:00 до 6:00
+        часы работы: с 10:00 до 00:00
      </div>
   </div>
  <div class="row address-time">

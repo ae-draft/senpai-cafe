@@ -21,6 +21,34 @@
 <script src="/common/utils/html5shiv.js"></script>
 <![endif]-->
 
+    <script>
+        $(document).ready(function() {
+            var offset = 353;
+            var blockWidth = ($(".news-item").length * offset) + 61;
+            var $container = $(".news-items-holder");
+            console.log(blockWidth);
+
+            if(blockWidth < 1100)
+            {
+                blockWidth = 1100;
+            }
+
+            $("#infosystem-items-holder").css('width', blockWidth);
+
+            $(document).on("click", ".shop_control.left", function() {
+                if($($container).scrollLeft() != 0) {
+                    $($container).animate({scrollLeft: ($($container).scrollLeft() - (offset + 61))}, 420);
+                }
+            });
+
+            $(document).on("click", ".shop_control.right", function() {
+                if($($container).scrollLeft() != blockWidth) {
+                    $($container).animate({scrollLeft: ($($container).scrollLeft() + (offset + 61))}, 420);
+                }
+            });
+        });
+    </script>
+
 </head>
 
 <body>
@@ -37,7 +65,7 @@
                     <div id="top-block-info1">
                         ул. Московская, 96
                         <div>
-                            264-124, +7(965)881-98-78
+                            264-124, +7(965)882-98-78
                         </div>
                     </div>
                 </div>
@@ -112,7 +140,8 @@
 
     <?php
         //Если страничка контактов то не будем показывать контролы карусели
-        $displayMode = Core_Page::instance()->structure->path === "contacts" ? "hide" : "show";
+        $structure_path = Core_Page::instance()->structure->path;
+        $displayMode = $structure_path === "contacts" || $structure_path === "news" ? "hide" : "show";
     ?>
     <!-- Controls -->
     <a class="left carousel-control left_scroll_control <?=$displayMode?>" href="#myCarousel" role="button" data-slide="prev">
@@ -126,6 +155,13 @@
 
 <div id="secondary-content-container">
     <div id="content-holder">
+        <!-- Controls -->
+        <a class="left shop_control" role="button">
+
+        </a>
+        <a class="right shop_control" role="button">
+
+        </a>
         <?php
 	        Core_Page::instance()->execute();
         ?>
@@ -143,7 +179,7 @@
                     <br />
                     <address>
                         ул.Московская, 96<br>
-                        <abbr title="Phone">т.:</abbr> 264-124, +7(965)881-98-78
+                        <abbr title="Phone">т.:</abbr> 264-124, +7(965)882-98-78
                     </address>
                     <span class="delivery-info-footer">
                         ДОСТАВКА СУШИ - <span>он-лайн сервис заказа суши<br />
@@ -210,7 +246,7 @@
         })
     }(window.jQuery)
 
-    $(document).on("click", "#sign-in-holder a, #shop-link-holder a, #delivery-link-holder a, .mainpage-cart-title a, .button2", valera);
+    $(document).on("click", "#sign-in-holder a, #shop-link-holder a, #delivery-link-holder a, .mainpage-cart-title a, .shop-item-name, .image_cell a, .button2", valera);
     function valera() {
         alert('Приносим свои извинения, данная функция временно не работает.');
         return false;
