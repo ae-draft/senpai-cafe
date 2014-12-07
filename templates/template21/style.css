@@ -200,8 +200,6 @@ address {
 /*shop*/
 .shop_list {
     padding: 0 60px;
-    width: inherit;
-    overflow: hidden;
 }
 
 .on_main_menu_elem {
@@ -438,7 +436,7 @@ div#scroll_menu_title {
     overflow: hidden;
 }
 
-.shop_control {
+.shop_control, .gal_control {
     position: absolute;
     z-index: 20;
     top: 50%;
@@ -448,144 +446,91 @@ div#scroll_menu_title {
     cursor: pointer;
 }
 
-.shop_control.left {
+.gal_control {
+    top: 44%;
+}
+
+.shop_control.left, .gal_control.left {
     left: -20px;
     background: url("/assets/img/template/pointer1-left.png") no-repeat top left;
 }
 
-.shop_control.right {
+.shop_control.right, .gal_control.right {
     right: -20px;
     background: url("/assets/img/template/pointer1-right.png") no-repeat top right;
 }
 
-.shop_control.left:hover {
+.shop_control.left:hover, .gal_control.left:hover {
     left: -20px;
     background: url("/assets/img/template/pointer2-left.png") no-repeat top left;
 }
 
-.shop_control.right:hover {
+.shop_control.right:hover, .gal_control.right:hover {
     right: -20px;
     background: url("/assets/img/template/pointer2-right.png") no-repeat top right;
 }
 
-.composition-row {
-    cursor: pointer;
+.tags {
+    display: none;
 }
 
-.shop-item-name-holder {
-    height: 30px;
-    overflow:hidden;
-}
-
-.shop-cart-container .row div[class^="col-md"] {
-    padding: 10px!important;
-}
-
-.shop-cart-itemname {
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.shop-cart-itemname:hover {
-    text-decoration: none;
-}
-
-.shop-cart-itemcount {
-    color: #000000;
-}
-
-.shop-cart-itemdelete {
-    margin: -10px 0 0 0!important;
-}
-
-.shop-cart-container {
-    margin-bottom: 20px;
-}
-
-.shop-cart-footer {
-    margin-top: 15px;
-}
-
-.shop-cart-recalculate {
-    margin: 0 10px;
-}
-
-.shop_navigation {
-    margin: 0 0 10px 0;
-    padding-left: 0;
-}
-
-.shop_navigation li {
-    display: inline-block;
-}
-
-.shop_navigation_current {
-    color: rgb(180, 156, 10);
-    font-size: 18px;
-}
-
-.delivery-address {
-    padding-left: 15px;
-}
-
-.delivery-address .row {
+.col-md-12.infosystem-item-title {
+    background-color: rgb(157, 0, 10);
+    color: white;
     margin-bottom: 10px;
+    padding-right: 30px;
 }
 
-.delivery-address .row .caption {
-    margin-bottom: 5px;
+.col-md-12.infosystem-item-title h3 {
+    margin: 15px 0;
+    font-weight: normal;
 }
 
-.delivery-address input, .delivery-address button, .delivery-address select, .delivery-address textarea {
-    width: 367px;
-    color: #000000!important;
+.one-infosystem-item {
+    width: 1100px!important;
 }
 
-input[name="name"], input[name="surname"], input[name="patronymic"] {
-    width: 120px;
+#gallery, #gallery a, #gallery a img {
+    width: 100%;
 }
 
-.shop-cart-priceform {
-    width: 50%;
-    margin-bottom: 20px;
+.infosystem-item-img {
 }
 
-.shop-cart-priceform .total th {
-    padding-bottom: 5px!important;
+#gallery .col-md-4 {
+    padding: 0;
 }
 
-input[name="shop_payment_system_id"], input[name="shop_delivery_condition_id"] {
-    width: auto;
-    margin-right: 10px!important;
+#gallery .col-md-4 a:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    position: relative;
+    z-index: 5;
 }
 
-.shop-cart-success-delivery {
-    margin-bottom: 20px;
+#gallery .col-md-4 a {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(157, 0, 10);
+    border-color: rgb(157, 0, 10);
+    padding: 0;
 }
 
-.shop-cart-success-delivery .row {
-    margin-bottom: 10px;
+#gallery .row {
+    width: inherit;
+    margin-left: 0;
 }
 
-.shop-cart-success-delivery .row div[class^=col-md]:first-child {
-    color: rgb(180, 156, 10);
+.gal_paginator {
+
 }
 
-.shop-cart-success .row:first-child div {
-    color: rgb(180, 156, 10);
-}
-
-.shop-cart-success .row:last-child div:first-child {
-    color: rgb(180, 156, 10);
-}
-
-.shop-cart-success .row {
-    margin-bottom: 10px;
-}
-
-.shop-cart-success-delivery, .shop-cart-success {
-    padding: 10px;
-    background: url("/assets/img/template/back-akcii.png") repeat top left;
-    width: 99%!important;
-    background-color: initial!important;
+#lightbox-container-image-data-box {
+     -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+     box-sizing: content-box;
 }

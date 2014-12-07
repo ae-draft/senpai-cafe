@@ -16,9 +16,9 @@
 	<xsl:template match="/shop">
 		<div id="scroll_menu_title">МЕНЮ</div>
 		<div class="shop_list">
-			<div class="scroll-menu scroller-left-disabled"></div>
-			<xsl:apply-templates select="shop_group"/>
-			<div class="scroll-menu scroller-right-disabled"></div>
+            <div class="shop_list-container">
+                <xsl:apply-templates select="shop_group"/>
+            </div>
 		</div>
 	</xsl:template>
 	

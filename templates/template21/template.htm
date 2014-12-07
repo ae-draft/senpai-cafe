@@ -15,11 +15,51 @@
 <!-- Bootstrap -->
 
 <script type="text/javascript" src="/common/jquery/jquery.js"></script>
-
+    <!-- LightBox -->
+    <script type="text/javascript" src="/hostcmsfiles/jquery/lightbox/js/jquery.lightbox.js"></script>
+    <link rel="stylesheet" type="text/css" href="/hostcmsfiles/jquery/lightbox/css/jquery.lightbox.css" media="screen" />
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="/common/utils/html5shiv.js"></script>
+
+
 <![endif]-->
+
+    <script>
+        $(document).ready(function() {
+            var offset = 353;
+            var blockWidth = ($(".news-item").length * offset) + 61;
+            var $container = $(".news-items-holder");
+            console.log(blockWidth);
+
+            if(blockWidth < 1100)
+            {
+                blockWidth = 1100;
+            }
+
+            if(blockWidth == 1100) {
+                $(".shop_control.left, .shop_control.right").hide();
+            }
+
+            $("#infosystem-items-holder").css('width', blockWidth);
+
+            $(document).on("click", ".shop_control.left", function() {
+                if($($container).scrollLeft() != 0) {
+                    $($container).animate({scrollLeft: ($($container).scrollLeft() - (offset + 61))}, 420);
+                }
+            });
+
+            $(document).on("click", ".shop_control.right", function() {
+                if($($container).scrollLeft() != blockWidth) {
+                    $($container).animate({scrollLeft: ($($container).scrollLeft() + (offset + 61))}, 420);
+                }
+            });
+
+            $('#gallery a[target="_blank"]:has(img)').lightBox();
+
+        });
+    </script>
+
 </head>
 
 <body>
@@ -109,16 +149,11 @@
         </div>
     </div>
 
-    <?php
-        //Если страничка контактов то не будем показывать контролы карусели
-        $structure_path = Core_Page::instance()->structure->path;
-        $displayMode = $structure_path === "contacts" || $structure_path === "news" || $structure_path === "cart" ? "hide" : "show";
-    ?>
     <!-- Controls -->
-    <a class="left carousel-control left_scroll_control <?=$displayMode?>" href="#myCarousel" role="button" data-slide="prev">
+    <a class="left carousel-control left_scroll_control hide" href="#myCarousel" role="button" data-slide="prev">
         <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control right_scroll_control <?=$displayMode?>" href="#myCarousel" role="button" data-slide="next">
+    <a class="right carousel-control right_scroll_control hide" href="#myCarousel" role="button" data-slide="next">
         <span class="sr-only">Next</span>
     </a>
 </div>
@@ -126,6 +161,13 @@
 
 <div id="secondary-content-container">
     <div id="content-holder">
+        <!-- Controls -->
+        <a class="left shop_control" role="button">
+
+        </a>
+        <a class="right shop_control" role="button">
+
+        </a>
         <?php
 	        Core_Page::instance()->execute();
         ?>
@@ -210,11 +252,6 @@
         })
     }(window.jQuery)
 
-    $(document).on("click", "#sign-in-holder a, #shop-link-holder a, #delivery-link-holder a, .mainpage-cart-title a, .shop-item-name, .image_cell a, .button2", valera);
-    function valera() {
-        alert('Приносим свои извинения, данная функция временно не работает.');
-        return false;
-    };
 </script>
 <script src="/common/utils/holder.js"></script>
 </body>

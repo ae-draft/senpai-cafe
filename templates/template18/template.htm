@@ -141,25 +141,29 @@
     <div id="main-restaurant-menu">
         <div id="custom-border-top"></div>
         <div id="restaurant-menu-holder">
-            <!--ГРУППЫ БЛЮД МАГАЗИНА-->
-            <?php
-            // Разделы магазина
-            if (Core::moduleIsActive('shop'))
-            {
-            $Shop_Controller_Show = new Shop_Controller_Show(
-            Core_Entity::factory('Shop', 4)
-            );
-            $Shop_Controller_Show
-            ->xsl(
-            Core_Entity::factory('Xsl')->getByName('МагазинГруппыТоваровНаГлавной_cenpai_mode')
-            )
-            ->groupsMode('tree')
-            //->itemsForbiddenTags(array('text'))
-            ->group(0)
-            ->limit(0)
-            ->show();
-            }
-            ?>
+            <div class="scroll-menu left scroller-left-disabled"></div>
+            <div class="restaurant-menu-container">
+                <!--ГРУППЫ БЛЮД МАГАЗИНА-->
+                <?php
+                // Разделы магазина
+                if (Core::moduleIsActive('shop'))
+                {
+                $Shop_Controller_Show = new Shop_Controller_Show(
+                Core_Entity::factory('Shop', 4)
+                );
+                $Shop_Controller_Show
+                ->xsl(
+                Core_Entity::factory('Xsl')->getByName('МагазинГруппыТоваровНаГлавной_cenpai_mode')
+                )
+                ->groupsMode('tree')
+                //->itemsForbiddenTags(array('text'))
+                ->group(0)
+                ->limit(0)
+                ->show();
+                }
+                ?>
+            </div>
+            <div class="scroll-menu right scroller-right-disabled"></div>
         </div>
     </div>
     <!-- FOOTER -->
@@ -246,6 +250,37 @@
         return false;
     };
 </script>
+<script>
+    $(document).ready(function() {
+        var offset = 110;
+        var blockWidth = ($(".on_main_menu_elem").length * offset) - 15;
+        var $container = $(".shop_list");
+
+        if(blockWidth < 865)
+        {
+            blockWidth = 865;
+        }
+
+        $(".shop_list-container").css('width', blockWidth);
+
+        $(document).on("click", ".scroll-menu.left", function() {
+            if($($container).scrollLeft() != 0) {
+                console.log($($container).scrollLeft());
+                $($container).animate({scrollLeft: ($($container).scrollLeft() - (offset))}, 420);
+                console.log($($container).scrollLeft());
+            }
+        });
+
+        $(document).on("click", ".scroll-menu.right", function() {
+            if($($container).scrollLeft() != blockWidth) {
+                console.log($($container).scrollLeft());
+                $($container).animate({scrollLeft: ($($container).scrollLeft() + (offset))}, 420);
+                console.log($($container).scrollLeft());
+            }
+        });
+    });
+</script>
+
 <script src="/common/utils/holder.js"></script>
 </body>
 </html>

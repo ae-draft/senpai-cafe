@@ -20,7 +20,7 @@
 				</xsl:when>
 				<xsl:otherwise>
 					<xsl:variable name="totalQuantity" select="sum(shop_cart[postpone = 0]/quantity)" />
-					<div class="h1 cartTitle">
+					<div class="cartTitle" data-toggle="tooltip" data-placement="bottom" data-original-title="{$totalQuantity} товар(ов) на сумму {format-number(total_amount, '### ##0,00', 'my')} руб.">
 						<a href="{/shop/url}cart/">
 							Корзина (
 							<b><xsl:value-of select="$totalQuantity"/></b>

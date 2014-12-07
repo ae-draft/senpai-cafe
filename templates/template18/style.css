@@ -123,7 +123,7 @@ body {
 }
 
 #shop-cart-holder {
-    background: url("/assets/img/template/ico-corzin.png") no-repeat left center;
+    background: url("/assets/img/template/ico-corzin.png") no-repeat top left;
     padding-left: 32px;
     width: 170px;
     float: right;
@@ -199,7 +199,9 @@ address {
 
 /*shop*/
 .shop_list {
-    padding: 0 60px;
+    padding: 0;
+    width: inherit;
+    overflow: hidden;
 }
 
 .on_main_menu_elem {
@@ -225,6 +227,16 @@ address {
     color: rgb(4, 4, 4);
 }
 
+.on_main_menu_elem div.image {
+    height: 90px;
+    background: #000000;
+}
+
+.on_main_menu_elem div.image img {
+    height: 90px;
+    width: 100px;
+}
+
 .on_main_menu_elem div.image hr {
     display: none;
     margin: -3px 0 0 0;
@@ -247,7 +259,7 @@ address {
 }
 
 div#scroll_menu_title {
-    margin: 5px 0 0 120px;
+    margin: 5px 0 0 20px;
 }
 
 .scroller-left-disabled {
@@ -292,4 +304,14 @@ div#scroll_menu_title {
 
 .hide {
     display: none;
+}
+
+.restaurant-menu-container {
+    display: inline-block;
+    width: 865px;
+    margin: 0 65px;
+}
+
+a[href^="http://www.hostcms"] {
+    color: rgb(57, 57, 57);
 }

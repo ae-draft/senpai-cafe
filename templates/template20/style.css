@@ -123,11 +123,13 @@ body {
 }
 
 #shop-cart-holder {
-    background: url("/assets/img/template/ico-corzin.png") no-repeat left center;
+    background: url("/assets/img/template/ico-corzin.png") no-repeat top left;
     padding-left: 32px;
     width: 170px;
     float: right;
     margin-top: 35px;
+    height: 60px;
+    overflow: hidden;
 }
 
 #shop-cart-holder a {
@@ -512,4 +514,8 @@ div#scroll_menu_title {
 .shop-item-name-holder {
 	height: 30px;
   	overflow:hidden;
+}
+
+.shop-cart-container .row div[class^="col-md"] {
+    padding: 10px!important;
 }
