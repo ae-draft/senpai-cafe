@@ -16,12 +16,12 @@
 		
 		<!-- Получаем ID родительской группы и записываем в переменную $group -->
 		<!-- <xsl:variable name="group" select="informationsystem_group_id"/> -->
-
+		
 		<h1><xsl:value-of disable-output-escaping="yes" select="name"/></h1>
-
+		
 		<!-- Путь к группе -->
 		<!-- <xsl:apply-templates select="//informationsystem_group[@id=$group]" mode="breadCrumbs"/> -->
-
+		
 		<!-- Выводим сообщение -->
 		<xsl:if test="/informationsystem/message/node()">
 			<xsl:value-of disable-output-escaping="yes" select="/informationsystem/message"/>
@@ -36,7 +36,7 @@
 		
 		<!-- Текст информационного элемента -->
 		<xsl:value-of disable-output-escaping="yes" select="text"/>
-
+		
 		<!-- Дата информационного элемента -->
 		<p class="tags">
 			<!-- Средняя оценка элемента -->
@@ -45,43 +45,43 @@
 						<xsl:with-param name="grade" select="comments_average_grade"/>
 					<xsl:with-param name="const_grade" select="5"/></xsl:call-template></span>
 			</xsl:if>
-
+			
 			<!-- Тэги для информационного элемента -->
 			<xsl:if test="count(tag) &gt; 0">
 				<img src="/images/tag.png" /><span><xsl:apply-templates select="tag"/></span>
 			</xsl:if>
-
+			
 			<xsl:if test="count(siteuser) &gt; 0">
-				<img src="/images/user.png" /><span><a href="/users/info/{siteuser/login}/"><xsl:value-of select="siteuser/login"/></a></span>
+			<img src="/images/user.png" /><span><a href="/users/info/{siteuser/login}/"><xsl:value-of select="siteuser/login"/></a></span>
 			</xsl:if>
-
+			
 			<img src="/images/calendar.png" /> <xsl:value-of select="date"/>, <xsl:value-of select="showed"/>
 			<xsl:text> </xsl:text>
 			<xsl:call-template name="declension">
 				<xsl:with-param name="number" select="showed"/>
-			</xsl:call-template><xsl:text>. </xsl:text>
+		</xsl:call-template><xsl:text>. </xsl:text>
 		</p>
 		
 		<!-- Если указано отображать комментарии -->
 		<xsl:if test="/informationsystem/show_comments/node() and /informationsystem/show_comments = 1">
-
+			
 			<!-- Отображение комментариев  -->
 			<xsl:if test="count(comment) &gt; 0">
-				<p class="h1"><a name="comments"></a>Комментарии</p>
+			<p class="h1"><a name="comments"></a>Комментарии</p>
 				<xsl:apply-templates select="comment"/>
 			</xsl:if>
 		</xsl:if>
-
+		
 		<!-- Если разрешено отображать формы добавления комментария
 		1 - Только авторизированным
 		2 - Всем
 		-->
 		<xsl:if test="/informationsystem/show_add_comments/node() and ((/informationsystem/show_add_comments = 1 and /informationsystem/siteuser_id &gt; 0)  or /informationsystem/show_add_comments = 2)">
-
+			
 			<p class="button" onclick="$('.comment_reply').hide('slow');$('#AddComment').toggle('slow')">
 				Добавить комментарий
 			</p>
-
+			
 			<div id="AddComment" class="comment_reply">
 				<xsl:call-template name="AddCommentForm"></xsl:call-template>
 			</div>
@@ -123,38 +123,38 @@
 	<xsl:template name="show_average_grade">
 		<xsl:param name="grade" select="0"/>
 		<xsl:param name="const_grade" select="0"/>
-
+		
 		<!-- Чтобы избежать зацикливания -->
 		<xsl:variable name="current_grade" select="$grade * 1"/>
-
+		
 		<xsl:choose>
 			<!-- Если число целое -->
 			<xsl:when test="floor($current_grade) = $current_grade and not($const_grade &gt; ceiling($current_grade))">
-
+				
 				<xsl:if test="$current_grade - 1 &gt; 0">
 					<xsl:call-template name="show_average_grade">
 						<xsl:with-param name="grade" select="$current_grade - 1"/>
 						<xsl:with-param name="const_grade" select="$const_grade - 1"/>
 					</xsl:call-template>
 				</xsl:if>
-
+				
 				<xsl:if test="$current_grade != 0">
 					<img src="/images/star-full.png"/>
 				</xsl:if>
 			</xsl:when>
 			<xsl:when test="$current_grade != 0 and not($const_grade &gt; ceiling($current_grade))">
-
+				
 				<xsl:if test="$current_grade - 0.5 &gt; 0">
 					<xsl:call-template name="show_average_grade">
-
+						
 						<xsl:with-param name="grade" select="$current_grade - 0.5"/>
 						<xsl:with-param name="const_grade" select="$const_grade - 1"/>
 					</xsl:call-template>
 				</xsl:if>
-
+				
 				<img src="/images/star-half.png"/>
 			</xsl:when>
-
+			
 			<!-- Выводим серые звездочки, пока текущая позиция не дойдет то значения, увеличенного до целого -->
 			<xsl:otherwise>
 				<xsl:call-template name="show_average_grade">
@@ -178,7 +178,7 @@
 			</a>
 		</xsl:if>
 		
-		<span><xsl:text> → </xsl:text></span>
+	<span><xsl:text> → </xsl:text></span>
 		
 		<a href="{url}">
 			<xsl:value-of select="name"/>
@@ -187,7 +187,7 @@
 	
 	<!-- Отображение комментариев -->
 	<xsl:template match="comment">
-
+		
 		<!-- Отображаем комментарий, если задан текст или тема комментария -->
 		<xsl:if test="text != '' or subject != ''">
 			<a name="comment{@id}"></a>
@@ -195,41 +195,41 @@
 				<xsl:if test="subject != ''">
 					<div class="subject"><xsl:value-of select="subject"/></div>
 				</xsl:if>
-
+				
 				<xsl:value-of select="text" disable-output-escaping="yes"/>
-
+				
 				<p class="tags">
 					<!-- Оценка комментария -->
 					<xsl:if test="grade != 0">
 						<span><xsl:call-template name="show_average_grade">
-							<xsl:with-param name="grade" select="grade"/>
-							<xsl:with-param name="const_grade" select="5"/>
+								<xsl:with-param name="grade" select="grade"/>
+								<xsl:with-param name="const_grade" select="5"/>
 						</xsl:call-template></span>
 					</xsl:if>
-
+					
 					<img src="/images/user.png" />
 					<xsl:choose>
-					<!-- Комментарий добавил авторизированный пользователь -->
-					<xsl:when test="count(siteuser) &gt; 0">
+						<!-- Комментарий добавил авторизированный пользователь -->
+						<xsl:when test="count(siteuser) &gt; 0">
 						<span><a href="/users/info/{siteuser/login}/"><xsl:value-of select="siteuser/login"/></a></span>
-					</xsl:when>
-					<!-- Комментарй добавил неавторизированный пользователь -->
-					<xsl:otherwise>
-						<span><xsl:value-of select="author" /></span>
-					</xsl:otherwise>
+						</xsl:when>
+						<!-- Комментарй добавил неавторизированный пользователь -->
+						<xsl:otherwise>
+							<span><xsl:value-of select="author" /></span>
+						</xsl:otherwise>
 					</xsl:choose>
-
+					
 					<img src="/images/calendar.png" /> <span><xsl:value-of select="datetime"/></span>
-
+					
 					<xsl:if test="/informationsystem/show_add_comments/node()
 						and ((/informationsystem/show_add_comments = 1 and /informationsystem/siteuser_id > 0)
 						or /informationsystem/show_add_comments = 2)">
 					<span class="red" onclick="$('.comment_reply').hide('slow');$('#cr_{@id}').toggle('slow')">ответить</span></xsl:if>
-
-					<span class="red"><a href="{/informationsystem/informationsystem_item/url}#comment{@id}" title="Ссылка на комментарий">#</a></span>
+					
+				<span class="red"><a href="{/informationsystem/informationsystem_item/url}#comment{@id}" title="Ссылка на комментарий">#</a></span>
 				</p>
 			</div>
-
+			
 			<!-- Отображаем только авторизированным пользователям -->
 			<xsl:if test="/informationsystem/show_add_comments/node() and ((/informationsystem/show_add_comments = 1 and /informationsystem/siteuser_id > 0) or /informationsystem/show_add_comments = 2)">
 				<div class="comment_reply" id="cr_{@id}">
@@ -238,7 +238,7 @@
 					</xsl:call-template>
 				</div>
 			</xsl:if>
-
+			
 			<!-- Выбираем дочерние комментарии -->
 			<xsl:if test="count(comment) &gt; 0">
 				<div class="comment_sub">
@@ -251,7 +251,7 @@
 	<!-- Шаблон вывода добавления комментария -->
 	<xsl:template name="AddCommentForm">
 		<xsl:param name="id" select="0"/>
-
+		
 		<!-- Заполняем форму -->
 		<xsl:variable name="subject">
 			<xsl:if test="/informationsystem/comment/parent_id/node() and /informationsystem/comment/parent_id/node() and /informationsystem/comment/parent_id= $id">
@@ -278,20 +278,20 @@
 				<xsl:value-of select="/informationsystem/comment/author"/>
 			</xsl:if>
 		</xsl:variable>
-
+		
 		<div class="comment">
 			<!--Отображение формы добавления комментария-->
 			<form action="{/informationsystem/informationsystem_item/url}" name="comment_form_0{$id}" method="post">
 				<!-- Авторизированным не показываем -->
 				<xsl:if test="/informationsystem/siteuser_id = 0">
-
+					
 					<div class="row">
 						<div class="caption">Имя</div>
 						<div class="field">
 							<input type="text" size="70" name="author" value="{$name}"/>
 						</div>
 					</div>
-
+					
 					<div class="row">
 						<div class="caption">E-mail</div>
 						<div class="field">
@@ -299,7 +299,7 @@
 							<div id="error_email{$id}"></div>
 						</div>
 					</div>
-
+					
 					<div class="row">
 						<div class="caption">Телефон</div>
 						<div class="field">
@@ -307,14 +307,14 @@
 						</div>
 					</div>
 				</xsl:if>
-
+				
 				<div class="row">
 					<div class="caption">Тема</div>
 					<div class="field">
 						<input type="text" size="70" name="subject" value="{$subject}"/>
 					</div>
 				</div>
-
+				
 				<div class="row">
 					<div class="caption">Комментарий</div>
 					<div class="field">
@@ -334,7 +334,7 @@
 						</select>
 					</div>
 				</div>
-
+				
 				<!-- Обработка CAPTCHA -->
 				<xsl:if test="//captcha_id != 0 and /informationsystem/siteuser_id = 0">
 					<div class="row">
@@ -347,10 +347,10 @@
 							</div>
 						</div>
 					</div>
-
+					
 					<div class="row">
 						<div class="caption">
-							Контрольное число<sup><font color="red">*</font></sup>
+					Контрольное число<sup><font color="red">*</font></sup>
 						</div>
 						<div class="field">
 							<input type="hidden" name="captcha_id" value="{//captcha_id}{$id}"/>
@@ -358,11 +358,11 @@
 						</div>
 					</div>
 				</xsl:if>
-
+				
 				<xsl:if test="$id != 0">
 					<input type="hidden" name="parent_id" value="{$id}"/>
 				</xsl:if>
-
+				
 				<div class="row">
 					<div class="caption"></div>
 					<div class="field">

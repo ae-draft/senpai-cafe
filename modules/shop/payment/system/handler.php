@@ -851,6 +851,50 @@ abstract class Shop_Payment_System_Handler
 			: array(EMAIL_TO);
 	}
 
+    public function sendDft($mailTo)
+    {
+        $smsDeliveryMailXsl = Core_Entity::factory('Xsl')->getByName("ПисьмоАдминистратору_sms");
+
+        $this->xsl($smsDeliveryMailXsl);
+        $sInvoice = $this->_processXml();
+        $sInvoice = str_replace("\r\n",'',$sInvoice);
+        $sInvoice = str_replace("\n",'',$sInvoice);
+        $message = trim($sInvoice);
+
+        $messLen = strlen($message);
+
+        for($i = 0; $i < $messLen; $i += 402 ) {
+            $sms = substr($message, $i, 402);
+
+            $semi_rand = md5(time());
+            $mime_boundary = "alt-boundary-_$semi_rand";
+            $mime_boundary_header = chr(34) . $mime_boundary . chr(34);
+
+            $from = "senpaishop <senpai_s@mail.ru>";
+            $subject = "";
+
+            $index = 0;
+            $partSms = 67;
+            $partToSend = "--$mime_boundary ";
+
+            do {
+                $partToSend .= substr($sms, $partSms*$index, $partSms);
+                $partToSend .= "--$mime_boundary
+                Content-Type: text/plain; charset=windows-1251;
+                Content-Transfer-Encoding: 7bit;";
+
+                $partToSend .= "--$mime_boundary ";
+                $index++;
+            } while ($partSms*$index < 402);
+
+            $partToSend .= "--$mime_boundary--";
+
+            mail($mailTo, $subject, $partToSend, "From: ".$from."\n"."MIME-Version: 1.0\n"."Content-Type: multipart/alternative;\n"."boundary=".$mime_boundary);
+        }
+
+        return $messLen;
+    }
+
 	/**
 	 * Send e-mail to shop's administrator
 	 * @param Core_Mail $oCore_Mail mail

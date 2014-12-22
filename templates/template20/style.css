@@ -332,7 +332,7 @@ div#scroll_menu_title {
 }
 
 #shop-content-holder .group_list li {
-    margin-left: 30px;
+    margin-left: 0;
     padding: 10px 20px;
     border-radius: 20px;
 }
@@ -457,7 +457,8 @@ div#scroll_menu_title {
 
 .shop_item .last-row {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 15px;
+  	font-weight: bold;
 }
 
 .group_list {

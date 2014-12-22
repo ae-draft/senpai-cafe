@@ -46,7 +46,6 @@
 						<select name="shop_country_location_city_id" id="shop_country_location_city_id" onchange="$.loadCityAreas('{/shop/url}cart/', $(this).val())">
 							<option value="0">…</option>
 							<option value="1789">Саратов</option>
-							<option value="1794">Энгельс</option>
 							<xsl:apply-templates select="shop_country_location_city" />
 						</select>
 					</div>

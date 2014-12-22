@@ -57,9 +57,9 @@
 			<!-- Число элементов в строку -->
 			<!-- jQuery lightbox -->
 			<div id="gallery">
-                <div class="row">
-                    <xsl:apply-templates select="informationsystem_item" />
-                </div>
+				<div class="row">
+					<xsl:apply-templates select="informationsystem_item" />
+				</div>
 			</div>
 		</xsl:if>
 		
@@ -180,19 +180,19 @@
 	</xsl:template>
 	
 	<xsl:template match="informationsystem_item">
-        <div class="col-xs-6 col-md-4">
-            <xsl:choose>
-                <xsl:when test="image_large != ''">
-                    <a href="{dir}{image_large}" class="thumbnail" title="{name}" target="_blank"><img src="{dir}{image_small}" alt="{name}" /></a>
-                </xsl:when>
-                <xsl:when test="image_small != ''">
-                    <img src="{dir}{image_small}" class="thumbnail" alt="{name}" />
-                </xsl:when>
-                <xsl:otherwise>
-                    <img src="/images/no-image.png" class="thumbnail" alt="{name}" />
-                </xsl:otherwise>
-            </xsl:choose>
-        </div>
+		<div class="col-xs-6 col-md-4">
+			<xsl:choose>
+				<xsl:when test="image_large != ''">
+					<a href="{dir}{image_large}" class="thumbnail" title="{name}" target="_blank"><img src="{dir}{image_small}" alt="{name}" /></a>
+				</xsl:when>
+				<xsl:when test="image_small != ''">
+					<img src="{dir}{image_small}" class="thumbnail" alt="{name}" />
+				</xsl:when>
+				<xsl:otherwise>
+					<img src="/images/no-image.png" class="thumbnail" alt="{name}" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</div>
 	</xsl:template>
 	
 	<!-- /// Метки для информационного элемента /// -->
@@ -269,7 +269,7 @@
 				</xsl:choose>
 			</xsl:variable>
 			
-			 <!--Выводим ссылку на первую страницу-->
+			<!--Выводим ссылку на первую страницу-->
 			<!--<xsl:if test="$page - $pre_count_page &gt; 0 and $i = $start_page">
 				<a href="{$group_link}{$tag_path}" class="page_link" style="text-decoration: none;">←</a>
 			</xsl:if>-->
@@ -303,7 +303,7 @@
 				
 				<a href="{$group_link}{$prev_number_link}{$tag_path}" id="id_prev" class="left gal_control" role="button"></a>
 			</xsl:if>
-
+			
 			<!-- Ссылка на следующую страницу для Ctrl + вправо -->
 			<xsl:if test="($n - 1) > $page and $i = $page">
 				<a href="{$group_link}page-{$page+2}/{$tag_path}" id="id_next" class="right gal_control" role="button"></a>

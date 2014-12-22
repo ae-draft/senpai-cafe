@@ -315,3 +315,24 @@ div#scroll_menu_title {
 a[href^="http://www.hostcms"] {
     color: rgb(57, 57, 57);
 }
+
+/*banners*/
+
+.banner-on-main {
+    position: absolute;
+    z-index: 10;
+    top: 70%;
+  	left: 50%;
+    width: 331px;
+    height: 128px;
+}
+
+.left-banner {
+    background: url("/assets/img/template/bizneslanch-glavn.png") no-repeat top left;
+    margin-left: -840px;
+}
+
+.right-banner {
+    background: url("/assets/img/template/karaoke-glavn.png") no-repeat top left;
+    margin-left: 490px;
+}

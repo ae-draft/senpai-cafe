@@ -14,58 +14,58 @@
 	</xsl:template>
 	
 	<xsl:template match="/informationsystem/informationsystem_item">
-
-        <div class="container one-infosystem-item">
-            <div class="row">
-                <div class="col-md-12 infosystem-item-title">
-                    <!-- Получаем ID родительской группы и записываем в переменную $group -->
-                    <!-- <xsl:variable name="group" select="informationsystem_group_id"/> -->
-
-                    <h3 hostcms:id="{@id}" hostcms:field="name" hostcms:entity="informationsystem_item"><xsl:value-of disable-output-escaping="yes" select="name"/></h3>
-                    <!-- Путь к группе -->
-                    <!-- <xsl:apply-templates select="//informationsystem_group[@id=$group]" mode="breadCrumbs"/> -->
-
-                    <!-- Выводим сообщение -->
-                    <xsl:if test="/informationsystem/message/node()">
-                        <xsl:value-of disable-output-escaping="yes" select="/informationsystem/message"/>
-                    </xsl:if>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Фотогафия к информационному элементу -->
-                    <xsl:if test="image_small!=''">
-                        <!-- Проверяем задан ли путь к файлу большого изображения -->
-                        <xsl:choose>
-                            <xsl:when test="image_large!=''">
-                                <div id="gallery">
-                                    <a href="{dir}{image_large}" target="_blank">
-                                        <img src="{dir}{image_small}" class="infosystem-item-img"/>
-                                    </a>
-                                </div>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <img src="{dir}{image_small}" class="infosystem-item-img"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:if>
-                </div>
-                <div class="col-md-6">
-                    <!-- Текст информационного элемента -->
-                    <xsl:choose>
-                        <xsl:when test="parts_count > 1">
-                            <xsl:value-of disable-output-escaping="yes" select="text"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <div hostcms:id="{@id}" hostcms:field="text" hostcms:entity="informationsystem_item" hostcms:type="wysiwyg">
-                                <xsl:value-of disable-output-escaping="yes" select="text"/>
-                            </div>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </div>
-            </div>
-        </div>
-
+		
+		<div class="container one-infosystem-item">
+			<div class="row">
+				<div class="col-md-12 infosystem-item-title">
+					<!-- Получаем ID родительской группы и записываем в переменную $group -->
+					<!-- <xsl:variable name="group" select="informationsystem_group_id"/> -->
+					
+					<h3 hostcms:id="{@id}" hostcms:field="name" hostcms:entity="informationsystem_item"><xsl:value-of disable-output-escaping="yes" select="name"/></h3>
+					<!-- Путь к группе -->
+					<!-- <xsl:apply-templates select="//informationsystem_group[@id=$group]" mode="breadCrumbs"/> -->
+					
+					<!-- Выводим сообщение -->
+					<xsl:if test="/informationsystem/message/node()">
+						<xsl:value-of disable-output-escaping="yes" select="/informationsystem/message"/>
+					</xsl:if>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<!-- Фотогафия к информационному элементу -->
+					<xsl:if test="image_small!=''">
+						<!-- Проверяем задан ли путь к файлу большого изображения -->
+						<xsl:choose>
+							<xsl:when test="image_large!=''">
+								<div id="gallery">
+									<a href="{dir}{image_large}" target="_blank">
+										<img src="{dir}{image_small}" class="infosystem-item-img"/>
+									</a>
+								</div>
+							</xsl:when>
+							<xsl:otherwise>
+								<img src="{dir}{image_small}" class="infosystem-item-img"/>
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:if>
+				</div>
+				<div class="col-md-6">
+					<!-- Текст информационного элемента -->
+					<xsl:choose>
+						<xsl:when test="parts_count > 1">
+							<xsl:value-of disable-output-escaping="yes" select="text"/>
+						</xsl:when>
+						<xsl:otherwise>
+							<div hostcms:id="{@id}" hostcms:field="text" hostcms:entity="informationsystem_item" hostcms:type="wysiwyg">
+								<xsl:value-of disable-output-escaping="yes" select="text"/>
+							</div>
+						</xsl:otherwise>
+					</xsl:choose>
+				</div>
+			</div>
+		</div>
+		
 		<xsl:value-of disable-output-escaping="yes" select="prorerty_value[tag_name = 'date']/value"/>
 		<p class="tags">
 			<!-- Средняя оценка элемента -->
