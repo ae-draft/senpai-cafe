@@ -18,6 +18,8 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<form action="{/shop/url}cart/" method="post">
+                <div class="panel panel-default cart-panel" style="background: url('/assets/img/template/back-kontakt.png') repeat left top;">
+                    <div class="panel-body">
 					<!-- Если есть товары -->
 					<xsl:if test="count(shop_cart[postpone = 0]) > 0">
 						<div class="container shop-cart-container">
@@ -93,6 +95,8 @@
 							<input value="Оформить заказ" type="submit" class="btn btn-default shop-cart-apply"/>
 						</xsl:if>
 					</div>
+                </div>
+            </div>
 				</form>
 			</xsl:otherwise>
 		</xsl:choose>

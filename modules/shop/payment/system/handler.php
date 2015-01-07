@@ -860,39 +860,14 @@ abstract class Shop_Payment_System_Handler
         $sInvoice = str_replace("\r\n",'',$sInvoice);
         $sInvoice = str_replace("\n",'',$sInvoice);
         $message = trim($sInvoice);
-
         $messLen = strlen($message);
+        $smsArr = array();
+        $j = 0;
 
-        for($i = 0; $i < $messLen; $i += 402 ) {
-            $sms = substr($message, $i, 402);
+        $body=file_get_contents("http://sms.ru/sms/send?api_id=44424a79-ef90-93c4-e974-58dd5d39ae7a&to=79371480438&from=79371480438&text=".urlencode($message));
 
-            $semi_rand = md5(time());
-            $mime_boundary = "alt-boundary-_$semi_rand";
-            $mime_boundary_header = chr(34) . $mime_boundary . chr(34);
 
-            $from = "senpaishop <senpai_s@mail.ru>";
-            $subject = "";
-
-            $index = 0;
-            $partSms = 67;
-            $partToSend = "--$mime_boundary ";
-
-            do {
-                $partToSend .= substr($sms, $partSms*$index, $partSms);
-                $partToSend .= "--$mime_boundary
-                Content-Type: text/plain; charset=windows-1251;
-                Content-Transfer-Encoding: 7bit;";
-
-                $partToSend .= "--$mime_boundary ";
-                $index++;
-            } while ($partSms*$index < 402);
-
-            $partToSend .= "--$mime_boundary--";
-
-            mail($mailTo, $subject, $partToSend, "From: ".$from."\n"."MIME-Version: 1.0\n"."Content-Type: multipart/alternative;\n"."boundary=".$mime_boundary);
-        }
-
-        return $messLen;
+        return $body;
     }
 
 	/**

@@ -15,122 +15,144 @@
 		<li><span>Форма оплаты</span>→</li>
 		<li><span>Данные доставки</span></li>
 		</ul>
+
+        <div class="panel panel-default cart-panel" style="background: url('/assets/img/template/back-kontakt.png') repeat left top;">
+            <div class="panel-body">
+                <div class="pull-left">
+                    <form method="POST" class="delivery-address">
+                <div class="comment shop_address">
+                    <div class="row hide">
+                        <div class="caption">Страна:</div>
+                        <div class="field">
+                            <select id="shop_country_id" name="shop_country_id" onchange="$.loadLocations('{/shop/url}cart/', $(this).val())">
+                                <option value="175">Россия</option>
+                                <xsl:apply-templates select="shop_country" />
+                            </select>
+                            <span class="redSup"> *</span>
+                        </div>
+                    </div>
+
+                    <div class="row hide">
+                        <div class="caption">Область:</div>
+                        <div class="field">
+                            <select name="shop_country_location_id" id="shop_country_location_id" onchange="$.loadCities('{/shop/url}cart/', $(this).val())">
+                                <option value="52">…</option>
+                                <xsl:apply-templates select="shop_country_location" />
+                            </select>
+                            <span class="redSup"> *</span>
+                        </div>
+                    </div>
+                    <div class="row hide">
+                        <div class="caption">Город:</div>
+                        <div class="field">
+                            <select name="shop_country_location_city_id" id="shop_country_location_city_id" onchange="$.loadCityAreas('{/shop/url}cart/', $(this).val())">
+                                <option value="1789">Саратов</option>
+                                <xsl:apply-templates select="shop_country_location_city" />
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row hide">
+                        <div class="caption">Район города:</div>
+                        <div class="field">
+                            <select name="shop_country_location_city_area_id" id="shop_country_location_city_area_id">
+                                <option value="0">…</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row hide">
+                        <div class="caption">Индекс:</div>
+                        <div class="field">
+                            <input type="text" size="15" class="width1" name="postcode" value="{/shop/siteuser/postcode}" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="address">Улица, дом, квартира:</label>
+                            <input type="text" size="30" name="address" value="{/shop/siteuser/address}" class="width2 form-control" id="address" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4" style="padding-left: 0;">
+                            <label for="surname">Фамилия</label>
+                            <input type="text" size="15" class="width1 form-control" id="surname" name="surname" value="{/shop/siteuser/surname}" />
+                        </div>
+                        <div class="col-xs-4">
+                            <label for="name">Имя</label>
+                            <input type="text" size="15" class="width1 form-control" name="name" id="name" value="{/shop/siteuser/name}" />
+                        </div>
+                        <div class="col-xs-4">
+                            <label for="patronymic">Отчество</label>
+                            <input type="text" size="15" class="width1 form-control" name="patronymic" id="patronymic" value="{/shop/siteuser/patronymic}" />
+                        </div>
+                    </div>
+                    <div class="row hide">
+                        <div class="caption">Компания:</div>
+                        <div class="field">
+                            <input type="text" size="30" name="company" value="{/shop/siteuser/company}" class="width2 form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="phone">Телефон:</label>
+                            <input type="text" size="30" name="phone" value="{/shop/siteuser/phone}" class="width2 form-control" id="phone" />
+                        </div>
+                    </div>
+                    <div class="row hide">
+                        <div class="caption">Факс:</div>
+                        <div class="field">
+                            <input type="text" size="30" name="fax" value="{/shop/siteuser/fax}" class="width2 form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="text" size="30" name="email" value="{/shop/siteuser/email}" class="width2 form-control" id="email" />
+                        </div>
+                    </div>
+
+                    <!-- Дополнительные свойства заказа -->
+                    <xsl:if test="count(shop_order_properties//property[display != 0 and (type != 2 )])">
+                        <xsl:apply-templates select="shop_order_properties//property[display != 0 and (type != 2 )]" mode="propertyList"/>
+                    </xsl:if>
+
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="description">Комментарий:</label>
+                            <textarea rows="3" name="description" class="width2 form-control" id="description"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="caption"></div>
+                        <div class="field">
+                            <input name="step" value="2" type="hidden" />
+                            <input value="Далее →" type="submit" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+                </div>
+                <div class="pull-right">
+                    <div class="panel panel-default" style="margin-top:25px;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Обратите внимание!</h3>
+                        </div>
+                        <div class="panel-body" style="color:black;">
+                            <p>
+                                - Для оформления заказа необходимо указать номер контактного телефона.
+                            </p>
+                            <p>
+                                - Доставка бесплатна при сумме заказа от 500р.
+                            </p>
+                            <p>
+                                - Доставка осуществляется только по г.Саратов.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		
-		<form method="POST" class="delivery-address">
-			<div class="comment shop_address">
-				
-				<div class="row hide">
-					<div class="caption">Страна:</div>
-					<div class="field">
-						<select id="shop_country_id" name="shop_country_id" onchange="$.loadLocations('{/shop/url}cart/', $(this).val())">
-							<option value="175">Россия</option>
-							<xsl:apply-templates select="shop_country" />
-						</select>
-						<span class="redSup"> *</span>
-					</div>
-				</div>
-				
-				<div class="row hide">
-					<div class="caption">Область:</div>
-					<div class="field">
-						<select name="shop_country_location_id" id="shop_country_location_id" onchange="$.loadCities('{/shop/url}cart/', $(this).val())">
-							<option value="52">…</option>
-							<xsl:apply-templates select="shop_country_location" />
-						</select>
-						<span class="redSup"> *</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="caption">Город:</div>
-					<div class="field">
-						<select name="shop_country_location_city_id" id="shop_country_location_city_id" onchange="$.loadCityAreas('{/shop/url}cart/', $(this).val())">
-							<option value="0">…</option>
-							<option value="1789">Саратов</option>
-							<xsl:apply-templates select="shop_country_location_city" />
-						</select>
-					</div>
-				</div>
-				<div class="row hide">
-					<div class="caption">Район города:</div>
-					<div class="field">
-						<select name="shop_country_location_city_area_id" id="shop_country_location_city_area_id">
-							<option value="0">…</option>
-						</select>
-					</div>
-				</div>
-				<div class="row hide">
-					<div class="caption">Индекс:</div>
-					<div class="field">
-						<input type="text" size="15" class="width1" name="postcode" value="{/shop/siteuser/postcode}" />
-					</div>
-				</div>
-				<div class="row">
-					<div class="caption">Улица, дом, квартира:</div>
-					<div class="field">
-						<input type="text" size="30" name="address" value="{/shop/siteuser/address}" class="width2" />
-					</div>
-				</div>
-				<div class="row">
-					<div class="caption">Фамилия, Имя, Отчество:</div>
-					<div class="field">
-						<input type="text" size="15" class="width1" name="surname" value="{/shop/siteuser/surname}" />
-						<input type="text" size="15" class="width1" name="name" value="{/shop/siteuser/name}" />
-						<input type="text" size="15" class="width1" name="patronymic" value="{/shop/siteuser/patronymic}" />
-					</div>
-				</div>
-				<div class="row hide">
-					<div class="caption">Компания:</div>
-					<div class="field">
-						<input type="text" size="30" name="company" value="{/shop/siteuser/company}" class="width2" />
-					</div>
-				</div>
-				<div class="row">
-					<div class="caption">Телефон:</div>
-					<div class="field">
-						<input type="text" size="30" name="phone" value="{/shop/siteuser/phone}" class="width2" />
-					</div>
-				</div>
-				<div class="row hide">
-					<div class="caption">Факс:</div>
-					<div class="field">
-						<input type="text" size="30" name="fax" value="{/shop/siteuser/fax}" class="width2" />
-					</div>
-				</div>
-				<div class="row">
-					<div class="caption">E-mail:</div>
-					<div class="field">
-						<input type="text" size="30" name="email" value="{/shop/siteuser/email}" class="width2" />
-					</div>
-				</div>
-				
-				<!-- Дополнительные свойства заказа -->
-				<xsl:if test="count(shop_order_properties//property[display != 0 and (type != 2 )])">
-					<xsl:apply-templates select="shop_order_properties//property[display != 0 and (type != 2 )]" mode="propertyList"/>
-				</xsl:if>
-				
-				<div class="row">
-					<div class="caption">Комментарий:</div>
-					<div class="field">
-						<textarea rows="3" name="description" class="width2"></textarea>
-					</div>
-				</div>
-				<div class="row">
-					<div class="caption"></div>
-					<div class="field">
-						<input name="step" value="2" type="hidden" />
-						<input value="Далее →" type="submit" class="btn btn-default" />
-					</div>
-				</div>
-			</div>
-		</form>
-		
-		<xsl:if test="not(/shop/current_shop_country_location_id/node())">
-			<SCRIPT type="text/javascript">
-				$(function() {
-				$.loadLocations('<xsl:value-of select="/shop/url" />cart/', $('#shop_country_id').val());
-				});
-			</SCRIPT>
-		</xsl:if>
+
 	</xsl:template>
 	
 	<!-- Шаблон для фильтра дополнительных свойств заказа -->

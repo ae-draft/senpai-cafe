@@ -11,20 +11,20 @@
 	<!-- СмсАдминистратору -->
 	
 	<xsl:template match="/shop">
-        <xsl:apply-templates select="shop_order" />
-        <xsl:choose>
-            <xsl:when test="count(shop_order/shop_order_item)">
-                <xsl:apply-templates select="shop_order/shop_order_item" />Итого:<xsl:value-of select="format-number(shop_order/total_amount, '### ##0,00', 'my')" />р
-            </xsl:when>
-            <xsl:otherwise>
-            Заказанных товаров нет
-            </xsl:otherwise>
-        </xsl:choose>
+		<xsl:apply-templates select="shop_order" />
+		<xsl:choose>
+			<xsl:when test="count(shop_order/shop_order_item)">
+				<xsl:apply-templates select="shop_order/shop_order_item" />Итого:<xsl:value-of select="format-number(shop_order/total_amount, '### ##0,00', 'my')" />р
+			</xsl:when>
+			<xsl:otherwise>
+				Заказанных товаров нет
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 	
 	<!-- Шаблон вывода данных о заказе -->
 	<xsl:template match="shop_order">
-        <xsl:value-of select="surname"/>&#160;<xsl:value-of select="name"/>&#160;<xsl:value-of select="patronymic"/>,<xsl:value-of select="email" />,<xsl:if test="phone != ''"><xsl:value-of select="phone" />,</xsl:if><xsl:if test="postcode != ''"><xsl:value-of select="postcode" />,</xsl:if><xsl:if test="shop_country/shop_country_location/shop_country_location_city/name != ''"><xsl:value-of select="shop_country/shop_country_location/shop_country_location_city/name" />,</xsl:if><xsl:if test="shop_country/shop_country_location/shop_country_location_city/shop_country_location_city_area/name != ''"><xsl:value-of select="shop_country/shop_country_location/shop_country_location_city/shop_country_location_city_area/name" />,</xsl:if><xsl:if test="address != ''"><xsl:value-of select="address" />,</xsl:if><xsl:if test="description != ''"><xsl:value-of select="description" disable-output-escaping="yes" />,</xsl:if>
+<xsl:value-of select="surname"/>&#160;<xsl:value-of select="name"/>&#160;<xsl:value-of select="patronymic"/>,<xsl:value-of select="email" />,<xsl:if test="phone != ''"><xsl:value-of select="phone" />,</xsl:if><xsl:if test="postcode != ''"><xsl:value-of select="postcode" />,</xsl:if><xsl:if test="shop_country/shop_country_location/shop_country_location_city/name != ''"><xsl:value-of select="shop_country/shop_country_location/shop_country_location_city/name" />,</xsl:if><xsl:if test="shop_country/shop_country_location/shop_country_location_city/shop_country_location_city_area/name != ''"><xsl:value-of select="shop_country/shop_country_location/shop_country_location_city/shop_country_location_city_area/name" />,</xsl:if><xsl:if test="address != ''"><xsl:value-of select="address" />,</xsl:if><xsl:if test="description != ''"><xsl:value-of select="description" disable-output-escaping="yes" />,</xsl:if>
 	</xsl:template>
 	
 	<!-- Данные о товарах -->

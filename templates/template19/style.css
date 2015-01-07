@@ -537,12 +537,12 @@ div#scroll_menu_title {
 }
 
 .delivery-address input, .delivery-address button, .delivery-address select, .delivery-address textarea {
-    width: 367px;
+    width: 515px;
     color: #000000!important;
 }
 
 input[name="name"], input[name="surname"], input[name="patronymic"] {
-    width: 120px;
+    width: 100%;
 }
 
 .shop-cart-priceform {
@@ -588,4 +588,8 @@ input[name="shop_payment_system_id"], input[name="shop_delivery_condition_id"] {
     background: url("/assets/img/template/back-akcii.png") repeat top left;
     width: 99%!important;
     background-color: initial!important;
+}
+
+label[generated="true"] {
+    color: orangered;
 }

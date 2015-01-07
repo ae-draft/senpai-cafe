@@ -411,9 +411,10 @@ div#scroll_menu_title {
     margin-top: 10px;
     width: 100px;
     float: right;
+    cursor: pointer;
 }
 
-.shop_item .toCart a {
+.shop_item .toCart span {
     color: #ffffff;
 }
 
@@ -421,6 +422,10 @@ div#scroll_menu_title {
     position: absolute;
     width: 100%;
     z-index: 10;
+}
+
+.cart-panel .panel-body {
+    color: black;
 }
 
 .shop_item .image_row {

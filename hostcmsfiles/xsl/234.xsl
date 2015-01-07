@@ -280,11 +280,11 @@
 	type = 1 - электронный товар, при этом остаток на складе больше 0 или -1,
 	что означает неограниченное количество -->
 	<xsl:if test="type = 0 or (type = 1 and (digitals > 0 or digitals = -1))">
-		<div class="toCart">
+		<div class="toCart" onclick="return $.addIntoCart('{/shop/url}cart/', {@id}, 1)">
 			<!-- <div style="border: 1px solid #CCCCCC; border-radius: 4px 4px 4px 4px; width: 100px; padding: 3px 0 3px 0; margin-left: 80px">-->
-				<a href="{/shop/url}cart/?add={@id}" onclick="return $.addIntoCart('{/shop/url}cart/', {@id}, 1)" class="button2 white medium">
+				<span class="button2 white medium">
 					В корзину
-				</a>
+				</span>
 				<!-- </div> -->
 		</div>
 	</xsl:if>
@@ -294,7 +294,7 @@
 
 <div class="image_row">
 <div class="image_cell">
-<a href="{url}">
+<!--a href="{url}"-->
 	<xsl:choose>
 		<xsl:when test="image_small != ''">
 			<img src="{dir}{image_small}" alt="{name}" title="{name}"/>
@@ -303,7 +303,7 @@
 			<img src="/images/no-image.png" alt="{name}" title="{name}"/>
 		</xsl:otherwise>
 	</xsl:choose>
-</a>
+<!--/a-->
 </div>
 </div>
 <div class="description_row">
