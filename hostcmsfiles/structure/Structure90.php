@@ -1,4 +1,4 @@
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=mSt6kl67Co-RQLHvW2pSArSIGktSudrE&width=1100&height=300"></script>
+<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=mSt6kl67Co-RQLHvW2pSArSIGktSudrE&width=auto&height=200"></script>
 
 <script type="text/javascript">
    $(document).on("focus", "#contacts-holder input[name=name], #contacts-holder input[name=email], #contacts-holder input[name=tel], #contacts-holder textarea", function() {
@@ -19,6 +19,8 @@
    });
 </script>
 <div id = "contacts-holder">
+<div class="row">
+<div class="col-md-6 col-sm-12 col-xs-12">
 <div id="address-holder">
    <div class="row">
      <div class="col-md-12">
@@ -51,6 +53,8 @@
      </div>
   </div>
 </div>
+</div>
+<div class="col-md-6 col-sm-12 col-xs-12">
 <div id = "contacts-form-holder">
 <?php function show_form() { ?>
    <form action="" method="post">
@@ -151,5 +155,8 @@ else {
 }
 ?>
 </div>
-<div style="clear:both;"></div>
+</div>
+</div>
+<!-- Usage as a class -->
+<div class="clearfix"></div>
 </div>

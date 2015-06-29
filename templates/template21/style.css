@@ -302,8 +302,8 @@ div#scroll_menu_title {
 }
 
 #contacts-form-holder {
-    width: 60%;
-    float: right;
+    /*width: 60%;
+    float: right;*/
 }
 
 #contacts-form-holder input, #contacts-form-holder textarea {

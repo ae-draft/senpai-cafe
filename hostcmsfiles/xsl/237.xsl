@@ -7,7 +7,7 @@
 	<xsl:output xmlns="http://www.w3.org/TR/xhtml1/strict" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" encoding="utf-8" indent="yes" method="html" omit-xml-declaration="no" version="1.0" media-type="text/xml"/>
 	
 	<xsl:template match="/site">
-		<div class="row">
+		<div class="nav-justified">
 			<!-- Выбираем узлы структуры первого уровня -->
 			<xsl:apply-templates select="structure[show=1]" />
 		</div>
@@ -17,19 +17,6 @@
 	<xsl:variable name="current_structure_id" select="/site/current_structure_id"/>
 	
 	<xsl:template match="structure">
-		<div class="col-md-2">
-			<!--
-			Выделяем текущую страницу добавлением к li класса current,
-			если это текущая страница, либо у нее есть ребенок с атрибутом id, равным текущей группе.
-			-->
-			<xsl:if test="$current_structure_id = @id or count(.//structure[@id=$current_structure_id]) = 1">
-				<xsl:attribute name="class">col-md-2 current</xsl:attribute>
-			</xsl:if>
-			
-			<xsl:if test="position() = last()">
-				<xsl:attribute name="style">background-image: none</xsl:attribute>
-			</xsl:if>
-			
 			<!-- Определяем адрес ссылки -->
 			<xsl:variable name="link">
 				<xsl:choose>
@@ -48,13 +35,22 @@
 			<xsl:choose>
 				<!-- Если внешняя ссылка -->
 				<xsl:when test="name != 'Меню'">
-					<a href="{$link}" title="{name}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="structure"><xsl:value-of disable-output-escaping="yes" select="name"/></a>
+					<a href="{$link}" title="{name}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="structure">
+						<xsl:if test="$current_structure_id = @id or count(.//structure[@id=$current_structure_id]) = 1">
+							<xsl:attribute name="class">current</xsl:attribute>
+						</xsl:if>
+						<xsl:value-of disable-output-escaping="yes" select="name"/>
+					</a>
 				</xsl:when>
 				<!-- Иначе если внутренняя ссылка -->
 				<xsl:otherwise>
-					<a href="{$link}602" title="{name}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="structure"><xsl:value-of disable-output-escaping="yes" select="name"/></a>
+					<a href="{$link}602" title="{name}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="structure">
+						<xsl:if test="$current_structure_id = @id or count(.//structure[@id=$current_structure_id]) = 1">
+							<xsl:attribute name="class">current</xsl:attribute>
+						</xsl:if>
+						<xsl:value-of disable-output-escaping="yes" select="name"/>
+					</a>
 				</xsl:otherwise>
 			</xsl:choose>
-		</div>
 	</xsl:template>
 </xsl:stylesheet>

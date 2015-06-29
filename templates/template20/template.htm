@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="<?php Core_Page::instance()->showDescription()?>" />
 <meta name="keywords" content="<?php Core_Page::instance()->showKeywords()?>" />
-    <?php Core_Page::instance()->showCss()?>
+<?php Core_Page::instance()->showCss()?>
 <?php Core_Browser::check()?>
 
 <!-- Bootstrap -->
@@ -15,12 +15,18 @@
 <link href="/common/css/customize_navbar.css" rel="stylesheet">
 <!-- Bootstrap -->
 
+<!-- Media queries -->
+<link href="/common/css/media.css" rel="stylesheet">
+
 <!-- Bootstrap correction -->
 <link href="/common/css/bootstrap_correction.css" rel="stylesheet">
 
+<!-- Common styles -->
+<link href="/common/css/common.css" rel="stylesheet">
+
 <script type="text/javascript" src="/common/jquery/jquery.js"></script>
 <script type="text/javascript" src="/templates/template1/hostcms.js"></script>
-	<script type="text/javascript" src="/hostcmsfiles/main.js"></script>
+<script type="text/javascript" src="/hostcmsfiles/main.js"></script>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="/common/utils/html5shiv.js"></script>
@@ -28,8 +34,8 @@
 
     <script>
         $(document).ready(function() {
-            var offset = 355;
-            var blockWidth = (Math.round($(".shop_item").length / 2) * offset) + 35;
+            var offset = 1065;
+            var blockWidth = (Math.round($(".shop_item").length / 2) * offset/3) + 35;
             var $container = $(".shop-items-holder");
 
             if(blockWidth < 1100)
@@ -37,7 +43,7 @@
                 blockWidth = 1100;
             }
 
-            $(".shop-items-holder form").css('width', blockWidth);
+            $(".shop-items-holder form#screen-shop-form").css('width', blockWidth);
 
             $(document).on("click", ".shop_control.left", function() {
                 if($($container).scrollLeft() != 0) {
@@ -50,32 +56,61 @@
                     $($container).animate({scrollLeft: ($($container).scrollLeft() + offset)}, 400);
                 }
             });
-
-            console.log(blockWidth);
         });
     </script>
 
 </head>
 
-<body>
+<body class="shop-page">
 <!-- ВТОРОСТЕПЕННАЯ -->
 <div id="main-wrapper">
     <div id="inner-main-wrapper">
         <!-- TOP_BLOCK -->
         <div id="top-block">
-            <div class="row">
-                <div class="col-md-4">
+
+            <!-- small-device -->
+            <div class="small-device-top visible-xs-* visible-sm-* hidden-md hidden-lg">
+                <div>
                     <a href="/">
                         <img src="/assets/img/template/logoSenpay.png">
                     </a>
                     <div id="top-block-info1">
                         ул. Московская, 96
                         <div>
-                            264-124, +7(965)882-98-78
+                            8(452)264-124, +7(965)882-98-78
+                        </div>
+                    </div>
+                    <div id="little_cart_small" style="display: inline-block;">
+                        <?php
+                            if (Core::moduleIsActive('shop'))
+                            {
+                                // Краткая корзина
+                                $Shop_Cart_Controller_Show = new Shop_Cart_Controller_Show(
+                                    Core_Entity::factory('Shop', 4)
+                                );
+                                $Shop_Cart_Controller_Show->xsl(Core_Entity::factory('Xsl')->getByName('МагазинКорзинаКраткаяSenpaiMode_responsive'))
+                                ->couponText(isset($_SESSION) ? Core_Array::get($_SESSION, 'coupon_text') : '')
+                                ->show();
+                            }
+                        ?>
+                    </div>
+                </div>
+            </div>
+
+            <!-- screen -->
+            <div class="row hidden-xs hidden-sm">
+                <div class="col-md-5">
+                    <a href="/">
+                        <img src="/assets/img/template/logoSenpay.png">
+                    </a>
+                    <div id="top-block-info1">
+                        ул. Московская, 96
+                        <div>
+                            8(452)264-124, +7(965)882-98-78
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     &nbsp;
                 </div>
                 <div class="col-md-3">
@@ -85,7 +120,7 @@
                         </a>
                     </div>
                     <div id="delivery-link-holder">
-                        <a href="/">ДОСТАВКА</a>
+                        <a href="/shop/602">ДОСТАВКА</a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -115,25 +150,38 @@
         <!-- NAVBAR ================================================== -->
         <div class="navbar-wrapper">
             <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-            <div class="navbar-container">
-                <?php
-                    // Верхнее меню
-                    $Structure_Controller_Show = new Structure_Controller_Show(
-                        Core_Entity::factory('Site', CURRENT_SITE));
+            <div class="navbar-container navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- collapsed -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-collapse-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
 
-                    $Structure_Controller_Show->xsl(Core_Entity::factory('Xsl')->getByName('ВерхнееМеню_cenpai_mode'))
-                                ->menu(3)
-                                ->show();
-                ?>
+                    <div class="collapse navbar-collapse" id="bs-collapse-navbar">
+                        <?php
+                            // Верхнее меню
+                            $Structure_Controller_Show = new Structure_Controller_Show(
+                                Core_Entity::factory('Site', CURRENT_SITE));
+
+                            $Structure_Controller_Show->xsl(Core_Entity::factory('Xsl')->getByName('ВерхнееМеню_cenpai_mode'))
+                                        ->menu(3)
+                                        ->show();
+                        ?>
+                    </div>
+                </div>
             </div> <!-- /.container -->
         </div><!-- /.navbar-wrapper -->
     </div>
 </div>
 
 
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Carousel screen================================================== -->
+<div id="myCarousel" class="carousel slide hidden-xs hidden-sm" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -154,9 +202,15 @@
 </div>
 <!-- /.carousel -->
 
+<!-- small-devices -->
+<div id="myCarousel" class="visible-xs-* visible-sm-* hidden-md hidden-lg">
+    <div style="background: url('/assets/img/carousel/back-glavn-01.jpg') no-repeat top center; width: 100%; height: 1100px;"></div>
+</div>
+
+<!-- Screen -->
 <div id="secondary-content-container">
     <div id="content-holder">
-        <div id="delivery-holder container">
+        <div id="delivery-holder">
             <div class="row">
                 <div class="col-md-9">
                 </div>
@@ -200,21 +254,60 @@
                 <?php Core_Page::instance()->execute(); ?>
             </div>
         </div>
+
+        <!-- small-device-footer -->
+        <div id="small-device-wrapper-bottom" class="visible-xs-* visible-sm-* hidden-md hidden-lg">
+
+            <!-- FOOTER -->
+            <footer>
+                <div id="footer-holder">
+                    <!-- small-device -->
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6">
+                            <strong class="custom-copyright">&copy; 2014 ООО &laquo;Сенпай&raquo;</strong>
+                            <br />
+                            <address>
+                                ул.Московская, 96<br>
+                                <abbr title="Phone">т.:</abbr> 8(452)264-124, +7(965)882-98-78
+                            </address>
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                          <!--
+                            <div class="pull-left">
+                                <div id="footer-discounts" class="footer-link-block-item text-uppercase">
+                                </div>  
+                            </div>
+                            <div class="pull-left">
+                                <div id="footer-video" class="footer-link-block-item text-uppercase">
+                                </div>
+                            </div>
+                            <div class="pull-left">
+                                <div id="footer-photo" class="footer-link-block-item text-uppercase">
+                                </div>  
+                            </div>
+							-->
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- /.container -->
+        <!-- small-device-footer -->
     </div>
 </div>
 
-<div id="main-wrapper-bottom">
-
+<!-- screen-footer -->
+<div id="main-wrapper-bottom" class="hidden-xs hidden-sm">
     <!-- FOOTER -->
     <footer>
         <div id="footer-holder">
+            <!-- screen -->
             <div class="row">
                 <div class="col-md-4">
                     <strong class="custom-copyright">&copy; 2014 ООО &laquo;Сенпай&raquo;</strong>
                     <br />
                     <address>
                         ул.Московская, 96<br>
-                        <abbr title="Phone">т.:</abbr> 264-124, +7(965)882-98-78
+                        <abbr title="Phone">т.:</abbr> 8(452)264-124, +7(965)882-98-78
                     </address>
                     <span class="delivery-info-footer">
                         ДОСТАВКА СУШИ - <span>он-лайн сервис заказа суши<br />
@@ -222,6 +315,7 @@
                     </span>
                 </div>
                 <div class="col-md-2">
+                  <!--
                     <div id="footer-discounts" class="footer-link-block-item text-uppercase">
                         <a href="/">скидки</a>
                     </div>
@@ -231,6 +325,7 @@
                     <div id="footer-photo" class="footer-link-block-item text-uppercase">
                         <a href="/">фотографии</a>
                     </div>
+					-->
                 </div>
                 <div class="col-md-3">
                 </div>
@@ -266,7 +361,7 @@
     </footer>
 
 </div><!-- /.container -->
-
+<!-- screen-footer -->
 
 
 <!-- Le javascript
@@ -315,22 +410,11 @@
 </script>
 <noscript><div><img src="//mc.yandex.ru/watch/27338822" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-  
-  <!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//istat.ml/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 3]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//istat.ml/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
 
+  <noindex>
+<link rel="stylesheet" href="//cabinet.getmorecustomersfast.com/widget/tracker.css">
+<script type="text/javascript" src="//cabinet.getmorecustomersfast.com/php/1.js" charset="UTF-8"></script >
+<script type="text/javascript">var uid_code="344";</script>
+</noindex>
 </body>
 </html>

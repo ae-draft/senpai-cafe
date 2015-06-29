@@ -6,13 +6,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="<?php Core_Page::instance()->showDescription()?>" />
 <meta name="keywords" content="<?php Core_Page::instance()->showKeywords()?>" />
-    <?php Core_Page::instance()->showCss()?>
+<?php Core_Page::instance()->showCss()?>
 <?php Core_Browser::check()?>
+
 <!-- Bootstrap -->
 <link href="/common/bootstrap/css/bootstrap.css" rel="stylesheet">
 <link href="/common/css/customize_carousel.css" rel="stylesheet">
 <link href="/common/css/customize_navbar.css" rel="stylesheet">
 <!-- Bootstrap -->
+
+<!-- Media queries -->
+<link href="/common/css/media.css" rel="stylesheet">
+
+<!-- Bootstrap correction -->
+<link href="/common/css/bootstrap_correction.css" rel="stylesheet">
+  
+<!-- Common styles -->
+<link href="/common/css/common.css" rel="stylesheet">
 
 <script type="text/javascript" src="/common/jquery/jquery.js"></script>
 <script type="text/javascript" src="/hostcmsfiles/jquery/jquery.validate.js"></script>
@@ -23,25 +33,56 @@
 <![endif]-->
 </head>
 
-<body>
+<body class="second-page">
 <!-- ВТОРОСТЕПЕННАЯ -->
 <div id="main-wrapper">
     <div id="inner-main-wrapper">
         <!-- TOP_BLOCK -->
         <div id="top-block">
-            <div class="row">
-                <div class="col-md-4">
+
+            <!-- small-device -->
+            <div class="small-device-top visible-xs-* visible-sm-* hidden-md hidden-lg">
+                <div>
                     <a href="/">
                         <img src="/assets/img/template/logoSenpay.png">
                     </a>
                     <div id="top-block-info1">
                         ул. Московская, 96
                         <div>
-                            264-124, +7(965)882-98-78
+                            8(452)264-124, +7(965)882-98-78
+                        </div>
+                    </div>
+                    <div id="little_cart" style="display: inline-block;">
+                        <?php
+                            if (Core::moduleIsActive('shop'))
+                            {
+                                // Краткая корзина
+                                $Shop_Cart_Controller_Show = new Shop_Cart_Controller_Show(
+                                    Core_Entity::factory('Shop', 4)
+                                );
+                                $Shop_Cart_Controller_Show->xsl(Core_Entity::factory('Xsl')->getByName('МагазинКорзинаКраткаяSenpaiMode_responsive'))
+                                ->couponText(isset($_SESSION) ? Core_Array::get($_SESSION, 'coupon_text') : '')
+                                ->show();
+                            }
+                        ?>
+                    </div>
+                </div>
+            </div>
+
+            <!-- screen -->
+            <div class="row hidden-xs hidden-sm">
+                <div class="col-md-5">
+                    <a href="/">
+                        <img src="/assets/img/template/logoSenpay.png">
+                    </a>
+                    <div id="top-block-info1">
+                        ул. Московская, 96
+                        <div>
+                            8(452)264-124, +7(965)882-98-78
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     &nbsp;
                 </div>
                 <div class="col-md-3">
@@ -51,7 +92,7 @@
                         </a>
                     </div>
                     <div id="delivery-link-holder">
-                        <a href="/">ДОСТАВКА</a>
+                        <a href="/shop/602">ДОСТАВКА</a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -81,25 +122,38 @@
         <!-- NAVBAR ================================================== -->
         <div class="navbar-wrapper">
             <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-            <div class="navbar-container">
-                <?php
-                    // Верхнее меню
-                    $Structure_Controller_Show = new Structure_Controller_Show(
-                        Core_Entity::factory('Site', CURRENT_SITE));
+            <div class="navbar-container navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- collapsed -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-collapse-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
 
-                    $Structure_Controller_Show->xsl(Core_Entity::factory('Xsl')->getByName('ВерхнееМеню_cenpai_mode'))
-                ->menu(3)
-                ->show();
-                ?>
+                    <div class="collapse navbar-collapse" id="bs-collapse-navbar">
+                        <?php
+                            // Верхнее меню
+                            $Structure_Controller_Show = new Structure_Controller_Show(
+                                Core_Entity::factory('Site', CURRENT_SITE));
+
+                            $Structure_Controller_Show->xsl(Core_Entity::factory('Xsl')->getByName('ВерхнееМеню_cenpai_mode'))
+                                        ->menu(3)
+                                        ->show();
+                        ?>
+                    </div>
+                </div>
             </div> <!-- /.container -->
         </div><!-- /.navbar-wrapper -->
     </div>
 </div>
 
 
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Carousel screen================================================== -->
+<div id="myCarousel" class="carousel slide hidden-xs hidden-sm" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -110,20 +164,20 @@
         </div>
     </div>
 
-    <?php
-        //Если страничка контактов то не будем показывать контролы карусели
-        $structure_path = Core_Page::instance()->structure->path;
-        $displayMode = $structure_path === "contacts" || $structure_path === "news" || $structure_path === "cart" ? "hide" : "show";
-    ?>
     <!-- Controls -->
-    <a class="left carousel-control left_scroll_control <?=$displayMode?>" href="#myCarousel" role="button" data-slide="prev">
+    <a class="left carousel-control left_scroll_control hide" href="#myCarousel" role="button" data-slide="prev">
         <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control right_scroll_control <?=$displayMode?>" href="#myCarousel" role="button" data-slide="next">
+    <a class="right carousel-control right_scroll_control hide" href="#myCarousel" role="button" data-slide="next">
         <span class="sr-only">Next</span>
     </a>
 </div>
 <!-- /.carousel -->
+
+<!-- small-devices -->
+<div id="myCarousel" class="visible-xs-* visible-sm-* hidden-md hidden-lg">
+    <div style="background: url('/assets/img/carousel/back-glavn-01.jpg') no-repeat top center; width: 100%; height: 100%; min-height: 100%;"></div>
+</div>
 
 <div id="secondary-content-container">
     <div id="content-holder">
@@ -133,8 +187,46 @@
     </div>
 </div>
 
-<div id="main-wrapper-bottom">
+ <!-- small-device-footer -->
+<div id="small-device-wrapper-bottom" class="visible-xs-* visible-sm-* hidden-md hidden-lg">
 
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer-holder">
+            <!-- small-device -->
+            <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                    <strong class="custom-copyright">&copy; 2014 ООО &laquo;Сенпай&raquo;</strong>
+                    <br />
+                    <address>
+                        ул.Московская, 96<br>
+                        <abbr title="Phone">т.:</abbr> 8(452)264-124, +7(965)882-98-78
+                    </address>
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                  <!--
+                    <div class="pull-left">
+                        <div id="footer-discounts" class="footer-link-block-item text-uppercase">
+                        </div>  
+                    </div>
+                    <div class="pull-left">
+                        <div id="footer-video" class="footer-link-block-item text-uppercase">
+                        </div>
+                    </div>
+                    <div class="pull-left">
+                        <div id="footer-photo" class="footer-link-block-item text-uppercase">
+                        </div>  
+                    </div>
+					-->
+                </div>
+            </div>
+        </div>
+    </footer>
+</div><!-- /.container -->
+<!-- small-device-footer -->
+
+<!-- screen-footer -->
+<div id="main-wrapper-bottom" class="hidden-xs hidden-sm">
     <!-- FOOTER -->
     <footer>
         <div id="footer-holder">
@@ -144,7 +236,7 @@
                     <br />
                     <address>
                         ул.Московская, 96<br>
-                        <abbr title="Phone">т.:</abbr> 264-124, +7(965)882-98-78
+                        <abbr title="Phone">т.:</abbr> 8(452)264-124, +7(965)882-98-78
                     </address>
                     <span class="delivery-info-footer">
                         ДОСТАВКА СУШИ - <span>он-лайн сервис заказа суши<br />
@@ -152,6 +244,7 @@
                     </span>
                 </div>
                 <div class="col-md-2">
+                  <!--
                     <div id="footer-discounts" class="footer-link-block-item text-uppercase">
                         <a href="/">скидки</a>
                     </div>
@@ -161,6 +254,7 @@
                     <div id="footer-photo" class="footer-link-block-item text-uppercase">
                         <a href="/">фотографии</a>
                     </div>
+					-->
                 </div>
                 <div class="col-md-3">
                 </div>
@@ -203,6 +297,16 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script type="text/javascript" src="/common/bootstrap/js/bootstrap.js"></script>
+<script>
+    $(document).ready(function() {
+        var flag = !!$("#small-device-wrapper-bottom");
+        if(flag) {
+            var heightCurrent = $("#secondary-content-container").height() + 230;
+            $("html, body").height(heightCurrent);
+        }
+    });
+</script>
+
 <script>
     !function ($) {
         $(function(){
@@ -271,5 +375,10 @@
 <noscript><p><img src="//istat.ml/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
+  <noindex>
+<link rel="stylesheet" href="//cabinet.getmorecustomersfast.com/widget/tracker.css">
+<script type="text/javascript" src="//cabinet.getmorecustomersfast.com/php/1.js" charset="UTF-8"></script >
+<script type="text/javascript">var uid_code="344";</script>
+</noindex>
 </body>
 </html>

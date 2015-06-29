@@ -304,8 +304,8 @@ div#scroll_menu_title {
 }
 
 #contacts-form-holder {
-    width: 60%;
-    float: right;
+    /*width: 60%;
+    float: right;*/
 }
 
 #contacts-form-holder input, #contacts-form-holder textarea {
@@ -520,7 +520,7 @@ div#scroll_menu_title {
 }
 
 .shop_navigation_current {
-    color: rgb(180, 156, 10);
+    color: rgb(180, 156, 10)!important;
     font-size: 18px;
 }
 

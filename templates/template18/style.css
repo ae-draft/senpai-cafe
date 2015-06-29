@@ -4,6 +4,10 @@ html, body {
     height: 100%;
 }
 
+#host-cms-link {
+	color:black;
+}
+
 .carousel-inner, #myCarousel {
     height: 1100px;
 }
@@ -318,21 +322,34 @@ a[href^="http://www.hostcms"] {
 
 /*banners*/
 
+#hotlinks-block {
+  position: absolute;
+  left: 50%; 
+  height: inherit; 
+  width: 90%;
+}
+
+#hotlinks-block>div {
+  position: relative; 
+  left: -50%;
+  height: inherit;
+}
+
 .banner-on-main {
-    position: absolute;
+    position: relative;
     z-index: 10;
-    top: 70%;
-  	left: 50%;
+    top: 60%;
+  	/*left: 50%;*/
     width: 331px;
     height: 128px;
 }
 
 .left-banner {
     background: url("/assets/img/template/bizneslanch-glavn.png") no-repeat top left;
-    margin-left: -840px;
+    /*margin-left: -840px;*/
 }
 
 .right-banner {
     background: url("/assets/img/template/karaoke-glavn.png") no-repeat top left;
-    margin-left: 490px;
+    /*margin-left: 490px;*/
 }

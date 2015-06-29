@@ -1,0 +1,95 @@
+"2015-06-04 01:41:06",undefined,"<strong>Предупреждение:</strong> XSLTProcessor::transformToDoc(): runtime error: file /Applications/MAMP/htdocs/cenpai/ line 48 element attribute в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 53)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 53,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/structure/controller/show.php, строка 260,
+Файл: templates/template20/template.htm, строка 172,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/603/,::1
+"2015-06-04 01:41:06",undefined,"<strong>Предупреждение:</strong> XSLTProcessor::transformToDoc(): xsl:attribute: Cannot add attributes to an element if children have been already added to the element. в файле /Applications/MAMP/htdocs/cenpai/modules/xsl/processor/xslt.php (строка 53)
+Стек вызовов:
+Файл: modules/xsl/processor/xslt.php, строка 53,
+Файл: modules/core/controller.php, строка 175,
+Файл: modules/structure/controller/show.php, строка 260,
+Файл: templates/template20/template.htm, строка 172,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",3,Сенпай-кафе,http://cenpai.local/shop/603/,::1
+"2015-06-04 17:58:40",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 17:58:44",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_dir_id=0,::1
+"2015-06-04 17:58:47",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 17:59:00",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 18:05:08",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2015-06-04 18:05:15",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 18:05:17",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 18:08:19",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php?hostcms[checked][1][4]=1,::1
+"2015-06-04 18:08:22",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_dir_id=0,::1
+"2015-06-04 18:08:25",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 18:08:31",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 18:09:39",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][0]=1,::1
+"2015-06-04 18:10:23",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php,::1
+"2015-06-04 18:10:32",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=24,::1
+"2015-06-04 18:29:50",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 18:29:53",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 18:58:53",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 18:58:53",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 19:19:45",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 19:19:49",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 19:20:04",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php?hostcms[checked][1][4]=1,::1
+"2015-06-04 19:20:06",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_dir_id=0,::1
+"2015-06-04 19:20:08",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 19:20:15",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 19:20:21",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][612]=1,::1
+"2015-06-04 19:20:23",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][612]=1,::1
+"2015-06-04 19:20:26",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][612]=1,::1
+"2015-06-04 19:20:40",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][612]=1,::1
+"2015-06-04 23:23:31",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:24:43",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][0]=1,::1
+"2015-06-04 23:24:58",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:25:16",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][0]=1,::1
+"2015-06-04 23:39:16",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:39:28",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][614]=1,::1
+"2015-06-04 23:39:31",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][614]=1,::1
+"2015-06-04 23:39:34",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][614]=1,::1
+"2015-06-04 23:40:03",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][614]=1,::1
+"2015-06-04 23:43:10",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:43:21",admin,"Доступ к модулю ""shop"" разрешен, форма ""Статистика"", действие ""Удалить""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:43:47",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:44:13",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][0]=1,::1
+"2015-06-04 23:45:24",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4,::1
+"2015-06-04 23:45:30",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 23:45:32",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 23:46:19",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:46:30",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:46:46",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1
+"2015-06-04 23:46:58",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][615]=1,::1
+"2015-06-04 23:47:02",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1
+"2015-06-04 23:47:28",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1
+"2015-06-04 23:47:46",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1
+"2015-06-04 23:47:54",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:48:01",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][615]=1,::1
+"2015-06-04 23:48:05",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][615]=1,::1
+"2015-06-04 23:48:05",admin,"The file 'upload/shop_4/6/1/5/group_615/uramaki.png' does not exist.
+35 modules/core/exception.php
+182 modules/core/file.php
+357 modules/shop/group/model.php
+52 modules/admin/form/action/controller/type/delete/file.php
+1080 modules/admin/form/controller.php
+641 admin/shop/item/index.php",0,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][615]=1,::1
+"2015-06-04 23:48:07",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1
+"2015-06-04 23:48:38",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1
+"2015-06-04 23:49:06",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][615]=1,::1
+"2015-06-04 23:49:12",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/index.php,::1
+"2015-06-04 23:49:13",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_dir_id=0,::1
+"2015-06-04 23:49:16",admin,"Доступ к модулю ""shop"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:49:32",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:49:40",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][615]=1,::1
+"2015-06-04 23:49:42",admin,"Доступ к модулю ""shop"" разрешен, форма ""Список производителей"", действие """"",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?hostcms[checked][0][615]=1,::1
+"2015-06-04 23:49:44",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1
+"2015-06-04 23:49:50",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603,::1
+"2015-06-04 23:50:14",admin,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/shop/item/index.php?shop_id=4&shop_group_id=603&hostcms[checked][0][615]=1,::1

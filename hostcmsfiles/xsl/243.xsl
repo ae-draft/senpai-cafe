@@ -9,34 +9,41 @@
 	<!-- Шаблон для платежных систем -->
 	<xsl:template match="/shop">
 		
-		<!-- Строка шага заказа -->
-		<ul class="shop_navigation">
-		<li><span>Адрес доставки</span>→</li>
-		<li><span>Способ доставки</span>→</li>
-		<li class="shop_navigation_current"><span>Форма оплаты</span>→</li>
-		<li><span>Данные доставки</span></li>
-		</ul>
+		<ol class="breadcrumb">
+			<li>Адрес доставки</li>
+			<li>Способ доставки</li>
+			<li class="shop_navigation_current">Форма оплаты</li>
+			<li>Данные доставки</li>
+		</ol>
 		
-		<form method="post">
-			<xsl:choose>
-				<xsl:when test="count(shop_payment_system) = 0">
-				<p><b>В данный момент нет доступных платежных систем!</b></p>
-					<p>Оформление заказа невозможно, свяжитесь с администрацией Интернет-магазина.</p>
-				</xsl:when>
-				<xsl:otherwise>
-					<table class="shop_cart shop-cart-priceform">
-						<tr class="total">
-							<th>Форма оплаты</th>
-							<th>Описание</th>
-						</tr>
-						<xsl:apply-templates select="shop_payment_system"/>
-					</table>
-					
-					<input name="step" value="4" type="hidden" />
-					<input value="Далее →" type="submit" class="btn btn-default" />
-				</xsl:otherwise>
-			</xsl:choose>
-		</form>
+		<div class="cart-panel container-fluid" style="background: url('/assets/img/template/back-kontakt.png') repeat left top;">
+			<form method="post">
+				<xsl:choose>
+					<xsl:when test="count(shop_payment_system) = 0">
+						<p>
+							<b>В данный момент нет доступных платежных систем!</b>
+						</p>
+						<p>Оформление заказа невозможно, свяжитесь с администрацией Интернет-магазина.</p>
+					</xsl:when>
+					<xsl:otherwise>
+						<table class="table table-condensed">
+							<thead>
+								<tr>
+									<th>Форма оплаты</th>
+									<th>Описание</th>
+								</tr>
+							</thead>
+							<tbody>
+								<xsl:apply-templates select="shop_payment_system"/>
+							</tbody>
+						</table>
+						
+						<input name="step" value="4" type="hidden" />
+						<input value="Далее →" type="submit" class="btn btn-default btn-sm" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</form>
+		</div>
 	</xsl:template>
 	
 	<xsl:template match="shop_payment_system">

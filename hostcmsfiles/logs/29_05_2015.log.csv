@@ -1,0 +1,6 @@
+"2015-05-29 16:49:39",manager_1,"Вход в систему управления",4,-,http://senpai-cafe.ru/admin/index.php,188.232.61.33
+"2015-05-29 16:49:42",manager_1,"Доступ к модулю ""document"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://senpai-cafe.ru/admin/document/index.php,188.232.61.33
+"2015-05-29 16:49:44",manager_1,"Доступ к модулю ""document"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://senpai-cafe.ru/admin/document/index.php,188.232.61.33
+"2015-05-29 16:49:45",manager_1,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://senpai-cafe.ru/admin/structure/index.php,188.232.61.33
+"2015-05-29 16:49:47",manager_1,"Доступ к модулю ""structure"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://senpai-cafe.ru/admin/structure/index.php?parent_id=90,188.232.61.33
+"2015-05-29 16:52:35",manager_1,"Доступ к модулю ""shop"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://senpai-cafe.ru/admin/shop/item/index.php?hostcms[action]=edit&shop_id=4&shop_group_id=602&hostcms[checked][0][602]=1,188.232.61.33

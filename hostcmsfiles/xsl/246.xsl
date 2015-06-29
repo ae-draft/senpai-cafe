@@ -9,94 +9,93 @@
 	<xsl:template match="/shop">
 		<xsl:choose>
 			<xsl:when test="count(shop_cart) = 0">
-				<h1>В корзине нет ни одного товара.</h1>
-				<p><xsl:choose>
+				
+				<h3>В корзине нет ни одного товара.</h3>
+				<p>
+					<xsl:choose>
 						<!-- Пользователь авторизован или модуль пользователей сайта отсутствует -->
 						<xsl:when test="siteuser_id > 0 or siteuser_id = 0">Для оформления заказа добавьте товар в корзину.</xsl:when>
 						<xsl:otherwise>Вы не авторизированы. Если Вы зарегистрированный пользователь, данные Вашей корзины станут видны после авторизации.</xsl:otherwise>
-				</xsl:choose></p>
+					</xsl:choose>
+				</p>
 			</xsl:when>
 			<xsl:otherwise>
 				<form action="{/shop/url}cart/" method="post">
-                <div class="panel panel-default cart-panel" style="background: url('/assets/img/template/back-kontakt.png') repeat left top;">
-                    <div class="panel-body">
-					<!-- Если есть товары -->
-					<xsl:if test="count(shop_cart[postpone = 0]) > 0">
-						<div class="container shop-cart-container">
-							<div class="row">
-								<div class="col-md-4">
-									Товар
-								</div>
-								<div class="col-md-1">
-									Кол-во
-								</div>
-								<div class="col-md-2">
-									Цена
-								</div>
-								<div class="col-md-2">
-									Сумма
-								</div>
-								<div class="col-md-3">
-									Действие
+					<div class="cart-panel" style="background: url('/assets/img/template/back-kontakt.png') repeat left top;">
+						<!-- Если есть товары -->
+						<xsl:if test="count(shop_cart[postpone = 0]) > 0">
+							<div class="container shop-cart-container" style="width:100%;">
+								<div class="table-responsive">
+									<table class="table table-condensed">
+										<thead>
+											<th>Товар</th>
+											<th>Кол-во</th>
+											<th>Цена</th>
+											<th>Сумма</th>
+											<th>Действие</th>
+										</thead>
+										<tbody>
+											
+											<xsl:apply-templates select="shop_cart[postpone = 0]"/>
+											
+											<!-- Скидки -->
+											<xsl:if test="count(shop_purchase_discount)">
+												<xsl:apply-templates select="shop_purchase_discount"/>
+												<tr class="total">
+													<td>Всего:</td>
+													<td></td>
+													<td></td>
+													<td>
+														<xsl:value-of select="format-number(total_amount, '### ##0,00', 'my')"/><xsl:text> </xsl:text><xsl:value-of disable-output-escaping="yes" select="/shop/shop_currency/name"/>
+													</td>
+													<td></td>
+													<xsl:if test="count(/shop/shop_warehouse)">
+														<td></td>
+													</xsl:if>
+													<td></td>
+													<td></td>
+												</tr>
+											</xsl:if>
+										</tbody>
+									</table>
+									
+									<xsl:call-template name="tableFooter">
+										<xsl:with-param name="nodes" select="shop_cart[postpone = 0]"/>
+									</xsl:call-template>
 								</div>
 							</div>
-							<xsl:apply-templates select="shop_cart[postpone = 0]"/>
-							<xsl:call-template name="tableFooter">
-								<xsl:with-param name="nodes" select="shop_cart[postpone = 0]"/>
-							</xsl:call-template>
+						</xsl:if>
+						
+						<!-- Купон -->
+						<!--<div class="shop_coupon">
+							Купон: <input name="coupon_text" type="text" value="{coupon_text}"/>
+						</div>-->
+						
+						<!-- Если есть отложенные товары -->
+						<!--<xsl:if test="count(shop_cart[postpone = 1]) > 0">
+							<div class="transparent">
+								<h2>Отложенные товары</h2>
+								<table class="shop_cart">
+									<xsl:call-template name="tableHeader"/>
+									<xsl:apply-templates select="shop_cart[postpone = 1]"/>
+									<xsl:call-template name="tableFooter">
+										<xsl:with-param name="nodes" select="shop_cart[postpone = 1]"/>
+									</xsl:call-template>
+								</table>
+							</div>
+						</xsl:if>-->
+						
+						<!-- Кнопки -->
+						<div class="shop-cart-control">
+							<input name="recount" value="Пересчитать" type="submit" class="btn btn-default shop-cart-recalculate btn-sm" />
 							
-							<!-- Скидки -->
-							<xsl:if test="count(shop_purchase_discount)">
-								<xsl:apply-templates select="shop_purchase_discount"/>
-								<tr class="total">
-									<td>Всего:</td>
-									<td></td>
-									<td></td>
-									<td>
-										<xsl:value-of select="format-number(total_amount, '### ##0,00', 'my')"/><xsl:text> </xsl:text><xsl:value-of disable-output-escaping="yes" select="/shop/shop_currency/name"/>
-									</td>
-									<td></td>
-									<xsl:if test="count(/shop/shop_warehouse)">
-										<td></td>
-									</xsl:if>
-									<td></td>
-									<td></td>
-								</tr>
+							<!-- Пользователь авторизован или модуль пользователей сайта отсутствует -->
+							<xsl:if test="count(shop_cart[postpone = 0]) and (siteuser_id > 0 or siteuser_exists = 0)">
+								<input name="step" value="1" type="hidden" />
+								<input value="Оформить заказ" type="submit" class="btn btn-default shop-cart-apply btn-sm"/>
 							</xsl:if>
 						</div>
-					</xsl:if>
-					
-					<!-- Купон -->
-					<!--<div class="shop_coupon">
-						Купон: <input name="coupon_text" type="text" value="{coupon_text}"/>
-					</div>-->
-					
-					<!-- Если есть отложенные товары -->
-					<!--<xsl:if test="count(shop_cart[postpone = 1]) > 0">
-						<div class="transparent">
-							<h2>Отложенные товары</h2>
-							<table class="shop_cart">
-								<xsl:call-template name="tableHeader"/>
-								<xsl:apply-templates select="shop_cart[postpone = 1]"/>
-								<xsl:call-template name="tableFooter">
-									<xsl:with-param name="nodes" select="shop_cart[postpone = 1]"/>
-								</xsl:call-template>
-							</table>
-						</div>
-					</xsl:if>-->
-					
-					<!-- Кнопки -->
-					<div class="shop-cart-control">
-						<input name="recount" value="Пересчитать" type="submit" class="btn btn-default shop-cart-recalculate" />
-						
-						<!-- Пользователь авторизован или модуль пользователей сайта отсутствует -->
-						<xsl:if test="count(shop_cart[postpone = 0]) and (siteuser_id > 0 or siteuser_exists = 0)">
-							<input name="step" value="1" type="hidden" />
-							<input value="Оформить заказ" type="submit" class="btn btn-default shop-cart-apply"/>
-						</xsl:if>
 					</div>
-                </div>
-            </div>
 				</form>
 			</xsl:otherwise>
 		</xsl:choose>
@@ -120,50 +119,52 @@
 	<!-- Итоговая строка таблицы -->
 	<xsl:template name="tableFooter">
 		<xsl:param name="nodes"/>
-		
-		<div class="row shop-cart-footer">
-			<div class="col-md-2">
-				Итого: <xsl:value-of disable-output-escaping="yes" select="sum($nodes/quantity)"/>
-			</div>
-			<div class="col-md-10">
-				<xsl:variable name="subTotals">
-					<xsl:for-each select="$nodes">
-						<sum><xsl:value-of select="shop_item/price * quantity"/></sum>
-					</xsl:for-each>
-				</xsl:variable>
-				
-				<xsl:value-of select="format-number(sum(exsl:node-set($subTotals)/sum), '### ##0,00', 'my')"/><xsl:text> </xsl:text><xsl:value-of disable-output-escaping="yes" select="/shop/shop_currency/name"/>
+		<div class="container-fluid">
+			<div class="row shop-cart-footer">
+				<div class="col-md-2 col-sm-2 col-xs-12">
+					Итого: <xsl:value-of disable-output-escaping="yes" select="sum($nodes/quantity)"/> позиция(и/й)
+				</div>
+				<div class="col-md-10 col-sm-10 col-xs-12">
+					На сумму:
+					<xsl:variable name="subTotals">
+						<xsl:for-each select="$nodes">
+							<sum><xsl:value-of select="shop_item/price * quantity"/></sum>
+						</xsl:for-each>
+					</xsl:variable>
+					
+					<xsl:value-of select="format-number(sum(exsl:node-set($subTotals)/sum), '### ##0,00', 'my')"/><xsl:text> </xsl:text><xsl:value-of disable-output-escaping="yes" select="/shop/shop_currency/name"/>
+				</div>
 			</div>
 		</div>
 	</xsl:template>
 	
 	<!-- Шаблон для товара в корзине -->
 	<xsl:template match="shop_cart">
-		<div class="row">
-			<div class="col-md-4">
+		<tr>
+			<td>
 				<a href="{shop_item/url}" class="shop-cart-itemname">
 					<xsl:value-of disable-output-escaping="yes" select="shop_item/name"/>
 				</a>
-			</div>
-			<div class="col-md-1">
-				<input type="text" size="3" name="quantity_{shop_item/@id}" id="quantity_{shop_item/@id}" value="{quantity}" class="shop-cart-itemcount"/>
-			</div>
-			<div class="col-md-2">
+			</td>
+			<td>
+				<input type="text" size="3" name="quantity_{shop_item/@id}" id="quantity_{shop_item/@id}" value="{quantity}" class="shop-cart-itemcount form-control input-sm"/>
+			</td>
+			<td>
 				<!-- Цена -->
 				<div class="shop-cart-itemprice">
 					<xsl:value-of select="format-number(shop_item/price, '### ##0,00', 'my')"/><xsl:text> </xsl:text><xsl:value-of select="shop_item/currency" disable-output-escaping="yes"/>
 				</div>
-			</div>
-			<div class="col-md-2">
+			</td>
+			<td>
 				<div class="shop-cart-itemtotalprice">
 					<!-- Сумма -->
 					<xsl:value-of disable-output-escaping="yes" select="format-number(shop_item/price * quantity, '### ##0,00', 'my')"/><xsl:text> </xsl:text><xsl:value-of disable-output-escaping="yes" select="shop_item/currency"/>
 				</div>
-			</div>
-			<div class="col-md-3">
-				<a href="?delete={shop_item/@id}" onclick="return confirm('Вы уверены, что хотите удалить?')" title="Удалить товар из корзины" alt="Удалить товар из корзины" class="btn btn-default shop-cart-itemdelete">Удалить</a>
-			</div>
-		</div>
+			</td>
+			<td>
+				<a href="?delete={shop_item/@id}" onclick="return confirm('Вы уверены, что хотите удалить?')" title="Удалить товар из корзины" alt="Удалить товар из корзины" class="glyphicon glyphicon-trash shop-cart-itemdelete" style="display: inline;"></a>
+			</td>
+		</tr>
 	</xsl:template>
 	
 	<!-- Шаблон для скидки от суммы заказа -->

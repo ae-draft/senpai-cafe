@@ -1,0 +1,71 @@
+"2015-06-01 21:12:39",undefined,"<strong>Undefined error:</strong> Argument 1 passed to Core_Controller::xsl() must be an instance of Xsl_Model, null given, called in /Applications/MAMP/htdocs/cenpai/templates/template18/template.htm on line 129 and defined в файле /Applications/MAMP/htdocs/cenpai/modules/core/controller.php (строка 112)
+Стек вызовов:
+Файл: modules/core/controller.php, строка 112,
+Файл: templates/template18/template.htm, строка 129,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",0,Сенпай-кафе,http://cenpai.local/,::1
+"2015-06-01 21:12:39",undefined,"Xsl does not exist.
+35 modules/core/exception.php
+167 modules/core/controller.php
+260 modules/structure/controller/show.php
+131 templates/template18/template.htm
+86 modules/template/model.php
+138 modules/core/page.php
+382 modules/core/command/controller/default.php
+190 modules/core/router/route.php
+217 index.php",0,Сенпай-кафе,http://cenpai.local/,::1
+"2015-06-01 21:12:49",undefined,"Попытка доступа к модулю xsl незарегистрированным пользователем",4,-,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=24,::1
+"2015-06-01 21:12:54",admin,"Вход в систему управления",4,-,http://cenpai.local/admin/index.php,::1
+"2015-06-01 21:13:06",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php,::1
+"2015-06-01 21:13:17",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Основная"", действие ""Просмотр""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1,::1
+"2015-06-01 21:13:30",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1,::1
+"2015-06-01 21:13:52",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=1&hostcms[checked][1][0]=1,::1
+"2015-06-01 21:14:09",undefined,"<strong>Undefined error:</strong> Argument 1 passed to Core_Controller::xsl() must be an instance of Xsl_Model, null given, called in /Applications/MAMP/htdocs/cenpai/templates/template20/template.htm on line 90 and defined в файле /Applications/MAMP/htdocs/cenpai/modules/core/controller.php (строка 112)
+Стек вызовов:
+Файл: modules/core/controller.php, строка 112,
+Файл: templates/template20/template.htm, строка 90,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",0,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2015-06-01 21:14:09",undefined,"Xsl does not exist.
+35 modules/core/exception.php
+167 modules/core/controller.php
+151 modules/core/controller.php
+233 modules/shop/cart/controller/show.php
+92 templates/template20/template.htm
+86 modules/template/model.php
+138 modules/core/page.php
+382 modules/core/command/controller/default.php
+190 modules/core/router/route.php
+217 index.php",0,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2015-06-01 21:14:21",undefined,"<strong>Undefined error:</strong> Argument 1 passed to Core_Controller::xsl() must be an instance of Xsl_Model, null given, called in /Applications/MAMP/htdocs/cenpai/templates/template20/template.htm on line 90 and defined в файле /Applications/MAMP/htdocs/cenpai/modules/core/controller.php (строка 112)
+Стек вызовов:
+Файл: modules/core/controller.php, строка 112,
+Файл: templates/template20/template.htm, строка 90,
+Файл: modules/template/model.php, строка 86,
+Файл: modules/core/page.php, строка 138,
+Файл: modules/core/command/controller/default.php, строка 382,
+Файл: modules/core/router/route.php, строка 190,
+Файл: index.php, строка 217",0,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2015-06-01 21:14:22",undefined,"Xsl does not exist.
+35 modules/core/exception.php
+167 modules/core/controller.php
+151 modules/core/controller.php
+233 modules/shop/cart/controller/show.php
+92 templates/template20/template.htm
+86 modules/template/model.php
+138 modules/core/page.php
+382 modules/core/command/controller/default.php
+190 modules/core/router/route.php
+217 index.php",0,Сенпай-кафе,http://cenpai.local/shop/602/,::1
+"2015-06-01 21:27:39",undefined,"Выход из системы управления",1,-,http://cenpai.local/admin/logout.php,::1
+"2015-06-01 21:27:44",admin,"Вход в систему управления",4,-,http://cenpai.local/admin/index.php,::1
+"2015-06-01 21:28:30",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][248]=1,::1
+"2015-06-01 21:35:25",admin,"Вход в систему управления",4,Сенпай-кафе,http://cenpai.local/admin/index.php,::1
+"2015-06-01 21:38:13",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?hostcms[action]=edit&xsl_dir_id=24&hostcms[checked][1][248]=1,::1
+"2015-06-01 21:38:23",admin,"Доступ к модулю ""xsl"" разрешен, форма ""Сводная статистика"", действие ""Установка начальных значений параметров счетчика""",1,Сенпай-кафе,http://cenpai.local/admin/xsl/index.php?xsl_dir_id=24&hostcms[checked][1][248]=1,::1

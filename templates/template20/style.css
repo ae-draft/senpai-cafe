@@ -89,7 +89,7 @@ body {
     color: rgb(228, 0, 30);
 }
 
-#top-block-info1 div {
+#top-block-info1 div:first-child {
     background: url("/assets/img/template/ico-phone.png") no-repeat left center;
     padding: 0 0 0 25px;
 }
@@ -108,6 +108,7 @@ body {
 #delivery-link-holder {
     padding: 10px 0;
     text-align: right;
+    display: none;
 }
 
 #delivery-link-holder a {
@@ -448,6 +449,7 @@ div#scroll_menu_title {
 
 .shop_item .price {
     color: rgb(228, 0, 5);
+    padding-right: 0px;
     text-align: right;
 }
 
@@ -487,29 +489,29 @@ div#scroll_menu_title {
     position: absolute;
     z-index: 20;
     top: 50%;
-    width: 25px;
+    width: 30px;
     height: 61px;
     display: block;
     cursor: pointer;
 }
 
 .shop_control.left {
-    left: -20px;
+    left: 0px;
     background: url("/assets/img/template/pointer1-left.png") no-repeat top left;
 }
 
 .shop_control.right {
-    right: -20px;
+    right: 0px;
     background: url("/assets/img/template/pointer1-right.png") no-repeat top right;
 }
 
 .shop_control.left:hover {
-    left: -20px;
+    left: 0px;
     background: url("/assets/img/template/pointer2-left.png") no-repeat top left;
 }
 
 .shop_control.right:hover {
-    right: -20px;
+    right: 0px;
     background: url("/assets/img/template/pointer2-right.png") no-repeat top right;
 }
 
@@ -524,4 +526,47 @@ div#scroll_menu_title {
 
 .shop-cart-container .row div[class^="col-md"] {
     padding: 10px!important;
+}
+
+.oldPrice {
+    font-size: 12px;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 5px;
+    color: gray;
+    font-weight:normal;
+}
+
+.subgroup_holder {
+    position: relative;
+}
+
+.subgroup_title {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.subgroup_btn {
+    background: url("/assets/img/subgroups/smotret-vse01.png") no-repeat top left;
+    width: 194px;
+    height: 45px;
+    text-align: center;
+    color: black;
+    margin: 235px auto 0 auto;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.subgroup_btn:hover {
+    background: url("/assets/img/subgroups/smotret-vse02.png") no-repeat top left;
+    color: white;
+}
+
+.subgroup-img-container {
+    padding-bottom: 10px;
+}
+
+.subgroup-img-container .image_cell {
+    
 }

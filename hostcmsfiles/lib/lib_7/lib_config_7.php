@@ -147,10 +147,11 @@ if (Core_Array::getRequest('add'))
 			$oShop
 		);
 		$Shop_Cart_Controller_Show
-			->xsl(
+			->xsl(Core_Entity::factory('Xsl')->getByName("МагазинКорзинаКраткаяSenpaiMode")
+			/*
 				Core_Entity::factory('Xsl')->getByName(
 					Core_Array::get(Core_Page::instance()->libParams, 'littleCartXsl')
-				)
+				)*/
 			)
 			->couponText(Core_Array::get($_SESSION, 'coupon_text'))
 			->show();
@@ -159,6 +160,47 @@ if (Core_Array::getRequest('add'))
 		exit();
 	}
 }
+
+// Добавление товара в корзину
+if (Core_Array::getRequest('add_r'))
+{
+	$shop_item_id = intval(Core_Array::getRequest('add_r'));
+
+	if ($shop_item_id)
+	{
+		$oShop_Cart_Controller = Shop_Cart_Controller::instance();
+		$oShop_Cart_Controller
+			->checkStock(FALSE)
+			->shop_item_id($shop_item_id)
+			->quantity(Core_Array::getRequest('count', 1))
+			->add();
+	}
+
+	// Ajax
+	if (Core_Array::getRequest('_', FALSE))
+	{
+		ob_start();
+
+		// Краткая корзина
+		$Shop_Cart_Controller_Show = new Shop_Cart_Controller_Show(
+			$oShop
+		);
+		$Shop_Cart_Controller_Show
+			->xsl(Core_Entity::factory('Xsl')->getByName("МагазинКорзинаКраткаяSenpaiMode_responsive")
+			/*
+				Core_Entity::factory('Xsl')->getByName(
+					Core_Array::get(Core_Page::instance()->libParams, 'littleCartXsl')
+				)*/
+			)
+			->couponText(Core_Array::get($_SESSION, 'coupon_text'))
+			->show();
+
+		echo json_encode(ob_get_clean());
+		exit();
+	}
+}
+
+
 
 if (Core_Array::getGet('action') == 'repeat')
 {

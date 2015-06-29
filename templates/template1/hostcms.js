@@ -1,11 +1,21 @@
 (function(jQuery){
 	// Функции без создания коллекции
 	jQuery.extend({
-		addIntoCart: function(path, shop_item_id, count){
-			$.clientRequest({path: path + '?add=' + shop_item_id + '&count=' + count, 'callBack': $.addIntoCartCallback, context: $('#little_cart')});
+		addIntoCart: function(path, shop_item_id, count, type_r){
+			if (typeof(type_r)==='undefined') {
+				$.clientRequest({path: path + '?add=' + shop_item_id + '&count=' + count, 'callBack': $.addIntoCartCallback, context: $('#little_cart')});
+			} else {
+				$.clientRequest({path: path + '?add_r=' + shop_item_id + '&count=' + count, 'callBack': $.addIntoCartCallback_r, context: $('#little_cart_small')});
+			}
+			
 			return false;
 		},
 		addIntoCartCallback: function(data, status, jqXHR)
+		{
+			$.loadingScreen('hide');
+			jQuery(this).html(data);
+		},
+		addIntoCartCallback_r: function(data, status, jqXHR)
 		{
 			$.loadingScreen('hide');
 			jQuery(this).html(data);

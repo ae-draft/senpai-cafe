@@ -62,8 +62,14 @@
 		
 		<!-- Отображение записи информационной системы -->
 		<div class="news-items-holder">
-			<div id="infosystem-items-holder">
-				<xsl:apply-templates select="informationsystem_item"/>
+			<div id="infosystem-items-holder" class="visible-md-* visible-lg-* hidden-sm hidden-xs">
+				<xsl:apply-templates select="informationsystem_item" mode="screen"/>
+				<div style="clear:both;"></div>
+			</div>
+			<div id="infosystem-items-holder-small" class="visible-xs-* visible-sm-* hidden-md hidden-lg">
+				<div class="row">
+					<xsl:apply-templates select="informationsystem_item" mode="small" />
+				</div>
 				<div style="clear:both;"></div>
 			</div>
 		</div>
@@ -247,7 +253,7 @@
 	</xsl:template>
 	
 	<!-- Шаблон вывода информационного элемента -->
-	<xsl:template match="informationsystem_item">
+	<xsl:template match="informationsystem_item" mode="screen">
 		<div class="news-item">
 			<xsl:if test="position() = last()">
 				<xsl:attribute name="class">news-item last-news</xsl:attribute>
@@ -279,6 +285,62 @@
 			</div>
 			
 			<div class="news-preview-holder">
+				<a href="{url}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="informationsystem_item" class="news-name-link">
+					<xsl:value-of disable-output-escaping="yes" select="name"/>
+				</a>
+				<xsl:if test="description != ''">
+					<div hostcms:id="{@id}" hostcms:field="description" hostcms:entity="informationsystem_item" hostcms:type="wysiwyg" class="news-description">
+						<xsl:value-of disable-output-escaping="yes" select="description"/>
+					</div>
+				</xsl:if>
+			</div>
+			
+			<xsl:if test="count(tag) &gt; 0 or count(comment) &gt; 0 or count(siteuser) &gt; 0">
+				<p class="tags">
+					<xsl:if test="count(tag) &gt; 0">
+						<img src="/images/tag.png" /><span><xsl:apply-templates select="tag"/></span>
+					</xsl:if>
+					
+					<xsl:if test="count(siteuser) &gt; 0">
+					<img src="/images/user.png" /><span><a href="/users/info/{siteuser/login}/"><xsl:value-of select="siteuser/login"/></a></span>
+					</xsl:if>
+					
+					<xsl:if test="count(comment) &gt; 0">
+			<img src="/images/comment.png" /><span><a href="{url}#comments"><xsl:value-of select="comments_count"/><xsl:text> </xsl:text><xsl:call-template name="declension"> <xsl:with-param name="number" select="comments_count"/></xsl:call-template></a></span>
+					</xsl:if>
+				</p>
+			</xsl:if>
+		</div>
+	</xsl:template>
+	
+	<!-- Шаблон вывода информационного элемента -->
+	<xsl:template match="informationsystem_item" mode="small">
+		<div class="news-item col-md-6 col-sm-6 col-xs-6">
+			<div class="news-item-head">
+				<div class="head-title">
+					<a href="{url}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="informationsystem_item" class="news-name-link">
+						<xsl:value-of disable-output-escaping="yes" select="name"/>
+					</a>
+					
+					<div class="pull-right" style="display: inline-block;">
+						<xsl:variable name="month_year" select="substring-after(date, '.')"/>
+						<xsl:variable name="month" select="substring-before($month_year, '.')"/>
+						
+						<xsl:value-of select="substring-before(date, '.')"/><xsl:text>.</xsl:text>
+						<xsl:value-of select="$month"/><xsl:text>.</xsl:text>
+						<xsl:value-of select="substring-after($month_year, '.')"/>
+					</div>
+				</div>
+			</div>
+			
+			<div class="news-image-holder-small">
+				<!-- Изображение для информационного элемента (если есть) -->
+				<xsl:if test="image_small!=''">
+					<img src="{dir}{image_small}" style="width: 100%; height: auto;" />
+				</xsl:if>
+			</div>
+			
+			<div class="news-preview-holder" style="height: auto;">
 				<a href="{url}" hostcms:id="{@id}" hostcms:field="name" hostcms:entity="informationsystem_item" class="news-name-link">
 					<xsl:value-of disable-output-escaping="yes" select="name"/>
 				</a>
