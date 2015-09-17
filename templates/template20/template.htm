@@ -24,9 +24,15 @@
 <!-- Common styles -->
 <link href="/common/css/common.css" rel="stylesheet">
 
+<!-- Crumble styles -->
+<link rel="stylesheet" type="text/css" href="/common/crumble/grumble.min.css">
+
 <script type="text/javascript" src="/common/jquery/jquery.js"></script>
 <script type="text/javascript" src="/templates/template1/hostcms.js"></script>
 <script type="text/javascript" src="/hostcmsfiles/main.js"></script>
+<script type="text/javascript" src="/common/crumble/jquery.grumble.min.js"></script>
+<script type="text/javascript" src="/common/crumble/jquery.crumble.min.js"></script>
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="/common/utils/html5shiv.js"></script>
@@ -56,6 +62,11 @@
                     $($container).animate({scrollLeft: ($($container).scrollLeft() + offset)}, 400);
                 }
             });
+
+
+            //crumble
+            $('#tour').crumble();
+
         });
     </script>
 
@@ -70,9 +81,9 @@
 
             <!-- small-device -->
             <div class="small-device-top visible-xs-* visible-sm-* hidden-md hidden-lg">
-                <div>
+                <div id="top-logo">
                     <a href="/">
-                        <img src="/assets/img/template/logoSenpay.png">
+                        <img src="/assets/img/template/logoSenpay.png" />
                     </a>
                     <div id="top-block-info1">
                         ул. Московская, 96
@@ -210,6 +221,25 @@
 <!-- Screen -->
 <div id="secondary-content-container">
     <div id="content-holder">
+
+        <ol id="tour" style="display: none;">
+            <li data-target="#top-logo" data-angle="110" data-options="distance:200">
+                Привет! Мы рады видеть вас в Сенпай! Мы поможем вам соорентироваться на сайте!
+                <br /><br />
+                <span style="font-size: 9px;">нажмите на меня что бы продолжить</span>
+            </li>
+            <li data-target="#shop-right-scroll-link" data-angle="320">
+                Нажмите на стрелочку "вправо" что бы увидеть следующие блюда
+                <br /><br />
+                <span style="font-size: 9px;">нажмите на меня что бы продолжить</span>
+            </li>
+            <li data-target="#shop-left-scroll-link" data-angle="400">
+                Нажмите на стрелочку "влево" что бы увидеть предыдущие блюда
+                <br /><br />
+                <span style="font-size: 9px;">нажмите на меня что бы продолжить</span>
+            </li>
+        </ol>
+
         <div id="delivery-holder">
             <div class="row">
                 <div class="col-md-9">
@@ -221,10 +251,10 @@
         </div>
         <div id="shop-content-holder" style="color:black;">
             <!-- Controls -->
-            <a class="left shop_control" role="button">
+            <a id="shop-left-scroll-link" class="left shop_control" role="button">
 
             </a>
-            <a class="right shop_control" role="button">
+            <a id="shop-right-scroll-link" class="right shop_control" role="button">
 
             </a>
 
